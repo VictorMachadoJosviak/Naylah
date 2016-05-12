@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Naylah.Xamarin</id>
+        <version>1.0.2.6</version>
+        <title>Naylah Toolkit for Xamarin</title>
+        <authors>Breno, Infinitus Solutions, Naylah Team</authors>
+        <projectUrl>https://github.com/NaylahProject/Naylah.Toolkit.UWP</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/NaylahProject/Naylah.Toolkit.UWP/master/NaylahLogo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <developmentDependency>true</developmentDependency>
+        <description>Naylah is a Universal App Toolkit, Lib, Module, etc.</description>
+        <language>en-US</language>
+        <tags>Naylah, Toolkit, Universal Apps, UWP, C#, Xaml,</tags>
+        <dependencies>
+            <dependency id="Xamarin.Forms" version="2.1.0.6529" />
+        </dependencies>
+    </metadata>
+    <files>
+      <!--<file src="bin\Release\Controls\Naylah.Core.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Naylah.Core.dll"/>-->
+      <file src="bin\Release\Naylah.Xamarin.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Naylah.Xamarin.dll"/>
+      <file src="Naylah.Xamarin.iOS\bin\Release\Naylah.Xamarin.iOS.dll" target="lib\Xamarin.iOS10\Naylah.Xamarin.iOS.dll" />
+    </files>
+</package>

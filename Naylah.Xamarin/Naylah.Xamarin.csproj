@@ -71,6 +71,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Naylah.Xamarin.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
