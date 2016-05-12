@@ -13,7 +13,7 @@
         <language>en-US</language>
         <tags>Naylah, Toolkit, Xamarin, C#, Xaml,</tags>
         <dependencies>
-          <dependency id="Naylah.Core" version="*" />
+          <dependency id="Naylah.Core" />
           <dependency id="Xamarin.Forms" version="2.1.0.6529" />
         </dependencies>
     </metadata>
