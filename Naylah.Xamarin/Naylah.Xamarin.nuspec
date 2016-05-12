@@ -19,6 +19,6 @@
     <files>
       <!--<file src="bin\Release\Controls\Naylah.Core.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Naylah.Core.dll"/>-->
       <file src="bin\Release\Naylah.Xamarin.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Naylah.Xamarin.dll"/>
-      <file src="Naylah.Xamarin.iOS\bin\Release\Naylah.Xamarin.iOS.dll" target="lib\Xamarin.iOS10\Naylah.Xamarin.iOS.dll" />
+      <file src="..\Naylah.Xamarin.iOS\bin\Release\Naylah.Xamarin.iOS.dll" target="lib\Xamarin.iOS10\Naylah.Xamarin.iOS.dll" />
     </files>
 </package>
