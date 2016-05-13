@@ -16,8 +16,21 @@ namespace Naylah.Xamarin.Controls.Entrys
 
         public BasicTheme Theme
         {
-            get { return (BasicTheme)CustomProperties["Naylah.Internal.Theme"]; }
-            set { CustomProperties["Naylah.Internal.Theme"] = value; }
+            get
+            {
+                object o = null;
+                CustomProperties.TryGetValue("Naylah.Internal.Theme", out o);
+                if (o != null)
+                {
+                    return (BasicTheme)o;
+                }
+
+                return default(BasicTheme);
+            }
+            set
+            {
+                CustomProperties["Naylah.Internal.Theme"] = value;
+            }
         }
 
 
