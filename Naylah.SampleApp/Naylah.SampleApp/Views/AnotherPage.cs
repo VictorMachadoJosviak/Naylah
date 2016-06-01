@@ -13,7 +13,6 @@ namespace Naylah.SampleApp.Views
         public AnotherPage()
         {
             BindingContext = new AnotherViewModel();
-
         }
     }
 }

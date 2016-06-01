@@ -26,7 +26,6 @@ namespace Naylah.SampleApp.ViewModels
         public async Task NavigateToSelectedMenuItem(NavMenuItem navMenuItem)
         {
 
-
             if (navMenuItem == null)
                 return;
 

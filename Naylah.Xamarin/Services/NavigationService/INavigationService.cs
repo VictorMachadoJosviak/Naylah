@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace Naylah.Xamarin.Services.NavigationService
 {
-    public interface INavigationService
+    public interface INavigationService : IDisposable
     {
         Task GoBack(bool animated = false);
         bool CanGoBack { get; }

@@ -121,7 +121,17 @@ namespace Naylah.Xamarin.Common
         {
             var navigationService = CreateNavigationService(page);
 
+            if (NavigationService != null)
+            {
+                NavigationService.Dispose();
+            }
+
             NavigationService = navigationService;
+
+            try // try invoke rootFacadePage viewModel stuffs
+            { navigationService.NavigatedToAsync(NavigationMode.New, null, navigationService.NavigablePageFacadeInternalPage).ConfigureAwait(false); }
+            catch
+            { }
 
             return navigationService;
         }
@@ -130,12 +140,22 @@ namespace Naylah.Xamarin.Common
         {
             var navigationService = CreateNavigationService(page);
 
+            if (NavigationService != null)
+            {
+                NavigationService.Dispose();
+            }
+
             NavigationService = navigationService;
+
+            try // try invoke rootFacadePage viewModel stuffs
+            { navigationService.NavigatedToAsync(NavigationMode.New, null, navigationService.NavigablePageFacadeInternalPage).ConfigureAwait(false); }
+            catch
+            { }
 
             return navigationService;
         }
 
-        protected virtual INavigationService CreateNavigationService(Page page)
+        protected virtual NavigationService CreateNavigationService(Page page)
         {
             return new NavigationService(this, page);
         }

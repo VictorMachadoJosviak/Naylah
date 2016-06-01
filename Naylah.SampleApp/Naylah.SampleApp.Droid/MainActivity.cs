@@ -10,6 +10,7 @@ using Xamarin.Forms.Platform.Android;
 using Naylah.SampleApp;
 using Xamarin.Forms;
 
+
 namespace Naylah.SampleApp.Droid
 {
     [Activity(

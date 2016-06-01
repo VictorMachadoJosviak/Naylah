@@ -63,6 +63,12 @@ namespace Naylah.Xamarin.Services.NavigationService
                 var popedEv = PoppedToRoot;
                 popedEv?.Invoke(this, new ExtNavigationEventArgs(e.Page, null));
             };
+
+            //if (CurrentPage != null)
+            //{
+            //    Pushed(this, new ExtNavigationEventArgs(CurrentPage));
+            //}
+
         }
 
         public async Task ChangeRootAsync(Page page, bool animated = false)
@@ -177,6 +183,12 @@ namespace Naylah.Xamarin.Services.NavigationService
                 var popedEv = PoppedToRoot;
                 popedEv?.Invoke(this, new ExtNavigationEventArgs(e.Page, null));
             };
+
+            //if (CurrentPage != null)
+            //{
+            //    Pushed(this, new ExtNavigationEventArgs(CurrentPage));
+            //}
+
         }
 
 

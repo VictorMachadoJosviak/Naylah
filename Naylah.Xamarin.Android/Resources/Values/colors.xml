@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<resources>
+  <color name="primary">#004388</color>
+  <!-- #1197d4  -->
+  <color name="primaryDark">#005ebf</color>
+  <!-- 0e81b5-->
+  <color name="accent">#004388</color>
+  <color name="window_background">#ffffff</color>
+  <color name="selected_item">#e1e1e1</color>
+
+
+
+</resources>

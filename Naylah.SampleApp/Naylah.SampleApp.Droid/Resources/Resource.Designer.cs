@@ -26,6 +26,1558 @@ namespace Naylah.SampleApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_fade_in = global::Naylah.SampleApp.Droid.Resource.Animation.abc_fade_in;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_fade_out = global::Naylah.SampleApp.Droid.Resource.Animation.abc_fade_out;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::Naylah.SampleApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_popup_enter = global::Naylah.SampleApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_popup_exit = global::Naylah.SampleApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_shrink_fade_out_from_bottom = global::Naylah.SampleApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_slide_in_bottom = global::Naylah.SampleApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_slide_in_top = global::Naylah.SampleApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_slide_out_bottom = global::Naylah.SampleApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Naylah.Xamarin.Android.Resource.Animation.abc_slide_out_top = global::Naylah.SampleApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Naylah.Xamarin.Android.Resource.Animation.design_fab_in = global::Naylah.SampleApp.Droid.Resource.Animation.design_fab_in;
+			global::Naylah.Xamarin.Android.Resource.Animation.design_fab_out = global::Naylah.SampleApp.Droid.Resource.Animation.design_fab_out;
+			global::Naylah.Xamarin.Android.Resource.Animation.design_snackbar_in = global::Naylah.SampleApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Naylah.Xamarin.Android.Resource.Animation.design_snackbar_out = global::Naylah.SampleApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarDivider = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarItemBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarPopupTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarSize = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarSize;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarSplitStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarTabBarStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarTabStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarTabTextStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionBarWidgetTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionDropDownStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.actionLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionMenuTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionMenuTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeCloseButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeCloseDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeCopyDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeCutDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeFindDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModePasteDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModePopupWindowStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeSelectAllDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeShareDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeSplitBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionModeWebSearchDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionOverflowButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionOverflowMenuStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionProviderClass = global::Naylah.SampleApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Naylah.Xamarin.Android.Resource.Attribute.actionViewClass = global::Naylah.SampleApp.Droid.Resource.Attribute.actionViewClass;
+			global::Naylah.Xamarin.Android.Resource.Attribute.activityChooserViewStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.alertDialogButtonGroupStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.alertDialogCenterButtons = global::Naylah.SampleApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Naylah.Xamarin.Android.Resource.Attribute.alertDialogStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.alertDialogTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.arrowHeadLength = global::Naylah.SampleApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Naylah.Xamarin.Android.Resource.Attribute.arrowShaftLength = global::Naylah.SampleApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Naylah.Xamarin.Android.Resource.Attribute.autoCompleteTextViewStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.background = global::Naylah.SampleApp.Droid.Resource.Attribute.background;
+			global::Naylah.Xamarin.Android.Resource.Attribute.backgroundSplit = global::Naylah.SampleApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Naylah.Xamarin.Android.Resource.Attribute.backgroundStacked = global::Naylah.SampleApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Naylah.Xamarin.Android.Resource.Attribute.backgroundTint = global::Naylah.SampleApp.Droid.Resource.Attribute.backgroundTint;
+			global::Naylah.Xamarin.Android.Resource.Attribute.backgroundTintMode = global::Naylah.SampleApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Naylah.Xamarin.Android.Resource.Attribute.barLength = global::Naylah.SampleApp.Droid.Resource.Attribute.barLength;
+			global::Naylah.Xamarin.Android.Resource.Attribute.behavior_overlapTop = global::Naylah.SampleApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Naylah.Xamarin.Android.Resource.Attribute.borderWidth = global::Naylah.SampleApp.Droid.Resource.Attribute.borderWidth;
+			global::Naylah.Xamarin.Android.Resource.Attribute.borderlessButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonBarButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonBarNegativeButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonBarNeutralButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonBarPositiveButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonBarStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonPanelSideLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonStyleSmall = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonTint = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonTint;
+			global::Naylah.Xamarin.Android.Resource.Attribute.buttonTintMode = global::Naylah.SampleApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Naylah.Xamarin.Android.Resource.Attribute.cardBackgroundColor = global::Naylah.SampleApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.cardCornerRadius = global::Naylah.SampleApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Naylah.Xamarin.Android.Resource.Attribute.cardElevation = global::Naylah.SampleApp.Droid.Resource.Attribute.cardElevation;
+			global::Naylah.Xamarin.Android.Resource.Attribute.cardMaxElevation = global::Naylah.SampleApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Naylah.Xamarin.Android.Resource.Attribute.cardPreventCornerOverlap = global::Naylah.SampleApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Naylah.Xamarin.Android.Resource.Attribute.cardUseCompatPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.checkboxStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.checkedTextViewStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.closeIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.closeIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.closeItemLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.collapseContentDescription = global::Naylah.SampleApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Naylah.Xamarin.Android.Resource.Attribute.collapseIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.collapseIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.collapsedTitleGravity = global::Naylah.SampleApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Naylah.Xamarin.Android.Resource.Attribute.collapsedTitleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.color = global::Naylah.SampleApp.Droid.Resource.Attribute.color;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorAccent = global::Naylah.SampleApp.Droid.Resource.Attribute.colorAccent;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorButtonNormal = global::Naylah.SampleApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorControlActivated = global::Naylah.SampleApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorControlHighlight = global::Naylah.SampleApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorControlNormal = global::Naylah.SampleApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorPrimary = global::Naylah.SampleApp.Droid.Resource.Attribute.colorPrimary;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorPrimaryDark = global::Naylah.SampleApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Naylah.Xamarin.Android.Resource.Attribute.colorSwitchThumbNormal = global::Naylah.SampleApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Naylah.Xamarin.Android.Resource.Attribute.commitIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.commitIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentInsetEnd = global::Naylah.SampleApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentInsetLeft = global::Naylah.SampleApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentInsetRight = global::Naylah.SampleApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentInsetStart = global::Naylah.SampleApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.contentPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentPaddingBottom = global::Naylah.SampleApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentPaddingLeft = global::Naylah.SampleApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentPaddingRight = global::Naylah.SampleApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentPaddingTop = global::Naylah.SampleApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Naylah.Xamarin.Android.Resource.Attribute.contentScrim = global::Naylah.SampleApp.Droid.Resource.Attribute.contentScrim;
+			global::Naylah.Xamarin.Android.Resource.Attribute.controlBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.controlBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.customNavigationLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.defaultQueryHint = global::Naylah.SampleApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dialogPreferredPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dialogTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.dialogTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.displayOptions = global::Naylah.SampleApp.Droid.Resource.Attribute.displayOptions;
+			global::Naylah.Xamarin.Android.Resource.Attribute.divider = global::Naylah.SampleApp.Droid.Resource.Attribute.divider;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dividerHorizontal = global::Naylah.SampleApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dividerPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.dividerPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dividerVertical = global::Naylah.SampleApp.Droid.Resource.Attribute.dividerVertical;
+			global::Naylah.Xamarin.Android.Resource.Attribute.drawableSize = global::Naylah.SampleApp.Droid.Resource.Attribute.drawableSize;
+			global::Naylah.Xamarin.Android.Resource.Attribute.drawerArrowStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dropDownListViewStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.dropdownListPreferredItemHeight = global::Naylah.SampleApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.editTextBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.editTextBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.editTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.editTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.editTextStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.editTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.elevation = global::Naylah.SampleApp.Droid.Resource.Attribute.elevation;
+			global::Naylah.Xamarin.Android.Resource.Attribute.errorEnabled = global::Naylah.SampleApp.Droid.Resource.Attribute.errorEnabled;
+			global::Naylah.Xamarin.Android.Resource.Attribute.errorTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandActivityOverflowButtonDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expanded = global::Naylah.SampleApp.Droid.Resource.Attribute.expanded;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleGravity = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleMargin = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleMarginBottom = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleMarginEnd = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleMarginStart = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleMarginTop = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Naylah.Xamarin.Android.Resource.Attribute.expandedTitleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.externalRouteEnabledDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.externalRouteEnabledDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.fabSize = global::Naylah.SampleApp.Droid.Resource.Attribute.fabSize;
+			global::Naylah.Xamarin.Android.Resource.Attribute.gapBetweenBars = global::Naylah.SampleApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Naylah.Xamarin.Android.Resource.Attribute.goIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.goIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.headerLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.headerLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.height = global::Naylah.SampleApp.Droid.Resource.Attribute.height;
+			global::Naylah.Xamarin.Android.Resource.Attribute.hideOnContentScroll = global::Naylah.SampleApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Naylah.Xamarin.Android.Resource.Attribute.hintAnimationEnabled = global::Naylah.SampleApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Naylah.Xamarin.Android.Resource.Attribute.hintTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.homeAsUpIndicator = global::Naylah.SampleApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Naylah.Xamarin.Android.Resource.Attribute.homeLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.homeLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.icon = global::Naylah.SampleApp.Droid.Resource.Attribute.icon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.iconifiedByDefault = global::Naylah.SampleApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Naylah.Xamarin.Android.Resource.Attribute.indeterminateProgressStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.initialActivityCount = global::Naylah.SampleApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Naylah.Xamarin.Android.Resource.Attribute.insetForeground = global::Naylah.SampleApp.Droid.Resource.Attribute.insetForeground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.isLightTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.isLightTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.itemBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.itemBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.itemIconTint = global::Naylah.SampleApp.Droid.Resource.Attribute.itemIconTint;
+			global::Naylah.Xamarin.Android.Resource.Attribute.itemPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.itemPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.itemTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.itemTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.itemTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.keylines = global::Naylah.SampleApp.Droid.Resource.Attribute.keylines;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout = global::Naylah.SampleApp.Droid.Resource.Attribute.layout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_anchor = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_anchor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_anchorGravity = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_behavior = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_behavior;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_collapseMode = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_collapseParallaxMultiplier = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_keyline = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_keyline;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_scrollFlags = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Naylah.Xamarin.Android.Resource.Attribute.layout_scrollInterpolator = global::Naylah.SampleApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listChoiceBackgroundIndicator = global::Naylah.SampleApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listDividerAlertDialog = global::Naylah.SampleApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listItemLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.listItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.listLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listPopupWindowStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listPreferredItemHeight = global::Naylah.SampleApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listPreferredItemHeightLarge = global::Naylah.SampleApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listPreferredItemHeightSmall = global::Naylah.SampleApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listPreferredItemPaddingLeft = global::Naylah.SampleApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Naylah.Xamarin.Android.Resource.Attribute.listPreferredItemPaddingRight = global::Naylah.SampleApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.logo = global::Naylah.SampleApp.Droid.Resource.Attribute.logo;
+			global::Naylah.Xamarin.Android.Resource.Attribute.logoDescription = global::Naylah.SampleApp.Droid.Resource.Attribute.logoDescription;
+			global::Naylah.Xamarin.Android.Resource.Attribute.maxActionInlineWidth = global::Naylah.SampleApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Naylah.Xamarin.Android.Resource.Attribute.maxButtonHeight = global::Naylah.SampleApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.measureWithLargestChild = global::Naylah.SampleApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRouteButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRouteButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRouteCastDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRouteCastDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRouteConnectingDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRouteConnectingDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRouteOffDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRouteOffDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRouteOnDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRouteOnDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRoutePauseDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRoutePauseDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRoutePlayDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRoutePlayDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.mediaRouteSettingsDrawable = global::Naylah.SampleApp.Droid.Resource.Attribute.mediaRouteSettingsDrawable;
+			global::Naylah.Xamarin.Android.Resource.Attribute.menu = global::Naylah.SampleApp.Droid.Resource.Attribute.menu;
+			global::Naylah.Xamarin.Android.Resource.Attribute.multiChoiceItemLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.navigationContentDescription = global::Naylah.SampleApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Naylah.Xamarin.Android.Resource.Attribute.navigationIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.navigationIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.navigationMode = global::Naylah.SampleApp.Droid.Resource.Attribute.navigationMode;
+			global::Naylah.Xamarin.Android.Resource.Attribute.overlapAnchor = global::Naylah.SampleApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.paddingEnd = global::Naylah.SampleApp.Droid.Resource.Attribute.paddingEnd;
+			global::Naylah.Xamarin.Android.Resource.Attribute.paddingStart = global::Naylah.SampleApp.Droid.Resource.Attribute.paddingStart;
+			global::Naylah.Xamarin.Android.Resource.Attribute.panelBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.panelBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.panelMenuListTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.panelMenuListWidth = global::Naylah.SampleApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Naylah.Xamarin.Android.Resource.Attribute.popupMenuStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.popupTheme = global::Naylah.SampleApp.Droid.Resource.Attribute.popupTheme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.popupWindowStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.preserveIconSpacing = global::Naylah.SampleApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Naylah.Xamarin.Android.Resource.Attribute.pressedTranslationZ = global::Naylah.SampleApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Naylah.Xamarin.Android.Resource.Attribute.progressBarPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.progressBarStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.queryBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.queryBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.queryHint = global::Naylah.SampleApp.Droid.Resource.Attribute.queryHint;
+			global::Naylah.Xamarin.Android.Resource.Attribute.radioButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.ratingBarStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.rippleColor = global::Naylah.SampleApp.Droid.Resource.Attribute.rippleColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.searchHintIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.searchIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.searchIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.searchViewStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.selectableItemBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.selectableItemBackgroundBorderless = global::Naylah.SampleApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Naylah.Xamarin.Android.Resource.Attribute.showAsAction = global::Naylah.SampleApp.Droid.Resource.Attribute.showAsAction;
+			global::Naylah.Xamarin.Android.Resource.Attribute.showDividers = global::Naylah.SampleApp.Droid.Resource.Attribute.showDividers;
+			global::Naylah.Xamarin.Android.Resource.Attribute.showText = global::Naylah.SampleApp.Droid.Resource.Attribute.showText;
+			global::Naylah.Xamarin.Android.Resource.Attribute.singleChoiceItemLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.spinBars = global::Naylah.SampleApp.Droid.Resource.Attribute.spinBars;
+			global::Naylah.Xamarin.Android.Resource.Attribute.spinnerDropDownItemStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.spinnerStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.splitTrack = global::Naylah.SampleApp.Droid.Resource.Attribute.splitTrack;
+			global::Naylah.Xamarin.Android.Resource.Attribute.state_above_anchor = global::Naylah.SampleApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.statusBarBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.statusBarScrim = global::Naylah.SampleApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Naylah.Xamarin.Android.Resource.Attribute.submitBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.submitBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.subtitle = global::Naylah.SampleApp.Droid.Resource.Attribute.subtitle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.subtitleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.subtitleTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.subtitleTextStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.suggestionRowLayout = global::Naylah.SampleApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Naylah.Xamarin.Android.Resource.Attribute.switchMinWidth = global::Naylah.SampleApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Naylah.Xamarin.Android.Resource.Attribute.switchPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.switchPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.switchStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.switchStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.switchTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabBackground = global::Naylah.SampleApp.Droid.Resource.Attribute.tabBackground;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabContentStart = global::Naylah.SampleApp.Droid.Resource.Attribute.tabContentStart;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabGravity = global::Naylah.SampleApp.Droid.Resource.Attribute.tabGravity;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabIndicatorColor = global::Naylah.SampleApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabIndicatorHeight = global::Naylah.SampleApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabMaxWidth = global::Naylah.SampleApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabMinWidth = global::Naylah.SampleApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabMode = global::Naylah.SampleApp.Droid.Resource.Attribute.tabMode;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.tabPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabPaddingBottom = global::Naylah.SampleApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabPaddingEnd = global::Naylah.SampleApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabPaddingStart = global::Naylah.SampleApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabPaddingTop = global::Naylah.SampleApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabSelectedTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.tabTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.tabTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAllCaps = global::Naylah.SampleApp.Droid.Resource.Attribute.textAllCaps;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAppearanceLargePopupMenu = global::Naylah.SampleApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAppearanceListItem = global::Naylah.SampleApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAppearanceListItemSmall = global::Naylah.SampleApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAppearanceSearchResultSubtitle = global::Naylah.SampleApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAppearanceSearchResultTitle = global::Naylah.SampleApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textAppearanceSmallPopupMenu = global::Naylah.SampleApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textColorAlertDialogListItem = global::Naylah.SampleApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Naylah.Xamarin.Android.Resource.Attribute.textColorSearchUrl = global::Naylah.SampleApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Naylah.Xamarin.Android.Resource.Attribute.theme = global::Naylah.SampleApp.Droid.Resource.Attribute.theme;
+			global::Naylah.Xamarin.Android.Resource.Attribute.thickness = global::Naylah.SampleApp.Droid.Resource.Attribute.thickness;
+			global::Naylah.Xamarin.Android.Resource.Attribute.thumbTextPadding = global::Naylah.SampleApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Naylah.Xamarin.Android.Resource.Attribute.title = global::Naylah.SampleApp.Droid.Resource.Attribute.title;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleEnabled = global::Naylah.SampleApp.Droid.Resource.Attribute.titleEnabled;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleMarginBottom = global::Naylah.SampleApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleMarginEnd = global::Naylah.SampleApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleMarginStart = global::Naylah.SampleApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleMarginTop = global::Naylah.SampleApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleMargins = global::Naylah.SampleApp.Droid.Resource.Attribute.titleMargins;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleTextColor = global::Naylah.SampleApp.Droid.Resource.Attribute.titleTextColor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.titleTextStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.toolbarId = global::Naylah.SampleApp.Droid.Resource.Attribute.toolbarId;
+			global::Naylah.Xamarin.Android.Resource.Attribute.toolbarNavigationButtonStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.toolbarStyle = global::Naylah.SampleApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Naylah.Xamarin.Android.Resource.Attribute.track = global::Naylah.SampleApp.Droid.Resource.Attribute.track;
+			global::Naylah.Xamarin.Android.Resource.Attribute.voiceIcon = global::Naylah.SampleApp.Droid.Resource.Attribute.voiceIcon;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowActionBar = global::Naylah.SampleApp.Droid.Resource.Attribute.windowActionBar;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowActionBarOverlay = global::Naylah.SampleApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowActionModeOverlay = global::Naylah.SampleApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowFixedHeightMajor = global::Naylah.SampleApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowFixedHeightMinor = global::Naylah.SampleApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowFixedWidthMajor = global::Naylah.SampleApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowFixedWidthMinor = global::Naylah.SampleApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowMinWidthMajor = global::Naylah.SampleApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowMinWidthMinor = global::Naylah.SampleApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Naylah.Xamarin.Android.Resource.Attribute.windowNoTitle = global::Naylah.SampleApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_action_bar_embed_tabs = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs_pre_jb;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_action_bar_expanded_action_views_exclusive;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_config_allowActionMenuItemTextWithIcon;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_config_closeDialogWhenTouchOutside = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_config_closeDialogWhenTouchOutside;
+			global::Naylah.Xamarin.Android.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent = global::Naylah.SampleApp.Droid.Resource.Boolean.abc_config_showMenuShortcutsWhenKeyboardPresent;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_background_cache_hint_selector_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_background_cache_hint_selector_material_light = global::Naylah.SampleApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_color_highlight_material = global::Naylah.SampleApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_input_method_navigation_guard = global::Naylah.SampleApp.Droid.Resource.Color.abc_input_method_navigation_guard;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_primary_text_disable_only_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_primary_text_disable_only_material_light = global::Naylah.SampleApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_primary_text_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_primary_text_material_light = global::Naylah.SampleApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_search_url_text = global::Naylah.SampleApp.Droid.Resource.Color.abc_search_url_text;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_search_url_text_normal = global::Naylah.SampleApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_search_url_text_pressed = global::Naylah.SampleApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_search_url_text_selected = global::Naylah.SampleApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_secondary_text_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.abc_secondary_text_material_light = global::Naylah.SampleApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.accent = global::Naylah.SampleApp.Droid.Resource.Color.accent;
+			global::Naylah.Xamarin.Android.Resource.Color.accent_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.accent_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.accent_material_light = global::Naylah.SampleApp.Droid.Resource.Color.accent_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.background_floating_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.background_floating_material_light = global::Naylah.SampleApp.Droid.Resource.Color.background_floating_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.background_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.background_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.background_material_light = global::Naylah.SampleApp.Droid.Resource.Color.background_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.bright_foreground_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.bright_foreground_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.bright_foreground_inverse_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.bright_foreground_inverse_material_light = global::Naylah.SampleApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.bright_foreground_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.bright_foreground_material_light = global::Naylah.SampleApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.button_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.button_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.button_material_light = global::Naylah.SampleApp.Droid.Resource.Color.button_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.cardview_dark_background = global::Naylah.SampleApp.Droid.Resource.Color.cardview_dark_background;
+			global::Naylah.Xamarin.Android.Resource.Color.cardview_light_background = global::Naylah.SampleApp.Droid.Resource.Color.cardview_light_background;
+			global::Naylah.Xamarin.Android.Resource.Color.cardview_shadow_end_color = global::Naylah.SampleApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Naylah.Xamarin.Android.Resource.Color.cardview_shadow_start_color = global::Naylah.SampleApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_shadow_end_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_shadow_mid_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_shadow_start_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_stroke_end_inner_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_stroke_end_outer_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_stroke_top_inner_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_fab_stroke_top_outer_color = global::Naylah.SampleApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_snackbar_background_color = global::Naylah.SampleApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Naylah.Xamarin.Android.Resource.Color.design_textinput_error_color = global::Naylah.SampleApp.Droid.Resource.Color.design_textinput_error_color;
+			global::Naylah.Xamarin.Android.Resource.Color.dim_foreground_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.dim_foreground_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.dim_foreground_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.dim_foreground_material_light = global::Naylah.SampleApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.foreground_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.foreground_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.foreground_material_light = global::Naylah.SampleApp.Droid.Resource.Color.foreground_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.highlighted_text_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.highlighted_text_material_light = global::Naylah.SampleApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.hint_foreground_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.hint_foreground_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.hint_foreground_material_light = global::Naylah.SampleApp.Droid.Resource.Color.hint_foreground_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.material_blue_grey_800 = global::Naylah.SampleApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Naylah.Xamarin.Android.Resource.Color.material_blue_grey_900 = global::Naylah.SampleApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Naylah.Xamarin.Android.Resource.Color.material_blue_grey_950 = global::Naylah.SampleApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Naylah.Xamarin.Android.Resource.Color.material_deep_teal_200 = global::Naylah.SampleApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Naylah.Xamarin.Android.Resource.Color.material_deep_teal_500 = global::Naylah.SampleApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_100 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_100;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_300 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_300;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_50 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_50;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_600 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_600;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_800 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_800;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_850 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_850;
+			global::Naylah.Xamarin.Android.Resource.Color.material_grey_900 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_900;
+			global::Naylah.Xamarin.Android.Resource.Color.primary = global::Naylah.SampleApp.Droid.Resource.Color.primary;
+			global::Naylah.Xamarin.Android.Resource.Color.primaryDark = global::Naylah.SampleApp.Droid.Resource.Color.primaryDark;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_dark_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_dark_material_light = global::Naylah.SampleApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.primary_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_material_light = global::Naylah.SampleApp.Droid.Resource.Color.primary_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_text_default_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_text_default_material_light = global::Naylah.SampleApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_text_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.primary_text_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.ripple_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.ripple_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.ripple_material_light = global::Naylah.SampleApp.Droid.Resource.Color.ripple_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_default_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_default_material_light = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.selected_item = global::Naylah.SampleApp.Droid.Resource.Color.selected_item;
+			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_material_light = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_normal_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_normal_material_light = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Naylah.Xamarin.Android.Resource.Color.window_background = global::Naylah.SampleApp.Droid.Resource.Color.window_background;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_start_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_progress_bar_size = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_progress_bar_size;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_stacked_max_height = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_button_min_height_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_button_min_width_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_button_min_width_overflow_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_alert_dialog_button_bar_height = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_button_inset_horizontal_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_button_inset_vertical_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_button_padding_horizontal_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_button_padding_vertical_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_config_prefDialogWidth = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_control_corner_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_control_inset_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_control_padding_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dialog_list_padding_vertical_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dialog_list_padding_vertical_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dialog_min_width_major = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dialog_min_width_minor = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dialog_padding_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dialog_padding_top_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_disabled_alpha_material_dark = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_disabled_alpha_material_light = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dropdownitem_icon_width = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dropdownitem_text_padding_left = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_dropdownitem_text_padding_right = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_bottom_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_edit_text_inset_top_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_floating_window_z = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_list_item_padding_horizontal_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_panel_menu_list_width = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_search_view_preferred_width = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_search_view_text_min_width = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_search_view_text_min_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_switch_padding = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_body_1_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_body_2_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_button_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_caption_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_display_1_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_display_2_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_display_3_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_display_4_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_headline_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_large_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_medium_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_menu_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_small_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_subhead_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_title_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Naylah.Xamarin.Android.Resource.Dimension.abc_text_size_title_material_toolbar = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Naylah.Xamarin.Android.Resource.Dimension.cardview_compat_inset_shadow = global::Naylah.SampleApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Naylah.Xamarin.Android.Resource.Dimension.cardview_default_elevation = global::Naylah.SampleApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Naylah.Xamarin.Android.Resource.Dimension.cardview_default_radius = global::Naylah.SampleApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_appbar_elevation = global::Naylah.SampleApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_fab_border_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_fab_content_size = global::Naylah.SampleApp.Droid.Resource.Dimension.design_fab_content_size;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_fab_elevation = global::Naylah.SampleApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_fab_size_mini = global::Naylah.SampleApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_fab_size_normal = global::Naylah.SampleApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_fab_translation_z_pressed = global::Naylah.SampleApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_elevation = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_icon_padding = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_icon_size = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_max_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_padding_bottom = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_padding_top_default = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_padding_top_default;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_navigation_separator_vertical_padding = global::Naylah.SampleApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_action_inline_max_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_background_corner_radius = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_elevation = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_max_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_min_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_padding_horizontal = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_padding_vertical = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_snackbar_text_size = global::Naylah.SampleApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_tab_max_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.design_tab_min_width = global::Naylah.SampleApp.Droid.Resource.Dimension.design_tab_min_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.dialog_fixed_height_major = global::Naylah.SampleApp.Droid.Resource.Dimension.dialog_fixed_height_major;
+			global::Naylah.Xamarin.Android.Resource.Dimension.dialog_fixed_height_minor = global::Naylah.SampleApp.Droid.Resource.Dimension.dialog_fixed_height_minor;
+			global::Naylah.Xamarin.Android.Resource.Dimension.dialog_fixed_width_major = global::Naylah.SampleApp.Droid.Resource.Dimension.dialog_fixed_width_major;
+			global::Naylah.Xamarin.Android.Resource.Dimension.dialog_fixed_width_minor = global::Naylah.SampleApp.Droid.Resource.Dimension.dialog_fixed_width_minor;
+			global::Naylah.Xamarin.Android.Resource.Dimension.disabled_alpha_material_dark = global::Naylah.SampleApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Dimension.disabled_alpha_material_light = global::Naylah.SampleApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Naylah.Xamarin.Android.Resource.Dimension.highlight_alpha_material_colored = global::Naylah.SampleApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Naylah.Xamarin.Android.Resource.Dimension.highlight_alpha_material_dark = global::Naylah.SampleApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Naylah.Xamarin.Android.Resource.Dimension.highlight_alpha_material_light = global::Naylah.SampleApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Naylah.Xamarin.Android.Resource.Dimension.mr_media_route_controller_art_max_height = global::Naylah.SampleApp.Droid.Resource.Dimension.mr_media_route_controller_art_max_height;
+			global::Naylah.Xamarin.Android.Resource.Dimension.notification_large_icon_height = global::Naylah.SampleApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Naylah.Xamarin.Android.Resource.Dimension.notification_large_icon_width = global::Naylah.SampleApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Naylah.Xamarin.Android.Resource.Dimension.notification_subtext_size = global::Naylah.SampleApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_action_bar_item_background_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_borderless_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_check_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_colored_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_default_mtrl_shape = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_radio_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_rating_star_off_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_rating_star_on_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_cab_background_internal_bg = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_cab_background_top_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_control_background_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_dialog_material_background_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_dialog_material_background_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_dialog_material_background_light = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_dialog_material_background_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_edit_text_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_ab_back_mtrl_am_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_clear_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_clear_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_go_search_api_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_menu_moreoverflow_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_search_api_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_search_api_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ic_voice_search_api_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_item_background_holo_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_item_background_holo_light = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_divider_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_focused_holo = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_longpressed_holo = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_pressed_holo_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_pressed_holo_light = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_selector_disabled_holo_light = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_selector_holo_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_list_selector_holo_light = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_popup_background_mtrl_mult = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_ratingbar_full_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_ratingbar_full_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_spinner_textfield_background_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_switch_thumb_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_switch_track_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_tab_indicator_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_text_cursor_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Naylah.Xamarin.Android.Resource.Drawable.abc_textfield_search_material = global::Naylah.SampleApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Naylah.Xamarin.Android.Resource.Drawable.design_fab_background = global::Naylah.SampleApp.Droid.Resource.Drawable.design_fab_background;
+			global::Naylah.Xamarin.Android.Resource.Drawable.design_snackbar_background = global::Naylah.SampleApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_disabled_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_disabled_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_off_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_off_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_on_0_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_on_0_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_on_1_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_on_1_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_on_2_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_on_2_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_cast_on_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_cast_on_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_pause = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_pause;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_play = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_play;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_route_disabled_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_route_disabled_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_route_off_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_route_off_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_route_on_0_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_route_on_0_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_route_on_1_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_route_on_1_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_route_on_2_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_route_on_2_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_media_route_on_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_media_route_on_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_pause_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_pause_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_pause_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_pause_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_play_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_play_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_play_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_play_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_setting_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_setting_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.ic_setting_light = global::Naylah.SampleApp.Droid.Resource.Drawable.ic_setting_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_cast_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_cast_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_cast_light = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_cast_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_media_route_connecting_mono_light = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_media_route_connecting_mono_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_media_route_mono_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_media_route_mono_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_media_route_mono_light = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_media_route_mono_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_pause_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_pause_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_pause_light = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_pause_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_play_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_play_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_play_light = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_play_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_settings_dark = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_settings_dark;
+			global::Naylah.Xamarin.Android.Resource.Drawable.mr_ic_settings_light = global::Naylah.SampleApp.Droid.Resource.Drawable.mr_ic_settings_light;
+			global::Naylah.Xamarin.Android.Resource.Drawable.notification_template_icon_bg = global::Naylah.SampleApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Naylah.Xamarin.Android.Resource.Id.action0 = global::Naylah.SampleApp.Droid.Resource.Id.action0;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar = global::Naylah.SampleApp.Droid.Resource.Id.action_bar;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar_activity_content = global::Naylah.SampleApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar_container = global::Naylah.SampleApp.Droid.Resource.Id.action_bar_container;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar_root = global::Naylah.SampleApp.Droid.Resource.Id.action_bar_root;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar_spinner = global::Naylah.SampleApp.Droid.Resource.Id.action_bar_spinner;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar_subtitle = global::Naylah.SampleApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Naylah.Xamarin.Android.Resource.Id.action_bar_title = global::Naylah.SampleApp.Droid.Resource.Id.action_bar_title;
+			global::Naylah.Xamarin.Android.Resource.Id.action_context_bar = global::Naylah.SampleApp.Droid.Resource.Id.action_context_bar;
+			global::Naylah.Xamarin.Android.Resource.Id.action_divider = global::Naylah.SampleApp.Droid.Resource.Id.action_divider;
+			global::Naylah.Xamarin.Android.Resource.Id.action_menu_divider = global::Naylah.SampleApp.Droid.Resource.Id.action_menu_divider;
+			global::Naylah.Xamarin.Android.Resource.Id.action_menu_presenter = global::Naylah.SampleApp.Droid.Resource.Id.action_menu_presenter;
+			global::Naylah.Xamarin.Android.Resource.Id.action_mode_bar = global::Naylah.SampleApp.Droid.Resource.Id.action_mode_bar;
+			global::Naylah.Xamarin.Android.Resource.Id.action_mode_bar_stub = global::Naylah.SampleApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Naylah.Xamarin.Android.Resource.Id.action_mode_close_button = global::Naylah.SampleApp.Droid.Resource.Id.action_mode_close_button;
+			global::Naylah.Xamarin.Android.Resource.Id.activity_chooser_view_content = global::Naylah.SampleApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Naylah.Xamarin.Android.Resource.Id.alertTitle = global::Naylah.SampleApp.Droid.Resource.Id.alertTitle;
+			global::Naylah.Xamarin.Android.Resource.Id.always = global::Naylah.SampleApp.Droid.Resource.Id.always;
+			global::Naylah.Xamarin.Android.Resource.Id.art = global::Naylah.SampleApp.Droid.Resource.Id.art;
+			global::Naylah.Xamarin.Android.Resource.Id.beginning = global::Naylah.SampleApp.Droid.Resource.Id.beginning;
+			global::Naylah.Xamarin.Android.Resource.Id.bottom = global::Naylah.SampleApp.Droid.Resource.Id.bottom;
+			global::Naylah.Xamarin.Android.Resource.Id.buttonPanel = global::Naylah.SampleApp.Droid.Resource.Id.buttonPanel;
+			global::Naylah.Xamarin.Android.Resource.Id.buttons = global::Naylah.SampleApp.Droid.Resource.Id.buttons;
+			global::Naylah.Xamarin.Android.Resource.Id.cancel_action = global::Naylah.SampleApp.Droid.Resource.Id.cancel_action;
+			global::Naylah.Xamarin.Android.Resource.Id.center = global::Naylah.SampleApp.Droid.Resource.Id.center;
+			global::Naylah.Xamarin.Android.Resource.Id.center_horizontal = global::Naylah.SampleApp.Droid.Resource.Id.center_horizontal;
+			global::Naylah.Xamarin.Android.Resource.Id.center_vertical = global::Naylah.SampleApp.Droid.Resource.Id.center_vertical;
+			global::Naylah.Xamarin.Android.Resource.Id.checkbox = global::Naylah.SampleApp.Droid.Resource.Id.checkbox;
+			global::Naylah.Xamarin.Android.Resource.Id.chronometer = global::Naylah.SampleApp.Droid.Resource.Id.chronometer;
+			global::Naylah.Xamarin.Android.Resource.Id.clip_horizontal = global::Naylah.SampleApp.Droid.Resource.Id.clip_horizontal;
+			global::Naylah.Xamarin.Android.Resource.Id.clip_vertical = global::Naylah.SampleApp.Droid.Resource.Id.clip_vertical;
+			global::Naylah.Xamarin.Android.Resource.Id.collapseActionView = global::Naylah.SampleApp.Droid.Resource.Id.collapseActionView;
+			global::Naylah.Xamarin.Android.Resource.Id.contentPanel = global::Naylah.SampleApp.Droid.Resource.Id.contentPanel;
+			global::Naylah.Xamarin.Android.Resource.Id.custom = global::Naylah.SampleApp.Droid.Resource.Id.custom;
+			global::Naylah.Xamarin.Android.Resource.Id.customPanel = global::Naylah.SampleApp.Droid.Resource.Id.customPanel;
+			global::Naylah.Xamarin.Android.Resource.Id.decor_content_parent = global::Naylah.SampleApp.Droid.Resource.Id.decor_content_parent;
+			global::Naylah.Xamarin.Android.Resource.Id.default_activity_button = global::Naylah.SampleApp.Droid.Resource.Id.default_activity_button;
+			global::Naylah.Xamarin.Android.Resource.Id.default_control_frame = global::Naylah.SampleApp.Droid.Resource.Id.default_control_frame;
+			global::Naylah.Xamarin.Android.Resource.Id.disableHome = global::Naylah.SampleApp.Droid.Resource.Id.disableHome;
+			global::Naylah.Xamarin.Android.Resource.Id.disconnect = global::Naylah.SampleApp.Droid.Resource.Id.disconnect;
+			global::Naylah.Xamarin.Android.Resource.Id.edit_query = global::Naylah.SampleApp.Droid.Resource.Id.edit_query;
+			global::Naylah.Xamarin.Android.Resource.Id.end = global::Naylah.SampleApp.Droid.Resource.Id.end;
+			global::Naylah.Xamarin.Android.Resource.Id.end_padder = global::Naylah.SampleApp.Droid.Resource.Id.end_padder;
+			global::Naylah.Xamarin.Android.Resource.Id.enterAlways = global::Naylah.SampleApp.Droid.Resource.Id.enterAlways;
+			global::Naylah.Xamarin.Android.Resource.Id.enterAlwaysCollapsed = global::Naylah.SampleApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Naylah.Xamarin.Android.Resource.Id.exitUntilCollapsed = global::Naylah.SampleApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Naylah.Xamarin.Android.Resource.Id.expand_activities_button = global::Naylah.SampleApp.Droid.Resource.Id.expand_activities_button;
+			global::Naylah.Xamarin.Android.Resource.Id.expanded_menu = global::Naylah.SampleApp.Droid.Resource.Id.expanded_menu;
+			global::Naylah.Xamarin.Android.Resource.Id.fill = global::Naylah.SampleApp.Droid.Resource.Id.fill;
+			global::Naylah.Xamarin.Android.Resource.Id.fill_horizontal = global::Naylah.SampleApp.Droid.Resource.Id.fill_horizontal;
+			global::Naylah.Xamarin.Android.Resource.Id.fill_vertical = global::Naylah.SampleApp.Droid.Resource.Id.fill_vertical;
+			global::Naylah.Xamarin.Android.Resource.Id.@fixed = global::Naylah.SampleApp.Droid.Resource.Id.@fixed;
+			global::Naylah.Xamarin.Android.Resource.Id.home = global::Naylah.SampleApp.Droid.Resource.Id.home;
+			global::Naylah.Xamarin.Android.Resource.Id.homeAsUp = global::Naylah.SampleApp.Droid.Resource.Id.homeAsUp;
+			global::Naylah.Xamarin.Android.Resource.Id.icon = global::Naylah.SampleApp.Droid.Resource.Id.icon;
+			global::Naylah.Xamarin.Android.Resource.Id.ifRoom = global::Naylah.SampleApp.Droid.Resource.Id.ifRoom;
+			global::Naylah.Xamarin.Android.Resource.Id.image = global::Naylah.SampleApp.Droid.Resource.Id.image;
+			global::Naylah.Xamarin.Android.Resource.Id.info = global::Naylah.SampleApp.Droid.Resource.Id.info;
+			global::Naylah.Xamarin.Android.Resource.Id.left = global::Naylah.SampleApp.Droid.Resource.Id.left;
+			global::Naylah.Xamarin.Android.Resource.Id.line1 = global::Naylah.SampleApp.Droid.Resource.Id.line1;
+			global::Naylah.Xamarin.Android.Resource.Id.line3 = global::Naylah.SampleApp.Droid.Resource.Id.line3;
+			global::Naylah.Xamarin.Android.Resource.Id.listMode = global::Naylah.SampleApp.Droid.Resource.Id.listMode;
+			global::Naylah.Xamarin.Android.Resource.Id.list_item = global::Naylah.SampleApp.Droid.Resource.Id.list_item;
+			global::Naylah.Xamarin.Android.Resource.Id.media_actions = global::Naylah.SampleApp.Droid.Resource.Id.media_actions;
+			global::Naylah.Xamarin.Android.Resource.Id.media_route_control_frame = global::Naylah.SampleApp.Droid.Resource.Id.media_route_control_frame;
+			global::Naylah.Xamarin.Android.Resource.Id.media_route_list = global::Naylah.SampleApp.Droid.Resource.Id.media_route_list;
+			global::Naylah.Xamarin.Android.Resource.Id.media_route_volume_layout = global::Naylah.SampleApp.Droid.Resource.Id.media_route_volume_layout;
+			global::Naylah.Xamarin.Android.Resource.Id.media_route_volume_slider = global::Naylah.SampleApp.Droid.Resource.Id.media_route_volume_slider;
+			global::Naylah.Xamarin.Android.Resource.Id.middle = global::Naylah.SampleApp.Droid.Resource.Id.middle;
+			global::Naylah.Xamarin.Android.Resource.Id.mini = global::Naylah.SampleApp.Droid.Resource.Id.mini;
+			global::Naylah.Xamarin.Android.Resource.Id.multiply = global::Naylah.SampleApp.Droid.Resource.Id.multiply;
+			global::Naylah.Xamarin.Android.Resource.Id.never = global::Naylah.SampleApp.Droid.Resource.Id.never;
+			global::Naylah.Xamarin.Android.Resource.Id.none = global::Naylah.SampleApp.Droid.Resource.Id.none;
+			global::Naylah.Xamarin.Android.Resource.Id.normal = global::Naylah.SampleApp.Droid.Resource.Id.normal;
+			global::Naylah.Xamarin.Android.Resource.Id.parallax = global::Naylah.SampleApp.Droid.Resource.Id.parallax;
+			global::Naylah.Xamarin.Android.Resource.Id.parentPanel = global::Naylah.SampleApp.Droid.Resource.Id.parentPanel;
+			global::Naylah.Xamarin.Android.Resource.Id.pin = global::Naylah.SampleApp.Droid.Resource.Id.pin;
+			global::Naylah.Xamarin.Android.Resource.Id.play_pause = global::Naylah.SampleApp.Droid.Resource.Id.play_pause;
+			global::Naylah.Xamarin.Android.Resource.Id.progress_circular = global::Naylah.SampleApp.Droid.Resource.Id.progress_circular;
+			global::Naylah.Xamarin.Android.Resource.Id.progress_horizontal = global::Naylah.SampleApp.Droid.Resource.Id.progress_horizontal;
+			global::Naylah.Xamarin.Android.Resource.Id.radio = global::Naylah.SampleApp.Droid.Resource.Id.radio;
+			global::Naylah.Xamarin.Android.Resource.Id.right = global::Naylah.SampleApp.Droid.Resource.Id.right;
+			global::Naylah.Xamarin.Android.Resource.Id.route_name = global::Naylah.SampleApp.Droid.Resource.Id.route_name;
+			global::Naylah.Xamarin.Android.Resource.Id.screen = global::Naylah.SampleApp.Droid.Resource.Id.screen;
+			global::Naylah.Xamarin.Android.Resource.Id.scroll = global::Naylah.SampleApp.Droid.Resource.Id.scroll;
+			global::Naylah.Xamarin.Android.Resource.Id.scrollView = global::Naylah.SampleApp.Droid.Resource.Id.scrollView;
+			global::Naylah.Xamarin.Android.Resource.Id.scrollable = global::Naylah.SampleApp.Droid.Resource.Id.scrollable;
+			global::Naylah.Xamarin.Android.Resource.Id.search_badge = global::Naylah.SampleApp.Droid.Resource.Id.search_badge;
+			global::Naylah.Xamarin.Android.Resource.Id.search_bar = global::Naylah.SampleApp.Droid.Resource.Id.search_bar;
+			global::Naylah.Xamarin.Android.Resource.Id.search_button = global::Naylah.SampleApp.Droid.Resource.Id.search_button;
+			global::Naylah.Xamarin.Android.Resource.Id.search_close_btn = global::Naylah.SampleApp.Droid.Resource.Id.search_close_btn;
+			global::Naylah.Xamarin.Android.Resource.Id.search_edit_frame = global::Naylah.SampleApp.Droid.Resource.Id.search_edit_frame;
+			global::Naylah.Xamarin.Android.Resource.Id.search_go_btn = global::Naylah.SampleApp.Droid.Resource.Id.search_go_btn;
+			global::Naylah.Xamarin.Android.Resource.Id.search_mag_icon = global::Naylah.SampleApp.Droid.Resource.Id.search_mag_icon;
+			global::Naylah.Xamarin.Android.Resource.Id.search_plate = global::Naylah.SampleApp.Droid.Resource.Id.search_plate;
+			global::Naylah.Xamarin.Android.Resource.Id.search_src_text = global::Naylah.SampleApp.Droid.Resource.Id.search_src_text;
+			global::Naylah.Xamarin.Android.Resource.Id.search_voice_btn = global::Naylah.SampleApp.Droid.Resource.Id.search_voice_btn;
+			global::Naylah.Xamarin.Android.Resource.Id.select_dialog_listview = global::Naylah.SampleApp.Droid.Resource.Id.select_dialog_listview;
+			global::Naylah.Xamarin.Android.Resource.Id.settings = global::Naylah.SampleApp.Droid.Resource.Id.settings;
+			global::Naylah.Xamarin.Android.Resource.Id.shortcut = global::Naylah.SampleApp.Droid.Resource.Id.shortcut;
+			global::Naylah.Xamarin.Android.Resource.Id.showCustom = global::Naylah.SampleApp.Droid.Resource.Id.showCustom;
+			global::Naylah.Xamarin.Android.Resource.Id.showHome = global::Naylah.SampleApp.Droid.Resource.Id.showHome;
+			global::Naylah.Xamarin.Android.Resource.Id.showTitle = global::Naylah.SampleApp.Droid.Resource.Id.showTitle;
+			global::Naylah.Xamarin.Android.Resource.Id.snackbar_action = global::Naylah.SampleApp.Droid.Resource.Id.snackbar_action;
+			global::Naylah.Xamarin.Android.Resource.Id.snackbar_text = global::Naylah.SampleApp.Droid.Resource.Id.snackbar_text;
+			global::Naylah.Xamarin.Android.Resource.Id.split_action_bar = global::Naylah.SampleApp.Droid.Resource.Id.split_action_bar;
+			global::Naylah.Xamarin.Android.Resource.Id.src_atop = global::Naylah.SampleApp.Droid.Resource.Id.src_atop;
+			global::Naylah.Xamarin.Android.Resource.Id.src_in = global::Naylah.SampleApp.Droid.Resource.Id.src_in;
+			global::Naylah.Xamarin.Android.Resource.Id.src_over = global::Naylah.SampleApp.Droid.Resource.Id.src_over;
+			global::Naylah.Xamarin.Android.Resource.Id.start = global::Naylah.SampleApp.Droid.Resource.Id.start;
+			global::Naylah.Xamarin.Android.Resource.Id.status_bar_latest_event_content = global::Naylah.SampleApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Naylah.Xamarin.Android.Resource.Id.stop = global::Naylah.SampleApp.Droid.Resource.Id.stop;
+			global::Naylah.Xamarin.Android.Resource.Id.submit_area = global::Naylah.SampleApp.Droid.Resource.Id.submit_area;
+			global::Naylah.Xamarin.Android.Resource.Id.subtitle = global::Naylah.SampleApp.Droid.Resource.Id.subtitle;
+			global::Naylah.Xamarin.Android.Resource.Id.tabMode = global::Naylah.SampleApp.Droid.Resource.Id.tabMode;
+			global::Naylah.Xamarin.Android.Resource.Id.text = global::Naylah.SampleApp.Droid.Resource.Id.text;
+			global::Naylah.Xamarin.Android.Resource.Id.text2 = global::Naylah.SampleApp.Droid.Resource.Id.text2;
+			global::Naylah.Xamarin.Android.Resource.Id.textInputLayout = global::Naylah.SampleApp.Droid.Resource.Id.textInputLayout;
+			global::Naylah.Xamarin.Android.Resource.Id.textSpacerNoButtons = global::Naylah.SampleApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Naylah.Xamarin.Android.Resource.Id.time = global::Naylah.SampleApp.Droid.Resource.Id.time;
+			global::Naylah.Xamarin.Android.Resource.Id.title = global::Naylah.SampleApp.Droid.Resource.Id.title;
+			global::Naylah.Xamarin.Android.Resource.Id.title_bar = global::Naylah.SampleApp.Droid.Resource.Id.title_bar;
+			global::Naylah.Xamarin.Android.Resource.Id.title_template = global::Naylah.SampleApp.Droid.Resource.Id.title_template;
+			global::Naylah.Xamarin.Android.Resource.Id.top = global::Naylah.SampleApp.Droid.Resource.Id.top;
+			global::Naylah.Xamarin.Android.Resource.Id.topPanel = global::Naylah.SampleApp.Droid.Resource.Id.topPanel;
+			global::Naylah.Xamarin.Android.Resource.Id.up = global::Naylah.SampleApp.Droid.Resource.Id.up;
+			global::Naylah.Xamarin.Android.Resource.Id.useLogo = global::Naylah.SampleApp.Droid.Resource.Id.useLogo;
+			global::Naylah.Xamarin.Android.Resource.Id.view_offset_helper = global::Naylah.SampleApp.Droid.Resource.Id.view_offset_helper;
+			global::Naylah.Xamarin.Android.Resource.Id.withText = global::Naylah.SampleApp.Droid.Resource.Id.withText;
+			global::Naylah.Xamarin.Android.Resource.Id.wrap_content = global::Naylah.SampleApp.Droid.Resource.Id.wrap_content;
+			global::Naylah.Xamarin.Android.Resource.Integer.abc_config_activityDefaultDur = global::Naylah.SampleApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Naylah.Xamarin.Android.Resource.Integer.abc_config_activityShortDur = global::Naylah.SampleApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Naylah.Xamarin.Android.Resource.Integer.abc_max_action_buttons = global::Naylah.SampleApp.Droid.Resource.Integer.abc_max_action_buttons;
+			global::Naylah.Xamarin.Android.Resource.Integer.cancel_button_image_alpha = global::Naylah.SampleApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Naylah.Xamarin.Android.Resource.Integer.design_snackbar_text_max_lines = global::Naylah.SampleApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Naylah.Xamarin.Android.Resource.Integer.status_bar_notification_info_maxnum = global::Naylah.SampleApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_bar_title_item = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_bar_up_container = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_bar_view_list_nav_layout = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_bar_view_list_nav_layout;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_menu_item_layout = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_menu_layout = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_mode_bar = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_action_mode_close_item_material = global::Naylah.SampleApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_activity_chooser_view = global::Naylah.SampleApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_activity_chooser_view_list_item = global::Naylah.SampleApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_alert_dialog_material = global::Naylah.SampleApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_dialog_title_material = global::Naylah.SampleApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_expanded_menu_layout = global::Naylah.SampleApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_list_menu_item_checkbox = global::Naylah.SampleApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_list_menu_item_icon = global::Naylah.SampleApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_list_menu_item_layout = global::Naylah.SampleApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_list_menu_item_radio = global::Naylah.SampleApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_popup_menu_item_layout = global::Naylah.SampleApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_screen_content_include = global::Naylah.SampleApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_screen_simple = global::Naylah.SampleApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_screen_simple_overlay_action_mode = global::Naylah.SampleApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_screen_toolbar = global::Naylah.SampleApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_search_dropdown_item_icons_2line = global::Naylah.SampleApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_search_view = global::Naylah.SampleApp.Droid.Resource.Layout.abc_search_view;
+			global::Naylah.Xamarin.Android.Resource.Layout.abc_select_dialog_material = global::Naylah.SampleApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_layout_snackbar = global::Naylah.SampleApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_layout_snackbar_include = global::Naylah.SampleApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_layout_tab_icon = global::Naylah.SampleApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_layout_tab_text = global::Naylah.SampleApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_navigation_item = global::Naylah.SampleApp.Droid.Resource.Layout.design_navigation_item;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_navigation_item_header = global::Naylah.SampleApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_navigation_item_separator = global::Naylah.SampleApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_navigation_item_subheader = global::Naylah.SampleApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Naylah.Xamarin.Android.Resource.Layout.design_navigation_menu = global::Naylah.SampleApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Naylah.Xamarin.Android.Resource.Layout.HandleCustomTextInputLayout = global::Naylah.SampleApp.Droid.Resource.Layout.HandleCustomTextInputLayout;
+			global::Naylah.Xamarin.Android.Resource.Layout.HandleCustomTextInputLayoutLigh = global::Naylah.SampleApp.Droid.Resource.Layout.HandleCustomTextInputLayoutLigh;
+			global::Naylah.Xamarin.Android.Resource.Layout.mr_media_route_chooser_dialog = global::Naylah.SampleApp.Droid.Resource.Layout.mr_media_route_chooser_dialog;
+			global::Naylah.Xamarin.Android.Resource.Layout.mr_media_route_controller_material_dialog_b = global::Naylah.SampleApp.Droid.Resource.Layout.mr_media_route_controller_material_dialog_b;
+			global::Naylah.Xamarin.Android.Resource.Layout.mr_media_route_list_item = global::Naylah.SampleApp.Droid.Resource.Layout.mr_media_route_list_item;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_media_action = global::Naylah.SampleApp.Droid.Resource.Layout.notification_media_action;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_media_cancel_action = global::Naylah.SampleApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_template_big_media = global::Naylah.SampleApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_template_big_media_narrow = global::Naylah.SampleApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_template_lines = global::Naylah.SampleApp.Droid.Resource.Layout.notification_template_lines;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_template_media = global::Naylah.SampleApp.Droid.Resource.Layout.notification_template_media;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_template_part_chronometer = global::Naylah.SampleApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Naylah.Xamarin.Android.Resource.Layout.notification_template_part_time = global::Naylah.SampleApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Naylah.Xamarin.Android.Resource.Layout.select_dialog_item_material = global::Naylah.SampleApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.select_dialog_multichoice_material = global::Naylah.SampleApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.select_dialog_singlechoice_material = global::Naylah.SampleApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Naylah.Xamarin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Naylah.SampleApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Naylah.Xamarin.Android.Resource.Layout.TextInputLayout = global::Naylah.SampleApp.Droid.Resource.Layout.TextInputLayout;
+			global::Naylah.Xamarin.Android.Resource.Layout.TextInputLayoutLight = global::Naylah.SampleApp.Droid.Resource.Layout.TextInputLayoutLight;
+			global::Naylah.Xamarin.Android.Resource.String.ApplicationName = global::Naylah.SampleApp.Droid.Resource.String.ApplicationName;
+			global::Naylah.Xamarin.Android.Resource.String.Hello = global::Naylah.SampleApp.Droid.Resource.String.Hello;
+			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_home_description = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_home_description_format = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_home_description_format;
+			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
+			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_up_description = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Naylah.Xamarin.Android.Resource.String.abc_action_menu_overflow_description = global::Naylah.SampleApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Naylah.Xamarin.Android.Resource.String.abc_action_mode_done = global::Naylah.SampleApp.Droid.Resource.String.abc_action_mode_done;
+			global::Naylah.Xamarin.Android.Resource.String.abc_activity_chooser_view_see_all = global::Naylah.SampleApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Naylah.Xamarin.Android.Resource.String.abc_activitychooserview_choose_application = global::Naylah.SampleApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Naylah.Xamarin.Android.Resource.String.abc_search_hint = global::Naylah.SampleApp.Droid.Resource.String.abc_search_hint;
+			global::Naylah.Xamarin.Android.Resource.String.abc_searchview_description_clear = global::Naylah.SampleApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Naylah.Xamarin.Android.Resource.String.abc_searchview_description_query = global::Naylah.SampleApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Naylah.Xamarin.Android.Resource.String.abc_searchview_description_search = global::Naylah.SampleApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Naylah.Xamarin.Android.Resource.String.abc_searchview_description_submit = global::Naylah.SampleApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Naylah.Xamarin.Android.Resource.String.abc_searchview_description_voice = global::Naylah.SampleApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Naylah.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with = global::Naylah.SampleApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Naylah.Xamarin.Android.Resource.String.abc_shareactionprovider_share_with_application = global::Naylah.SampleApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Naylah.Xamarin.Android.Resource.String.abc_toolbar_collapse_description = global::Naylah.SampleApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Naylah.Xamarin.Android.Resource.String.appbar_scrolling_view_behavior = global::Naylah.SampleApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_button_content_description = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_button_content_description;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_chooser_searching = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_chooser_searching;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_chooser_title = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_chooser_title;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_controller_disconnect = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_controller_disconnect;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_controller_no_info_available = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_controller_no_info_available;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_controller_pause = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_controller_pause;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_controller_play = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_controller_play;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_controller_settings_description = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_controller_settings_description;
+			global::Naylah.Xamarin.Android.Resource.String.mr_media_route_controller_stop = global::Naylah.SampleApp.Droid.Resource.String.mr_media_route_controller_stop;
+			global::Naylah.Xamarin.Android.Resource.String.mr_system_route_name = global::Naylah.SampleApp.Droid.Resource.String.mr_system_route_name;
+			global::Naylah.Xamarin.Android.Resource.String.mr_user_route_category_name = global::Naylah.SampleApp.Droid.Resource.String.mr_user_route_category_name;
+			global::Naylah.Xamarin.Android.Resource.String.status_bar_notification_info_overflow = global::Naylah.SampleApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.AlertDialog_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.AlertDialog_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Animation_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Animation_AppCompat_DropDownUp = global::Naylah.SampleApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_AlertDialog_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_AlertDialog_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::Naylah.SampleApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_DialogWindowTitle_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Button = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::Naylah.SampleApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::Naylah.SampleApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::Naylah.SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V11_Theme_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_V11_Theme_AppCompat_Light_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView = global::Naylah.SampleApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_AutoCompleteTextView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V12_Widget_AppCompat_EditText = global::Naylah.SampleApp.Droid.Resource.Style.Base_V12_Widget_AppCompat_EditText;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V22_Theme_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V22_Theme_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V23_Theme_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V23_Theme_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::Naylah.SampleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::Naylah.SampleApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActionMode = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Button_Small = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_EditText = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_RatingBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SearchView = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Spinner = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Naylah.Xamarin.Android.Resource.Style.Base_Widget_Design_TabLayout = global::Naylah.SampleApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Naylah.Xamarin.Android.Resource.Style.CardView = global::Naylah.SampleApp.Droid.Resource.Style.CardView;
+			global::Naylah.Xamarin.Android.Resource.Style.CardView_Dark = global::Naylah.SampleApp.Droid.Resource.Style.CardView_Dark;
+			global::Naylah.Xamarin.Android.Resource.Style.CardView_Light = global::Naylah.SampleApp.Droid.Resource.Style.CardView_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.EditTextDark = global::Naylah.SampleApp.Droid.Resource.Style.EditTextDark;
+			global::Naylah.Xamarin.Android.Resource.Style.EditTextHintDark = global::Naylah.SampleApp.Droid.Resource.Style.EditTextHintDark;
+			global::Naylah.Xamarin.Android.Resource.Style.EditTextHintLight = global::Naylah.SampleApp.Droid.Resource.Style.EditTextHintLight;
+			global::Naylah.Xamarin.Android.Resource.Style.EditTextLight = global::Naylah.SampleApp.Droid.Resource.Style.EditTextLight;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::Naylah.SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_V11_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Platform_V11_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_V11_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Platform_V11_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_V14_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Platform_V14_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_V14_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Platform_V14_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Platform_Widget_AppCompat_Spinner = global::Naylah.SampleApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Naylah.Xamarin.Android.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::Naylah.SampleApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Button = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Caption = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display1 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display2 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display3 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Display4 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Headline = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Large = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Medium = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Menu = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Small = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Subhead = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Design_Error = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Design_Hint = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Design_Snackbar_Message = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Design_Tab = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_StatusBar_EventContent = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Info = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Info;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Line2 = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Line2;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Time = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Time;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_StatusBar_EventContent_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_StatusBar_EventContent_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Naylah.Xamarin.Android.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::Naylah.SampleApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_CompactMenu = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog_Alert = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_AppCompat_NoActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_MediaRouter = global::Naylah.SampleApp.Droid.Resource.Style.Theme_MediaRouter;
+			global::Naylah.Xamarin.Android.Resource.Style.Theme_MediaRouter_Light = global::Naylah.SampleApp.Droid.Resource.Style.Theme_MediaRouter_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Naylah.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark = global::Naylah.SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Naylah.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.ThemeOverlay_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActionMode = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ActivityChooserView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Button = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Borderless = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Colored = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Button_Small = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ButtonBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_EditText = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_SearchView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ListPopupWindow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView_DropDown = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ListView_Menu = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupMenu = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_PopupWindow = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ProgressBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_RatingBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_SearchView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Toolbar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::Naylah.SampleApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_AppBarLayout = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_CollapsingToolbar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_CoordinatorLayout = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_CoordinatorLayout;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_FloatingActionButton = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_NavigationView = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_Snackbar = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_TabLayout = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_Design_TextInputLayout = global::Naylah.SampleApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton = global::Naylah.SampleApp.Droid.Resource.Style.Widget_MediaRouter_Light_MediaRouteButton;
+			global::Naylah.Xamarin.Android.Resource.Style.Widget_MediaRouter_MediaRouteButton = global::Naylah.SampleApp.Droid.Resource.Style.Widget_MediaRouter_MediaRouteButton;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_background = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_backgroundSplit = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_backgroundStacked = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetEnd = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetLeft = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetRight = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_contentInsetStart = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_customNavigationLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_displayOptions = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_divider = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_elevation = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_height = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_hideOnContentScroll = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_homeAsUpIndicator = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_homeLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_icon = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_itemPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_logo = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_navigationMode = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_popupTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_progressBarPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_progressBarStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_subtitle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_subtitleTextStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_title = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBar_titleTextStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBarLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMenuItemView = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMenuItemView_android_minWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMenuView = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode_background = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode_backgroundSplit = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode_closeItemLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode_height = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode_subtitleTextStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActionMode_titleTextStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActivityChooserView = global::Naylah.SampleApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ActivityChooserView_initialActivityCount = global::Naylah.SampleApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog_android_layout = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog_listItemLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog_listLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout_android_background = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout_elevation = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout_expanded = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout_LayoutParams = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollFlags;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator = global::Naylah.SampleApp.Droid.Resource.Styleable.AppBarLayout_LayoutParams_layout_scrollInterpolator;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppCompatTextView = global::Naylah.SampleApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppCompatTextView_android_textAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.AppCompatTextView_textAllCaps = global::Naylah.SampleApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_cardBackgroundColor = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_cardCornerRadius = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_cardElevation = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_cardMaxElevation = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_cardPreventCornerOverlap = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_cardUseCompatPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_contentPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_contentPaddingBottom = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_contentPaddingLeft = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_contentPaddingRight = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CardView_contentPaddingTop = global::Naylah.SampleApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingAppBarLayout_LayoutParams_layout_collapseParallaxMultiplier;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_title = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::Naylah.SampleApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CompoundButton = global::Naylah.SampleApp.Droid.Resource.Styleable.CompoundButton;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CompoundButton_android_button = global::Naylah.SampleApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CompoundButton_buttonTint = global::Naylah.SampleApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CompoundButton_buttonTintMode = global::Naylah.SampleApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_keylines = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_LayoutParams = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_android_layout_gravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_anchorGravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_behavior;
+			global::Naylah.Xamarin.Android.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline = global::Naylah.SampleApp.Droid.Resource.Styleable.CoordinatorLayout_LayoutParams_layout_keyline;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_barLength = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_color = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_drawableSize = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_spinBars = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Naylah.Xamarin.Android.Resource.Styleable.DrawerArrowToggle_thickness = global::Naylah.SampleApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_android_background = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_android_background;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_backgroundTint = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_borderWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_elevation = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_fabSize = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Naylah.Xamarin.Android.Resource.Styleable.FloatingActionButton_rippleColor = global::Naylah.SampleApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_gravity = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_orientation = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_divider = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_showDividers = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::Naylah.SampleApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ListPopupWindow = global::Naylah.SampleApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::Naylah.SampleApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::Naylah.SampleApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MediaRouteButton = global::Naylah.SampleApp.Droid.Resource.Styleable.MediaRouteButton;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MediaRouteButton_android_minHeight = global::Naylah.SampleApp.Droid.Resource.Styleable.MediaRouteButton_android_minHeight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MediaRouteButton_android_minWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.MediaRouteButton_android_minWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.MediaRouteButton_externalRouteEnabledDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup_android_checkableBehavior = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup_android_enabled = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup_android_id = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup_android_menuCategory = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup_android_orderInCategory = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuGroup_android_visible = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_actionLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_actionProviderClass = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_actionViewClass = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_checkable = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_checked = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_enabled = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_icon = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_id = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_menuCategory = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_numericShortcut = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_onClick = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_orderInCategory = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_title = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_titleCondensed = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_android_visible = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuItem_showAsAction = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_headerBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_horizontalDivider = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_itemBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_itemTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_verticalDivider = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_android_windowAnimationStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.MenuView_preserveIconSpacing = global::Naylah.SampleApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_android_background = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_android_maxWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_elevation = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_headerLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_itemBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_itemIconTint = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_itemTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_itemTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.NavigationView_menu = global::Naylah.SampleApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Naylah.Xamarin.Android.Resource.Styleable.PopupWindow = global::Naylah.SampleApp.Droid.Resource.Styleable.PopupWindow;
+			global::Naylah.Xamarin.Android.Resource.Styleable.PopupWindow_android_popupBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.PopupWindow_overlapAnchor = global::Naylah.SampleApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.PopupWindowBackgroundState = global::Naylah.SampleApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Naylah.Xamarin.Android.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::Naylah.SampleApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ScrimInsetsFrameLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::Naylah.SampleApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ScrollingViewBehavior_Params = global::Naylah.SampleApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop = global::Naylah.SampleApp.Droid.Resource.Styleable.ScrollingViewBehavior_Params_behavior_overlapTop;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_android_focusable = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_android_imeOptions = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_android_inputType = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_android_maxWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_closeIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_commitIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_defaultQueryHint = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_goIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_iconifiedByDefault = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_layout = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_queryBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_queryHint = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_searchHintIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_searchIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_submitBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_suggestionRowLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SearchView_voiceIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SnackbarLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SnackbarLayout_android_maxWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SnackbarLayout_elevation = global::Naylah.SampleApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Spinner = global::Naylah.SampleApp.Droid.Resource.Styleable.Spinner;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Spinner_android_dropDownWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Spinner_android_popupBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Spinner_android_prompt = global::Naylah.SampleApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Spinner_popupTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_android_textOff = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_android_textOn = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_android_thumb = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_showText = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_splitTrack = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_switchMinWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_switchPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_switchTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_thumbTextPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.SwitchCompat_track = global::Naylah.SampleApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabContentStart = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabGravity = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorColor = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabIndicatorHeight = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabMaxWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabMinWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabMode = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingBottom = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingEnd = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingStart = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabPaddingTop = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabSelectedTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TabLayout_tabTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.TextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextAppearance_android_textColor = global::Naylah.SampleApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextAppearance_android_textSize = global::Naylah.SampleApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextAppearance_android_textStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextAppearance_android_typeface = global::Naylah.SampleApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextAppearance_textAllCaps = global::Naylah.SampleApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout_android_hint = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout_android_textColorHint = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout_errorEnabled = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout_errorTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Naylah.Xamarin.Android.Resource.Styleable.TextInputLayout_hintTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarDivider = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarDivider;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarItemBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarItemBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarPopupTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarPopupTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarSize = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarSize;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarSplitStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarSplitStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarTabBarStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarTabBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarTabStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarTabStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarTabTextStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarTabTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionBarWidgetTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionBarWidgetTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionDropDownStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionDropDownStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionMenuTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionMenuTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionMenuTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionMenuTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeCloseButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeCloseButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeCloseDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeCloseDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeCopyDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeCopyDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeCutDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeCutDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeFindDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeFindDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModePasteDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModePasteDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModePopupWindowStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModePopupWindowStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeSelectAllDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeSelectAllDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeShareDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeShareDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeSplitBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeSplitBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionModeWebSearchDrawable = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionModeWebSearchDrawable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionOverflowButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionOverflowButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_actionOverflowMenuStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_actionOverflowMenuStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_activityChooserViewStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_activityChooserViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_alertDialogButtonGroupStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_alertDialogButtonGroupStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_alertDialogCenterButtons = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_alertDialogCenterButtons;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_alertDialogStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_alertDialogStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_alertDialogTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_alertDialogTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_android_windowAnimationStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_android_windowAnimationStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_android_windowIsFloating = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_android_windowIsFloating;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_autoCompleteTextViewStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_autoCompleteTextViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_borderlessButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_borderlessButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonBarButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonBarButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonBarNegativeButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonBarNegativeButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonBarNeutralButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonBarNeutralButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonBarPositiveButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonBarPositiveButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonBarStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_buttonStyleSmall = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_buttonStyleSmall;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_checkboxStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_checkboxStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_checkedTextViewStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_checkedTextViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorAccent = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorAccent;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorButtonNormal = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorButtonNormal;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorControlActivated = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorControlActivated;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorControlHighlight = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorControlHighlight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorControlNormal = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorControlNormal;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorPrimary = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorPrimary;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorPrimaryDark = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorPrimaryDark;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_colorSwitchThumbNormal = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_colorSwitchThumbNormal;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_controlBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_controlBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_dialogPreferredPadding = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_dialogPreferredPadding;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_dialogTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_dialogTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_dividerHorizontal = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_dividerHorizontal;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_dividerVertical = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_dividerVertical;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_dropDownListViewStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_dropDownListViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_dropdownListPreferredItemHeight = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_dropdownListPreferredItemHeight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_editTextBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_editTextBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_editTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_editTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_editTextStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_editTextStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_homeAsUpIndicator = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_homeAsUpIndicator;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listChoiceBackgroundIndicator = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listChoiceBackgroundIndicator;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listDividerAlertDialog = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listDividerAlertDialog;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listPopupWindowStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listPopupWindowStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listPreferredItemHeight = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listPreferredItemHeight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listPreferredItemHeightLarge = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listPreferredItemHeightLarge;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listPreferredItemHeightSmall = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listPreferredItemHeightSmall;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listPreferredItemPaddingLeft = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listPreferredItemPaddingLeft;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_listPreferredItemPaddingRight = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_listPreferredItemPaddingRight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_panelBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_panelBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_panelMenuListTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_panelMenuListTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_panelMenuListWidth = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_panelMenuListWidth;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_popupMenuStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_popupMenuStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_popupWindowStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_popupWindowStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_radioButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_radioButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_ratingBarStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_ratingBarStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_searchViewStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_searchViewStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_selectableItemBackground = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_selectableItemBackground;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_selectableItemBackgroundBorderless = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_selectableItemBackgroundBorderless;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_spinnerDropDownItemStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_spinnerDropDownItemStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_spinnerStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_spinnerStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_switchStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_switchStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textAppearanceLargePopupMenu = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textAppearanceLargePopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textAppearanceListItem = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textAppearanceListItem;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textAppearanceListItemSmall = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textAppearanceListItemSmall;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textAppearanceSearchResultSubtitle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textAppearanceSearchResultTitle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textAppearanceSearchResultTitle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textAppearanceSmallPopupMenu = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textAppearanceSmallPopupMenu;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textColorAlertDialogListItem = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textColorAlertDialogListItem;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_textColorSearchUrl = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_textColorSearchUrl;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_toolbarNavigationButtonStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_toolbarNavigationButtonStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_toolbarStyle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_toolbarStyle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowActionBar = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowActionBar;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowActionBarOverlay = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowActionBarOverlay;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowActionModeOverlay = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowActionModeOverlay;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowFixedHeightMajor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowFixedHeightMajor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowFixedHeightMinor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowFixedHeightMinor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowFixedWidthMajor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowFixedWidthMajor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowFixedWidthMinor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowFixedWidthMinor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowMinWidthMajor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowMinWidthMajor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowMinWidthMinor = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowMinWidthMinor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Theme_windowNoTitle = global::Naylah.SampleApp.Droid.Resource.Styleable.Theme_windowNoTitle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_android_gravity = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_android_minHeight = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_collapseContentDescription = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_collapseIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetEnd = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetLeft = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetRight = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_contentInsetStart = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_logo = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_logoDescription = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_maxButtonHeight = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_navigationContentDescription = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_navigationIcon = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_popupTheme = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_subtitle = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_subtitleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_subtitleTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_title = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginBottom = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginEnd = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginStart = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleMarginTop = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleMargins = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleTextAppearance = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Naylah.Xamarin.Android.Resource.Styleable.Toolbar_titleTextColor = global::Naylah.SampleApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Naylah.Xamarin.Android.Resource.Styleable.View = global::Naylah.SampleApp.Droid.Resource.Styleable.View;
+			global::Naylah.Xamarin.Android.Resource.Styleable.View_android_focusable = global::Naylah.SampleApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Naylah.Xamarin.Android.Resource.Styleable.View_android_theme = global::Naylah.SampleApp.Droid.Resource.Styleable.View_android_theme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.View_paddingEnd = global::Naylah.SampleApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Naylah.Xamarin.Android.Resource.Styleable.View_paddingStart = global::Naylah.SampleApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Naylah.Xamarin.Android.Resource.Styleable.View_theme = global::Naylah.SampleApp.Droid.Resource.Styleable.View_theme;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_android_background = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewStubCompat = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_id = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_inflatedId = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Naylah.Xamarin.Android.Resource.Styleable.ViewStubCompat_android_layout = global::Naylah.SampleApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::Naylah.SampleApp.Droid.Resource.Attribute.actionBarSize;
 		}
 		
@@ -974,32 +2526,32 @@ namespace Naylah.SampleApp.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f08004b
-			public const int abc_background_cache_hint_selector_material_dark = 2131230795;
-			
 			// aapt resource value: 0x7f08004c
-			public const int abc_background_cache_hint_selector_material_light = 2131230796;
+			public const int abc_background_cache_hint_selector_material_dark = 2131230796;
 			
 			// aapt resource value: 0x7f08004d
-			public const int abc_color_highlight_material = 2131230797;
+			public const int abc_background_cache_hint_selector_material_light = 2131230797;
+			
+			// aapt resource value: 0x7f08004e
+			public const int abc_color_highlight_material = 2131230798;
 			
 			// aapt resource value: 0x7f080004
 			public const int abc_input_method_navigation_guard = 2131230724;
 			
-			// aapt resource value: 0x7f08004e
-			public const int abc_primary_text_disable_only_material_dark = 2131230798;
-			
 			// aapt resource value: 0x7f08004f
-			public const int abc_primary_text_disable_only_material_light = 2131230799;
+			public const int abc_primary_text_disable_only_material_dark = 2131230799;
 			
 			// aapt resource value: 0x7f080050
-			public const int abc_primary_text_material_dark = 2131230800;
+			public const int abc_primary_text_disable_only_material_light = 2131230800;
 			
 			// aapt resource value: 0x7f080051
-			public const int abc_primary_text_material_light = 2131230801;
+			public const int abc_primary_text_material_dark = 2131230801;
 			
 			// aapt resource value: 0x7f080052
-			public const int abc_search_url_text = 2131230802;
+			public const int abc_primary_text_material_light = 2131230802;
+			
+			// aapt resource value: 0x7f080053
+			public const int abc_search_url_text = 2131230803;
 			
 			// aapt resource value: 0x7f080005
 			public const int abc_search_url_text_normal = 2131230725;
@@ -1010,11 +2562,11 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f080007
 			public const int abc_search_url_text_selected = 2131230727;
 			
-			// aapt resource value: 0x7f080053
-			public const int abc_secondary_text_material_dark = 2131230803;
-			
 			// aapt resource value: 0x7f080054
-			public const int abc_secondary_text_material_light = 2131230804;
+			public const int abc_secondary_text_material_dark = 2131230804;
+			
+			// aapt resource value: 0x7f080055
+			public const int abc_secondary_text_material_light = 2131230805;
 			
 			// aapt resource value: 0x7f080049
 			public const int accent = 2131230793;
@@ -1214,17 +2766,20 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f080039
 			public const int secondary_text_disabled_material_light = 2131230777;
 			
+			// aapt resource value: 0x7f08004b
+			public const int selected_item = 2131230795;
+			
 			// aapt resource value: 0x7f08003a
 			public const int switch_thumb_disabled_material_dark = 2131230778;
 			
 			// aapt resource value: 0x7f08003b
 			public const int switch_thumb_disabled_material_light = 2131230779;
 			
-			// aapt resource value: 0x7f080055
-			public const int switch_thumb_material_dark = 2131230805;
-			
 			// aapt resource value: 0x7f080056
-			public const int switch_thumb_material_light = 2131230806;
+			public const int switch_thumb_material_dark = 2131230806;
+			
+			// aapt resource value: 0x7f080057
+			public const int switch_thumb_material_light = 2131230807;
 			
 			// aapt resource value: 0x7f08003c
 			public const int switch_thumb_normal_material_dark = 2131230780;
@@ -1880,8 +3435,8 @@ namespace Naylah.SampleApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0074
-			public const int action0 = 2131427444;
+			// aapt resource value: 0x7f0b0075
+			public const int action0 = 2131427445;
 			
 			// aapt resource value: 0x7f0b0055
 			public const int action_bar = 2131427413;
@@ -1907,8 +3462,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0056
 			public const int action_context_bar = 2131427414;
 			
-			// aapt resource value: 0x7f0b0078
-			public const int action_divider = 2131427448;
+			// aapt resource value: 0x7f0b0079
+			public const int action_divider = 2131427449;
 			
 			// aapt resource value: 0x7f0b0002
 			public const int action_menu_divider = 2131427330;
@@ -1934,8 +3489,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b001c
 			public const int always = 2131427356;
 			
-			// aapt resource value: 0x7f0b006c
-			public const int art = 2131427436;
+			// aapt resource value: 0x7f0b006d
+			public const int art = 2131427437;
 			
 			// aapt resource value: 0x7f0b0019
 			public const int beginning = 2131427353;
@@ -1946,11 +3501,11 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b004b
 			public const int buttonPanel = 2131427403;
 			
-			// aapt resource value: 0x7f0b0071
-			public const int buttons = 2131427441;
+			// aapt resource value: 0x7f0b0072
+			public const int buttons = 2131427442;
 			
-			// aapt resource value: 0x7f0b0075
-			public const int cancel_action = 2131427445;
+			// aapt resource value: 0x7f0b0076
+			public const int cancel_action = 2131427446;
 			
 			// aapt resource value: 0x7f0b0029
 			public const int center = 2131427369;
@@ -1964,8 +3519,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b004d
 			public const int checkbox = 2131427405;
 			
-			// aapt resource value: 0x7f0b007b
-			public const int chronometer = 2131427451;
+			// aapt resource value: 0x7f0b007c
+			public const int chronometer = 2131427452;
 			
 			// aapt resource value: 0x7f0b0031
 			public const int clip_horizontal = 2131427377;
@@ -1991,14 +3546,14 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b003e
 			public const int default_activity_button = 2131427390;
 			
-			// aapt resource value: 0x7f0b006b
-			public const int default_control_frame = 2131427435;
+			// aapt resource value: 0x7f0b006c
+			public const int default_control_frame = 2131427436;
 			
 			// aapt resource value: 0x7f0b000d
 			public const int disableHome = 2131427341;
 			
-			// aapt resource value: 0x7f0b0072
-			public const int disconnect = 2131427442;
+			// aapt resource value: 0x7f0b0073
+			public const int disconnect = 2131427443;
 			
 			// aapt resource value: 0x7f0b0057
 			public const int edit_query = 2131427415;
@@ -2006,8 +3561,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b001a
 			public const int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0080
-			public const int end_padder = 2131427456;
+			// aapt resource value: 0x7f0b0081
+			public const int end_padder = 2131427457;
 			
 			// aapt resource value: 0x7f0b0022
 			public const int enterAlways = 2131427362;
@@ -2051,17 +3606,17 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b003d
 			public const int image = 2131427389;
 			
-			// aapt resource value: 0x7f0b007f
-			public const int info = 2131427455;
+			// aapt resource value: 0x7f0b0080
+			public const int info = 2131427456;
 			
 			// aapt resource value: 0x7f0b002d
 			public const int left = 2131427373;
 			
-			// aapt resource value: 0x7f0b0079
-			public const int line1 = 2131427449;
+			// aapt resource value: 0x7f0b007a
+			public const int line1 = 2131427450;
 			
-			// aapt resource value: 0x7f0b007d
-			public const int line3 = 2131427453;
+			// aapt resource value: 0x7f0b007e
+			public const int line3 = 2131427454;
 			
 			// aapt resource value: 0x7f0b000a
 			public const int listMode = 2131427338;
@@ -2069,20 +3624,20 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b003f
 			public const int list_item = 2131427391;
 			
-			// aapt resource value: 0x7f0b0077
-			public const int media_actions = 2131427447;
+			// aapt resource value: 0x7f0b0078
+			public const int media_actions = 2131427448;
 			
-			// aapt resource value: 0x7f0b006a
-			public const int media_route_control_frame = 2131427434;
+			// aapt resource value: 0x7f0b006b
+			public const int media_route_control_frame = 2131427435;
 			
-			// aapt resource value: 0x7f0b0066
-			public const int media_route_list = 2131427430;
-			
-			// aapt resource value: 0x7f0b006f
-			public const int media_route_volume_layout = 2131427439;
+			// aapt resource value: 0x7f0b0067
+			public const int media_route_list = 2131427431;
 			
 			// aapt resource value: 0x7f0b0070
-			public const int media_route_volume_slider = 2131427440;
+			public const int media_route_volume_layout = 2131427440;
+			
+			// aapt resource value: 0x7f0b0071
+			public const int media_route_volume_slider = 2131427441;
 			
 			// aapt resource value: 0x7f0b001b
 			public const int middle = 2131427355;
@@ -2111,8 +3666,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0027
 			public const int pin = 2131427367;
 			
-			// aapt resource value: 0x7f0b006d
-			public const int play_pause = 2131427437;
+			// aapt resource value: 0x7f0b006e
+			public const int play_pause = 2131427438;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int progress_circular = 2131427333;
@@ -2126,8 +3681,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b002e
 			public const int right = 2131427374;
 			
-			// aapt resource value: 0x7f0b0068
-			public const int route_name = 2131427432;
+			// aapt resource value: 0x7f0b0069
+			public const int route_name = 2131427433;
 			
 			// aapt resource value: 0x7f0b0015
 			public const int screen = 2131427349;
@@ -2174,8 +3729,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0063
 			public const int select_dialog_listview = 2131427427;
 			
-			// aapt resource value: 0x7f0b0069
-			public const int settings = 2131427433;
+			// aapt resource value: 0x7f0b006a
+			public const int settings = 2131427434;
 			
 			// aapt resource value: 0x7f0b004e
 			public const int shortcut = 2131427406;
@@ -2189,8 +3744,8 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0012
 			public const int showTitle = 2131427346;
 			
-			// aapt resource value: 0x7f0b0081
-			public const int sliding_tabs = 2131427457;
+			// aapt resource value: 0x7f0b0082
+			public const int sliding_tabs = 2131427458;
 			
 			// aapt resource value: 0x7f0b0065
 			public const int snackbar_action = 2131427429;
@@ -2213,44 +3768,47 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b002f
 			public const int start = 2131427375;
 			
-			// aapt resource value: 0x7f0b0076
-			public const int status_bar_latest_event_content = 2131427446;
+			// aapt resource value: 0x7f0b0077
+			public const int status_bar_latest_event_content = 2131427447;
 			
-			// aapt resource value: 0x7f0b0073
-			public const int stop = 2131427443;
+			// aapt resource value: 0x7f0b0074
+			public const int stop = 2131427444;
 			
 			// aapt resource value: 0x7f0b0060
 			public const int submit_area = 2131427424;
 			
-			// aapt resource value: 0x7f0b006e
-			public const int subtitle = 2131427438;
+			// aapt resource value: 0x7f0b006f
+			public const int subtitle = 2131427439;
 			
 			// aapt resource value: 0x7f0b000c
 			public const int tabMode = 2131427340;
 			
-			// aapt resource value: 0x7f0b007e
-			public const int text = 2131427454;
+			// aapt resource value: 0x7f0b007f
+			public const int text = 2131427455;
 			
-			// aapt resource value: 0x7f0b007c
-			public const int text2 = 2131427452;
+			// aapt resource value: 0x7f0b007d
+			public const int text2 = 2131427453;
+			
+			// aapt resource value: 0x7f0b0066
+			public const int textInputLayout = 2131427430;
 			
 			// aapt resource value: 0x7f0b0048
 			public const int textSpacerNoButtons = 2131427400;
 			
-			// aapt resource value: 0x7f0b007a
-			public const int time = 2131427450;
+			// aapt resource value: 0x7f0b007b
+			public const int time = 2131427451;
 			
 			// aapt resource value: 0x7f0b0041
 			public const int title = 2131427393;
 			
-			// aapt resource value: 0x7f0b0067
-			public const int title_bar = 2131427431;
+			// aapt resource value: 0x7f0b0068
+			public const int title_bar = 2131427432;
 			
 			// aapt resource value: 0x7f0b0044
 			public const int title_template = 2131427396;
 			
-			// aapt resource value: 0x7f0b0082
-			public const int toolbar = 2131427458;
+			// aapt resource value: 0x7f0b0083
+			public const int toolbar = 2131427459;
 			
 			// aapt resource value: 0x7f0b0030
 			public const int top = 2131427376;
@@ -2417,55 +3975,67 @@ namespace Naylah.SampleApp.Droid
 			public const int design_navigation_menu = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public const int mr_media_route_chooser_dialog = 2130903073;
+			public const int HandleCustomTextInputLayout = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public const int mr_media_route_controller_material_dialog_b = 2130903074;
+			public const int HandleCustomTextInputLayoutLigh = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public const int mr_media_route_list_item = 2130903075;
+			public const int mr_media_route_chooser_dialog = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public const int notification_media_action = 2130903076;
+			public const int mr_media_route_controller_material_dialog_b = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public const int notification_media_cancel_action = 2130903077;
+			public const int mr_media_route_list_item = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public const int notification_template_big_media = 2130903078;
+			public const int notification_media_action = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public const int notification_template_big_media_narrow = 2130903079;
+			public const int notification_media_cancel_action = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public const int notification_template_lines = 2130903080;
+			public const int notification_template_big_media = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public const int notification_template_media = 2130903081;
+			public const int notification_template_big_media_narrow = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public const int notification_template_part_chronometer = 2130903082;
+			public const int notification_template_lines = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public const int notification_template_part_time = 2130903083;
+			public const int notification_template_media = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public const int select_dialog_item_material = 2130903084;
+			public const int notification_template_part_chronometer = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public const int select_dialog_multichoice_material = 2130903085;
+			public const int notification_template_part_time = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public const int select_dialog_singlechoice_material = 2130903086;
+			public const int select_dialog_item_material = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public const int support_simple_spinner_dropdown_item = 2130903087;
+			public const int select_dialog_multichoice_material = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public const int tabs = 2130903088;
+			public const int select_dialog_singlechoice_material = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public const int toolbar = 2130903089;
+			public const int support_simple_spinner_dropdown_item = 2130903089;
+			
+			// aapt resource value: 0x7f030032
+			public const int tabs = 2130903090;
+			
+			// aapt resource value: 0x7f030033
+			public const int TextInputLayout = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public const int TextInputLayoutLight = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public const int toolbar = 2130903093;
 			
 			static Layout()
 			{
@@ -3027,11 +4597,23 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f070006
 			public const int CardView_Light = 2131165190;
 			
-			// aapt resource value: 0x7f070144
-			public const int MyTheme = 2131165508;
-			
 			// aapt resource value: 0x7f070145
-			public const int MyTheme_Base = 2131165509;
+			public const int EditTextDark = 2131165509;
+			
+			// aapt resource value: 0x7f070147
+			public const int EditTextHintDark = 2131165511;
+			
+			// aapt resource value: 0x7f070146
+			public const int EditTextHintLight = 2131165510;
+			
+			// aapt resource value: 0x7f070144
+			public const int EditTextLight = 2131165508;
+			
+			// aapt resource value: 0x7f070148
+			public const int MyTheme = 2131165512;
+			
+			// aapt resource value: 0x7f070149
+			public const int MyTheme_Base = 2131165513;
 			
 			// aapt resource value: 0x7f070016
 			public const int Platform_AppCompat = 2131165206;

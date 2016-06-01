@@ -17,11 +17,21 @@ namespace Naylah.SampleApp.UWP
 {
     public sealed partial class MainPage
     {
+        public SampleApp.App CurrentApp { get; private set; }
         public MainPage()
         {
             this.InitializeComponent();
 
-            LoadApplication(new Naylah.SampleApp.App());
+            CurrentApp = new SampleApp.App();
+            LoadApplication(CurrentApp);
+        }
+
+        protected override async void OnNavigatedTo(NavigationEventArgs e)
+        {
+            if (!CurrentApp.Initialized)
+            {
+                await CurrentApp.InitializeApp();
+            }
         }
     }
 }

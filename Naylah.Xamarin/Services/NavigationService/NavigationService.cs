@@ -9,7 +9,7 @@ using Xamarin.Forms;
 
 namespace Naylah.Xamarin.Services.NavigationService
 {
-    public class NavigationService : INavigationService
+    public class NavigationService : INavigationService, IDisposable
     {
         private BootStrapper App;
 
@@ -214,7 +214,7 @@ namespace Naylah.Xamarin.Services.NavigationService
             RaiseNavigatedEvent();
         }
 
-        async Task ModalNavigateFromAsync()
+        internal async Task ModalNavigateFromAsync()
         {
 
             var page = NavigablePageFacadeInternal.ModalCurrentPage as Page;
@@ -231,7 +231,7 @@ namespace Naylah.Xamarin.Services.NavigationService
             RaiseNavigatedEvent();
         }
 
-        async Task NavigatedToAsync(NavigationMode mode, object parameter, object pageContent = null)
+        internal async Task NavigatedToAsync(NavigationMode mode, object parameter, object pageContent = null)
         {
             var page = pageContent as Page;
             if (page != null)
@@ -248,7 +248,7 @@ namespace Naylah.Xamarin.Services.NavigationService
             RaiseNavigatedEvent();
         }
 
-        async Task NavigatingToAsync(NavigationMode mode, object parameter, object pageContent = null)
+        internal async Task NavigatingToAsync(NavigationMode mode, object parameter, object pageContent = null)
         {
             var page = pageContent as Page;
             if (page != null)
@@ -338,7 +338,6 @@ namespace Naylah.Xamarin.Services.NavigationService
 
             }
 
-
         }
 
 
@@ -361,6 +360,12 @@ namespace Naylah.Xamarin.Services.NavigationService
             await NavigatingToAsync(NavigationMode.New, parameter, page);
             await NavigablePageFacade.ChangeRootAsync(page, animated);
             await NavigatedToAsync(NavigationMode.New, parameter, page);
+        }
+
+        public void Dispose()
+        {
+            Navigated = null;
+            Navigating = null;
         }
 
         public enum NavigationType

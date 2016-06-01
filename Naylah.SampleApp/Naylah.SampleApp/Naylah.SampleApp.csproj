@@ -36,6 +36,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="App.cs" />
+    <Compile Include="Controls\CustomContentLoader.cs" />
+    <Compile Include="Controls\MyContentPageBase.cs" />
     <Compile Include="Mvvm\AppViewModelBase.cs" />
     <Compile Include="Mvvm\ViewModelBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

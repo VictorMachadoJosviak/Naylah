@@ -44,12 +44,14 @@
     <Compile Include="Common\BootStrapper.cs" />
     <Compile Include="Common\DispatcherWrapper.cs" />
     <Compile Include="Common\IDispatcherWrapper.cs" />
+    <Compile Include="Controls\Customizations\ContentLoader.cs" />
     <Compile Include="Controls\Customizations\HeaderedLayout.cs" />
     <Compile Include="Controls\Entrys\EntryBase.cs" />
     <Compile Include="Controls\Pages\MasterDetailNavigationPage.cs" />
     <Compile Include="Controls\Pages\PageBase.cs" />
     <Compile Include="Controls\Pickers\BindablePicker.cs" />
     <Compile Include="Controls\Style\BasicTheme.cs" />
+    <Compile Include="Converters\InversiveBooleanConverter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Services\NavigationService\INavigable.cs" />
     <Compile Include="Services\NavigationService\NavigablePageFacade.cs" />

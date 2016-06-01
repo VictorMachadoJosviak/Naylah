@@ -1,4 +1,8 @@
-﻿using Naylah.SampleApp.ViewModels;
+﻿using Naylah.SampleApp.Controls;
+using Naylah.SampleApp.ViewModels;
+using Naylah.Xamarin.Behaviors;
+using Naylah.Xamarin.Controls.Customizations;
+using Naylah.Xamarin.Controls.Entrys;
 using Naylah.Xamarin.Controls.Pages;
 using System;
 using System.Collections.Generic;
@@ -17,16 +21,29 @@ namespace Naylah.SampleApp.Views
         public DashboardPage()
         {
             BindingContext = new DashboardViewModel(); //Replace with your mvvm logic,DI, Locator, etc...
+            Vm.IsBusy = true;
 
-            var activityIndicator = new ActivityIndicator();
-            activityIndicator.SetBinding(ActivityIndicator.IsRunningProperty, Binding.Create<DashboardViewModel>(vm => vm.IsBusy));
+
+            var litersTotal = new EntryBase()
+            {
+                Placeholder = "Total de litros",
+            };
+            litersTotal.AddNumericEntryBehavior(
+                new NumericEntryBehavior()
+                {
+                    NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Double,
+                    NumericFormat = "N"
+                }
+            );
+            litersTotal.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+                Binding.Create<DashboardViewModel>(o => o.SomeDouble, BindingMode.TwoWay));
 
             var button = new Button()
             {
                 Text = "Another page",
             };
 
-            button.Clicked += (s, e) => { Vm.NavigateToAnotherPageWithParameter("sss"); };
+            button.Clicked += (s, e) => { Vm.NavigateToAnotherPageWithParameter("dqw"); };
 
             var content = new StackLayout()
             {
@@ -37,16 +54,26 @@ namespace Naylah.SampleApp.Views
             };
 
 
-            Content = new StackLayout()
+            var root = new StackLayout()
             {
                 HorizontalOptions = LayoutOptions.Center,
                 VerticalOptions = LayoutOptions.Center,
                 Children =
                 {
-                    activityIndicator,
+                    litersTotal,
+                    new EntryBase { Placeholder = "dqwdq"},
+                    //activityIndicator,
                     content
                 }
             };
+
+            var content2 = new CustomContentLoader()
+            {
+                Content = root
+            };
+
+            Content = content2;
+
         }
     }
 }

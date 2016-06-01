@@ -33,7 +33,8 @@ namespace Naylah.SampleApp
             NavigationService.Navigating += shellPage.NavigationService_Navigating;
             NavigationService.Navigated += shellPage.NavigationService_Navigated;
 
-            shellPage.Vm.NavigateToSelectedMenuItem(MenuListData.Dashboard); //Replace with better logic...
+            
+            //shellPage.Vm.NavigateToSelectedMenuItem(MenuListData.Dashboard); //Replace with better logic...
         }
 
         public override async Task InitializeApp()
@@ -50,7 +51,7 @@ namespace Naylah.SampleApp
             await Task.Delay(3000); //Some load
 
             ConfigureAppPhase();
-
+            //await NavigationService.NavigateAsync(new AnotherPage(), null, false);
         }
 
         //public override INavigationService NavigationServiceFactory(MasterDetailPage page)

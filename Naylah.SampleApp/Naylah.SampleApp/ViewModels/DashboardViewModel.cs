@@ -11,6 +11,16 @@ namespace Naylah.SampleApp.ViewModels
 {
     public class DashboardViewModel : AppViewModelBase
     {
+        private double _someDouble;
+
+        public double SomeDouble
+        {
+            get { return _someDouble; }
+            set { Set(ref _someDouble, value); }
+        }
+
+
+
         public override async Task OnNavigatedToAsync(object parameter, NavigationMode mode)
         {
             LoadData();
