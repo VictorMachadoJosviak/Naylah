@@ -11,15 +11,6 @@ namespace Naylah.SampleApp.ViewModels
 {
     public class DashboardViewModel : AppViewModelBase
     {
-        private double _someDouble;
-
-        public double SomeDouble
-        {
-            get { return _someDouble; }
-            set { Set(ref _someDouble, value); }
-        }
-
-
 
         public override async Task OnNavigatedToAsync(object parameter, NavigationMode mode)
         {
@@ -42,6 +33,11 @@ namespace Naylah.SampleApp.ViewModels
             {
                 IsBusy = false;
             }
+        }
+
+        public async Task NavigateToEntryPage()
+        {
+            await NavigationService.NavigateAsync(new EntryDemoPage(), null, true);
         }
 
         public async Task NavigateToAnotherPageWithParameter(string v)

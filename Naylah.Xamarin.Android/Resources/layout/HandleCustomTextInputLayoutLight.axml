@@ -9,5 +9,5 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:singleLine="true"
-        android:theme="@style/EditTextLight" />
+        android:theme="@style/EditTextHintLight" />
 </android.support.design.widget.TextInputLayout>

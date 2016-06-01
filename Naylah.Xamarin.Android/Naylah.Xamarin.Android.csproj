@@ -94,8 +94,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extras\CustomEditText.cs" />
-    <Compile Include="Renderers\EntryCustomRender.cs" />
+    <Compile Include="Renderers\EntryCustomRenderer.cs" />
     <Compile Include="Extras\NumericEntryBehaviorListener.cs" />
+    <Compile Include="Renderers\FloatLabeledEntryRenderer.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -105,13 +106,25 @@
     <AndroidResource Include="Resources\layout\HandleCustomTextInputLayout.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
-    <AndroidResource Include="Resources\layout\HandleCustomTextInputLayoutLigh.axml">
+    <AndroidResource Include="Resources\layout\HandleCustomTextInputLayoutLight.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\TextInputLayout.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
     <AndroidResource Include="Resources\layout\TextInputLayoutLight.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\HandleCustomEditText.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\HandleCustomEditTextLight.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\EditText.axml">
+      <SubType>AndroidResource</SubType>
+    </AndroidResource>
+    <AndroidResource Include="Resources\layout\EditTextLight.axml">
       <SubType>AndroidResource</SubType>
     </AndroidResource>
   </ItemGroup>

@@ -1875,8 +1875,8 @@ namespace Naylah.Xamarin.Android
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f0b0075
-			public static int action0 = 2131427445;
+			// aapt resource value: 0x7f0b0076
+			public static int action0 = 2131427446;
 			
 			// aapt resource value: 0x7f0b0055
 			public static int action_bar = 2131427413;
@@ -1902,8 +1902,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b0056
 			public static int action_context_bar = 2131427414;
 			
-			// aapt resource value: 0x7f0b0079
-			public static int action_divider = 2131427449;
+			// aapt resource value: 0x7f0b007a
+			public static int action_divider = 2131427450;
 			
 			// aapt resource value: 0x7f0b0002
 			public static int action_menu_divider = 2131427330;
@@ -1929,8 +1929,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b001c
 			public static int always = 2131427356;
 			
-			// aapt resource value: 0x7f0b006d
-			public static int art = 2131427437;
+			// aapt resource value: 0x7f0b006e
+			public static int art = 2131427438;
 			
 			// aapt resource value: 0x7f0b0019
 			public static int beginning = 2131427353;
@@ -1941,11 +1941,11 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b004b
 			public static int buttonPanel = 2131427403;
 			
-			// aapt resource value: 0x7f0b0072
-			public static int buttons = 2131427442;
+			// aapt resource value: 0x7f0b0073
+			public static int buttons = 2131427443;
 			
-			// aapt resource value: 0x7f0b0076
-			public static int cancel_action = 2131427446;
+			// aapt resource value: 0x7f0b0077
+			public static int cancel_action = 2131427447;
 			
 			// aapt resource value: 0x7f0b0029
 			public static int center = 2131427369;
@@ -1959,8 +1959,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b004d
 			public static int checkbox = 2131427405;
 			
-			// aapt resource value: 0x7f0b007c
-			public static int chronometer = 2131427452;
+			// aapt resource value: 0x7f0b007d
+			public static int chronometer = 2131427453;
 			
 			// aapt resource value: 0x7f0b0031
 			public static int clip_horizontal = 2131427377;
@@ -1986,14 +1986,17 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b003e
 			public static int default_activity_button = 2131427390;
 			
-			// aapt resource value: 0x7f0b006c
-			public static int default_control_frame = 2131427436;
+			// aapt resource value: 0x7f0b006d
+			public static int default_control_frame = 2131427437;
 			
 			// aapt resource value: 0x7f0b000d
 			public static int disableHome = 2131427341;
 			
-			// aapt resource value: 0x7f0b0073
-			public static int disconnect = 2131427443;
+			// aapt resource value: 0x7f0b0074
+			public static int disconnect = 2131427444;
+			
+			// aapt resource value: 0x7f0b0066
+			public static int editText = 2131427430;
 			
 			// aapt resource value: 0x7f0b0057
 			public static int edit_query = 2131427415;
@@ -2001,8 +2004,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b001a
 			public static int end = 2131427354;
 			
-			// aapt resource value: 0x7f0b0081
-			public static int end_padder = 2131427457;
+			// aapt resource value: 0x7f0b0082
+			public static int end_padder = 2131427458;
 			
 			// aapt resource value: 0x7f0b0022
 			public static int enterAlways = 2131427362;
@@ -2046,17 +2049,17 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b003d
 			public static int image = 2131427389;
 			
-			// aapt resource value: 0x7f0b0080
-			public static int info = 2131427456;
+			// aapt resource value: 0x7f0b0081
+			public static int info = 2131427457;
 			
 			// aapt resource value: 0x7f0b002d
 			public static int left = 2131427373;
 			
-			// aapt resource value: 0x7f0b007a
-			public static int line1 = 2131427450;
+			// aapt resource value: 0x7f0b007b
+			public static int line1 = 2131427451;
 			
-			// aapt resource value: 0x7f0b007e
-			public static int line3 = 2131427454;
+			// aapt resource value: 0x7f0b007f
+			public static int line3 = 2131427455;
 			
 			// aapt resource value: 0x7f0b000a
 			public static int listMode = 2131427338;
@@ -2064,20 +2067,20 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b003f
 			public static int list_item = 2131427391;
 			
-			// aapt resource value: 0x7f0b0078
-			public static int media_actions = 2131427448;
+			// aapt resource value: 0x7f0b0079
+			public static int media_actions = 2131427449;
 			
-			// aapt resource value: 0x7f0b006b
-			public static int media_route_control_frame = 2131427435;
+			// aapt resource value: 0x7f0b006c
+			public static int media_route_control_frame = 2131427436;
 			
-			// aapt resource value: 0x7f0b0067
-			public static int media_route_list = 2131427431;
-			
-			// aapt resource value: 0x7f0b0070
-			public static int media_route_volume_layout = 2131427440;
+			// aapt resource value: 0x7f0b0068
+			public static int media_route_list = 2131427432;
 			
 			// aapt resource value: 0x7f0b0071
-			public static int media_route_volume_slider = 2131427441;
+			public static int media_route_volume_layout = 2131427441;
+			
+			// aapt resource value: 0x7f0b0072
+			public static int media_route_volume_slider = 2131427442;
 			
 			// aapt resource value: 0x7f0b001b
 			public static int middle = 2131427355;
@@ -2106,8 +2109,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b0027
 			public static int pin = 2131427367;
 			
-			// aapt resource value: 0x7f0b006e
-			public static int play_pause = 2131427438;
+			// aapt resource value: 0x7f0b006f
+			public static int play_pause = 2131427439;
 			
 			// aapt resource value: 0x7f0b0005
 			public static int progress_circular = 2131427333;
@@ -2121,8 +2124,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b002e
 			public static int right = 2131427374;
 			
-			// aapt resource value: 0x7f0b0069
-			public static int route_name = 2131427433;
+			// aapt resource value: 0x7f0b006a
+			public static int route_name = 2131427434;
 			
 			// aapt resource value: 0x7f0b0015
 			public static int screen = 2131427349;
@@ -2169,8 +2172,8 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b0063
 			public static int select_dialog_listview = 2131427427;
 			
-			// aapt resource value: 0x7f0b006a
-			public static int settings = 2131427434;
+			// aapt resource value: 0x7f0b006b
+			public static int settings = 2131427435;
 			
 			// aapt resource value: 0x7f0b004e
 			public static int shortcut = 2131427406;
@@ -2205,41 +2208,41 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0b002f
 			public static int start = 2131427375;
 			
-			// aapt resource value: 0x7f0b0077
-			public static int status_bar_latest_event_content = 2131427447;
+			// aapt resource value: 0x7f0b0078
+			public static int status_bar_latest_event_content = 2131427448;
 			
-			// aapt resource value: 0x7f0b0074
-			public static int stop = 2131427444;
+			// aapt resource value: 0x7f0b0075
+			public static int stop = 2131427445;
 			
 			// aapt resource value: 0x7f0b0060
 			public static int submit_area = 2131427424;
 			
-			// aapt resource value: 0x7f0b006f
-			public static int subtitle = 2131427439;
+			// aapt resource value: 0x7f0b0070
+			public static int subtitle = 2131427440;
 			
 			// aapt resource value: 0x7f0b000c
 			public static int tabMode = 2131427340;
 			
-			// aapt resource value: 0x7f0b007f
-			public static int text = 2131427455;
+			// aapt resource value: 0x7f0b0080
+			public static int text = 2131427456;
 			
-			// aapt resource value: 0x7f0b007d
-			public static int text2 = 2131427453;
+			// aapt resource value: 0x7f0b007e
+			public static int text2 = 2131427454;
 			
-			// aapt resource value: 0x7f0b0066
-			public static int textInputLayout = 2131427430;
+			// aapt resource value: 0x7f0b0067
+			public static int textInputLayout = 2131427431;
 			
 			// aapt resource value: 0x7f0b0048
 			public static int textSpacerNoButtons = 2131427400;
 			
-			// aapt resource value: 0x7f0b007b
-			public static int time = 2131427451;
+			// aapt resource value: 0x7f0b007c
+			public static int time = 2131427452;
 			
 			// aapt resource value: 0x7f0b0041
 			public static int title = 2131427393;
 			
-			// aapt resource value: 0x7f0b0068
-			public static int title_bar = 2131427432;
+			// aapt resource value: 0x7f0b0069
+			public static int title_bar = 2131427433;
 			
 			// aapt resource value: 0x7f0b0044
 			public static int title_template = 2131427396;
@@ -2409,61 +2412,73 @@ namespace Naylah.Xamarin.Android
 			public static int design_navigation_menu = 2130903072;
 			
 			// aapt resource value: 0x7f030021
-			public static int HandleCustomTextInputLayout = 2130903073;
+			public static int EditText = 2130903073;
 			
 			// aapt resource value: 0x7f030022
-			public static int HandleCustomTextInputLayoutLigh = 2130903074;
+			public static int EditTextLight = 2130903074;
 			
 			// aapt resource value: 0x7f030023
-			public static int mr_media_route_chooser_dialog = 2130903075;
+			public static int HandleCustomEditText = 2130903075;
 			
 			// aapt resource value: 0x7f030024
-			public static int mr_media_route_controller_material_dialog_b = 2130903076;
+			public static int HandleCustomEditTextLight = 2130903076;
 			
 			// aapt resource value: 0x7f030025
-			public static int mr_media_route_list_item = 2130903077;
+			public static int HandleCustomTextInputLayout = 2130903077;
 			
 			// aapt resource value: 0x7f030026
-			public static int notification_media_action = 2130903078;
+			public static int HandleCustomTextInputLayoutLight = 2130903078;
 			
 			// aapt resource value: 0x7f030027
-			public static int notification_media_cancel_action = 2130903079;
+			public static int mr_media_route_chooser_dialog = 2130903079;
 			
 			// aapt resource value: 0x7f030028
-			public static int notification_template_big_media = 2130903080;
+			public static int mr_media_route_controller_material_dialog_b = 2130903080;
 			
 			// aapt resource value: 0x7f030029
-			public static int notification_template_big_media_narrow = 2130903081;
+			public static int mr_media_route_list_item = 2130903081;
 			
 			// aapt resource value: 0x7f03002a
-			public static int notification_template_lines = 2130903082;
+			public static int notification_media_action = 2130903082;
 			
 			// aapt resource value: 0x7f03002b
-			public static int notification_template_media = 2130903083;
+			public static int notification_media_cancel_action = 2130903083;
 			
 			// aapt resource value: 0x7f03002c
-			public static int notification_template_part_chronometer = 2130903084;
+			public static int notification_template_big_media = 2130903084;
 			
 			// aapt resource value: 0x7f03002d
-			public static int notification_template_part_time = 2130903085;
+			public static int notification_template_big_media_narrow = 2130903085;
 			
 			// aapt resource value: 0x7f03002e
-			public static int select_dialog_item_material = 2130903086;
+			public static int notification_template_lines = 2130903086;
 			
 			// aapt resource value: 0x7f03002f
-			public static int select_dialog_multichoice_material = 2130903087;
+			public static int notification_template_media = 2130903087;
 			
 			// aapt resource value: 0x7f030030
-			public static int select_dialog_singlechoice_material = 2130903088;
+			public static int notification_template_part_chronometer = 2130903088;
 			
 			// aapt resource value: 0x7f030031
-			public static int support_simple_spinner_dropdown_item = 2130903089;
+			public static int notification_template_part_time = 2130903089;
 			
 			// aapt resource value: 0x7f030032
-			public static int TextInputLayout = 2130903090;
+			public static int select_dialog_item_material = 2130903090;
 			
 			// aapt resource value: 0x7f030033
-			public static int TextInputLayoutLight = 2130903091;
+			public static int select_dialog_multichoice_material = 2130903091;
+			
+			// aapt resource value: 0x7f030034
+			public static int select_dialog_singlechoice_material = 2130903092;
+			
+			// aapt resource value: 0x7f030035
+			public static int support_simple_spinner_dropdown_item = 2130903093;
+			
+			// aapt resource value: 0x7f030036
+			public static int TextInputLayout = 2130903094;
+			
+			// aapt resource value: 0x7f030037
+			public static int TextInputLayoutLight = 2130903095;
 			
 			static Layout()
 			{

@@ -106,10 +106,11 @@ namespace Naylah.Xamarin.Behaviors
         {
             try
             {
+                if (entry == null) { return; }
                 entry.Text = text;
                 //entry.SelectionStart = AssociatedObjectAsTextBox.Text.Length;
             }
-            catch (Exception)
+            catch (Exception e)
             {
             }
             finally

@@ -18,8 +18,8 @@
     <item name="colorControlNormal">#ffffff</item>
     <item name="colorControlActivated">#ffffff</item>
 
-    <item name="android:textColorSecondary">#ffffff</item>
-    <item name="android:textColorHint">#ffffff</item>
+    <item name="android:textColorSecondary">#f5f5f5</item>
+    <item name="android:textColorHint">#f5f5f5</item>
   </style>
 
   <style name="EditTextHintDark">
@@ -28,8 +28,6 @@
     <item name="colorControlActivated">#333333</item>
 
     <item name="android:textColorSecondary">#666666</item>
-    <!-- 333333 -->
     <item name="android:textColorHint">#666666</item>
-    <!-- 333333 -->
   </style>
 </resources>

@@ -23,46 +23,37 @@ namespace Naylah.SampleApp.Views
             BindingContext = new DashboardViewModel(); //Replace with your mvvm logic,DI, Locator, etc...
             Vm.IsBusy = true;
 
-
-            var litersTotal = new EntryBase()
-            {
-                Placeholder = "Total de litros",
-            };
-            litersTotal.AddNumericEntryBehavior(
-                new NumericEntryBehavior()
-                {
-                    NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Double,
-                    NumericFormat = "N"
-                }
-            );
-            litersTotal.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
-                Binding.Create<DashboardViewModel>(o => o.SomeDouble, BindingMode.TwoWay));
-
             var button = new Button()
             {
                 Text = "Another page",
             };
 
-            button.Clicked += (s, e) => { Vm.NavigateToAnotherPageWithParameter("dqw"); };
+            button.Clicked += async (s, e) => { await Vm.NavigateToAnotherPageWithParameter("dqw"); };
+
+            var button2 = new Button()
+            {
+                Text = "Entry page",
+            };
+
+            button2.Clicked += async (s, e) => { await Vm.NavigateToEntryPage(); };
 
             var content = new StackLayout()
             {
                 Children =
                 {
-                    button
+                    button,
+                    button2
                 }
             };
 
-
             var root = new StackLayout()
             {
-                HorizontalOptions = LayoutOptions.Center,
-                VerticalOptions = LayoutOptions.Center,
+                Padding = 8,
+                Spacing = 10,
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
                 Children =
                 {
-                    litersTotal,
-                    new EntryBase { Placeholder = "dqwdq"},
-                    //activityIndicator,
                     content
                 }
             };
