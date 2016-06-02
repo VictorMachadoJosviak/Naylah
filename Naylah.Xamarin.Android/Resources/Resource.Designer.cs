@@ -969,32 +969,32 @@ namespace Naylah.Xamarin.Android
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f08004c
-			public static int abc_background_cache_hint_selector_material_dark = 2131230796;
+			// aapt resource value: 0x7f080047
+			public static int abc_background_cache_hint_selector_material_dark = 2131230791;
 			
-			// aapt resource value: 0x7f08004d
-			public static int abc_background_cache_hint_selector_material_light = 2131230797;
+			// aapt resource value: 0x7f080048
+			public static int abc_background_cache_hint_selector_material_light = 2131230792;
 			
-			// aapt resource value: 0x7f08004e
-			public static int abc_color_highlight_material = 2131230798;
+			// aapt resource value: 0x7f080049
+			public static int abc_color_highlight_material = 2131230793;
 			
 			// aapt resource value: 0x7f080004
 			public static int abc_input_method_navigation_guard = 2131230724;
 			
-			// aapt resource value: 0x7f08004f
-			public static int abc_primary_text_disable_only_material_dark = 2131230799;
+			// aapt resource value: 0x7f08004a
+			public static int abc_primary_text_disable_only_material_dark = 2131230794;
 			
-			// aapt resource value: 0x7f080050
-			public static int abc_primary_text_disable_only_material_light = 2131230800;
+			// aapt resource value: 0x7f08004b
+			public static int abc_primary_text_disable_only_material_light = 2131230795;
 			
-			// aapt resource value: 0x7f080051
-			public static int abc_primary_text_material_dark = 2131230801;
+			// aapt resource value: 0x7f08004c
+			public static int abc_primary_text_material_dark = 2131230796;
 			
-			// aapt resource value: 0x7f080052
-			public static int abc_primary_text_material_light = 2131230802;
+			// aapt resource value: 0x7f08004d
+			public static int abc_primary_text_material_light = 2131230797;
 			
-			// aapt resource value: 0x7f080053
-			public static int abc_search_url_text = 2131230803;
+			// aapt resource value: 0x7f08004e
+			public static int abc_search_url_text = 2131230798;
 			
 			// aapt resource value: 0x7f080005
 			public static int abc_search_url_text_normal = 2131230725;
@@ -1005,14 +1005,11 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f080007
 			public static int abc_search_url_text_selected = 2131230727;
 			
-			// aapt resource value: 0x7f080054
-			public static int abc_secondary_text_material_dark = 2131230804;
+			// aapt resource value: 0x7f08004f
+			public static int abc_secondary_text_material_dark = 2131230799;
 			
-			// aapt resource value: 0x7f080055
-			public static int abc_secondary_text_material_light = 2131230805;
-			
-			// aapt resource value: 0x7f080049
-			public static int accent = 2131230793;
+			// aapt resource value: 0x7f080050
+			public static int abc_secondary_text_material_light = 2131230800;
 			
 			// aapt resource value: 0x7f080008
 			public static int accent_material_dark = 2131230728;
@@ -1161,12 +1158,6 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f08002b
 			public static int material_grey_900 = 2131230763;
 			
-			// aapt resource value: 0x7f080047
-			public static int primary = 2131230791;
-			
-			// aapt resource value: 0x7f080048
-			public static int primaryDark = 2131230792;
-			
 			// aapt resource value: 0x7f08002c
 			public static int primary_dark_material_dark = 2131230764;
 			
@@ -1209,29 +1200,23 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f080039
 			public static int secondary_text_disabled_material_light = 2131230777;
 			
-			// aapt resource value: 0x7f08004b
-			public static int selected_item = 2131230795;
-			
 			// aapt resource value: 0x7f08003a
 			public static int switch_thumb_disabled_material_dark = 2131230778;
 			
 			// aapt resource value: 0x7f08003b
 			public static int switch_thumb_disabled_material_light = 2131230779;
 			
-			// aapt resource value: 0x7f080056
-			public static int switch_thumb_material_dark = 2131230806;
+			// aapt resource value: 0x7f080051
+			public static int switch_thumb_material_dark = 2131230801;
 			
-			// aapt resource value: 0x7f080057
-			public static int switch_thumb_material_light = 2131230807;
+			// aapt resource value: 0x7f080052
+			public static int switch_thumb_material_light = 2131230802;
 			
 			// aapt resource value: 0x7f08003c
 			public static int switch_thumb_normal_material_dark = 2131230780;
 			
 			// aapt resource value: 0x7f08003d
 			public static int switch_thumb_normal_material_light = 2131230781;
-			
-			// aapt resource value: 0x7f08004a
-			public static int window_background = 2131230794;
 			
 			static Color()
 			{
@@ -2492,12 +2477,6 @@ namespace Naylah.Xamarin.Android
 		
 		public partial class String
 		{
-			
-			// aapt resource value: 0x7f05001f
-			public static int ApplicationName = 2131034143;
-			
-			// aapt resource value: 0x7f05001e
-			public static int Hello = 2131034142;
 			
 			// aapt resource value: 0x7f05000b
 			public static int abc_action_bar_home_description = 2131034123;

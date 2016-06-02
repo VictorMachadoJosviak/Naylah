@@ -37,6 +37,7 @@ namespace Naylah.SampleApp.Droid
             CurrentApp = new App();
 
             LoadApplication(CurrentApp);
+
         }
 
         protected override async void OnStart()
