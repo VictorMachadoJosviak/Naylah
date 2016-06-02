@@ -18,84 +18,159 @@ namespace Naylah.SampleApp.Views
             Title = "Entry";
             BindingContext = new EntryDemoViewModel(); //Replace with your mvvm logic,DI, Locator, etc...
 
-            #region Numeric
-            var numericEntry = new EntryBase()
+            #region Numeric Double
+            var numericDoubleEntry = new EntryBase()
             {
                 Placeholder = "Total de litros"
             };
-            numericEntry.AddNumericEntryBehavior(
+            numericDoubleEntry.AddNumericEntryBehavior(
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Double,
-                    NumericFormat = "N"
                 }
             );
-            numericEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+            numericDoubleEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
                 Binding.Create<EntryDemoViewModel>(o => o.SomeDouble, BindingMode.TwoWay));
 
-            var numericEntryFloat = new FloatLabeledEntry()
+            var numericDoubleEntryFloat = new FloatLabeledEntry()
             {
                 Placeholder = "Total de litros"
             };
-            numericEntryFloat.AddNumericEntryBehavior(
+            numericDoubleEntryFloat.AddNumericEntryBehavior(
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Double,
-                    NumericFormat = "N"
                 }
             );
-            numericEntryFloat.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+            numericDoubleEntryFloat.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
                 Binding.Create<EntryDemoViewModel>(o => o.SomeDouble, BindingMode.TwoWay));
 
-            var numericEntryLight = new EntryBase()
+            var numericDoubleEntryLight = new EntryBase()
             {
                 Theme = Xamarin.Controls.Style.BasicTheme.Light,
                 Placeholder = "Total de litros"
             };
-            numericEntryLight.AddNumericEntryBehavior(
+            numericDoubleEntryLight.AddNumericEntryBehavior(
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Double,
-                    NumericFormat = "N"
                 }
             );
-            numericEntryLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+            numericDoubleEntryLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
                 Binding.Create<EntryDemoViewModel>(o => o.SomeDouble, BindingMode.TwoWay));
 
-            var numericEntryFloatLight = new FloatLabeledEntry()
+            var numericDoubleEntryFloatLight = new FloatLabeledEntry()
             {
                 Theme = Xamarin.Controls.Style.BasicTheme.Light,
                 Placeholder = "Total de litros"
             };
-            numericEntryFloatLight.AddNumericEntryBehavior(
+            numericDoubleEntryFloatLight.AddNumericEntryBehavior(
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Double,
-                    NumericFormat = "N"
                 }
             );
-            numericEntryFloatLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+            numericDoubleEntryFloatLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
                 Binding.Create<EntryDemoViewModel>(o => o.SomeDouble, BindingMode.TwoWay));
 
-            var numeric = new StackLayout()
+            var numericDouble = new StackLayout()
             {
                 Padding = 8,
-                Spacing = 10,
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 Children =
                 {
-                    numericEntry,
-                    numericEntryFloat,
-                    numericEntryLight,
-                    numericEntryFloatLight
+                    numericDoubleEntry,
+                    numericDoubleEntryFloat,
+                    numericDoubleEntryLight,
+                    numericDoubleEntryFloatLight
                 }
             };
 
-            var numericPage = new ContentPage
+            var numericDoublePage = new ContentPage
             {
-                Content = numeric,
-                Title = "Numeric entry"
+                Content = numericDouble,
+                Title = "Numeric entry double"
+            };
+            #endregion
+
+            #region Numeric Double
+            var numericIntegerEntry = new EntryBase()
+            {
+                Placeholder = "Total de litros"
+            };
+            numericIntegerEntry.AddNumericEntryBehavior(
+                new NumericEntryBehavior()
+                {
+                    NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
+                    NumericFormat = "C"
+                }
+            );
+            numericIntegerEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+                Binding.Create<EntryDemoViewModel>(o => o.SomeInteger, BindingMode.TwoWay));
+
+            var numericIntegerEntryFloat = new FloatLabeledEntry()
+            {
+                Placeholder = "Total de litros"
+            };
+            numericIntegerEntryFloat.AddNumericEntryBehavior(
+                new NumericEntryBehavior()
+                {
+                    NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
+                    NumericFormat = "C"
+                }
+            );
+            numericIntegerEntryFloat.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+                Binding.Create<EntryDemoViewModel>(o => o.SomeInteger, BindingMode.TwoWay));
+
+            var numericIntegerEntryLight = new EntryBase()
+            {
+                Theme = Xamarin.Controls.Style.BasicTheme.Light,
+                Placeholder = "Total de litros"
+            };
+            numericIntegerEntryLight.AddNumericEntryBehavior(
+                new NumericEntryBehavior()
+                {
+                    NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
+                    NumericFormat = "C"
+                }
+            );
+            numericIntegerEntryLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+                Binding.Create<EntryDemoViewModel>(o => o.SomeInteger, BindingMode.TwoWay));
+
+            var numericIntegerEntryFloatLight = new FloatLabeledEntry()
+            {
+                Theme = Xamarin.Controls.Style.BasicTheme.Light,
+                Placeholder = "Total de litros"
+            };
+            numericIntegerEntryFloatLight.AddNumericEntryBehavior(
+                new NumericEntryBehavior()
+                {
+                    NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
+                    NumericFormat = "C"
+                }
+            );
+            numericIntegerEntryFloatLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
+                Binding.Create<EntryDemoViewModel>(o => o.SomeInteger, BindingMode.TwoWay));
+
+            var numericInteger = new StackLayout()
+            {
+                Padding = 8,
+                HorizontalOptions = LayoutOptions.Fill,
+                VerticalOptions = LayoutOptions.Fill,
+                Children =
+                {
+                    numericIntegerEntry,
+                    numericIntegerEntryFloat,
+                    numericIntegerEntryLight,
+                    numericIntegerEntryFloatLight
+                }
+            };
+
+            var numericIntegerPage = new ContentPage
+            {
+                Content = numericInteger,
+                Title = "Numeric entry integer"
             };
             #endregion
 
@@ -115,7 +190,6 @@ namespace Naylah.SampleApp.Views
             var entry = new StackLayout()
             {
                 Padding = 8,
-                Spacing = 10,
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 Children =
@@ -134,7 +208,8 @@ namespace Naylah.SampleApp.Views
             };
             #endregion
 
-            Children.Add(numericPage);
+            Children.Add(numericDoublePage);
+            Children.Add(numericIntegerPage);
             Children.Add(entryPage);
         }
     }
