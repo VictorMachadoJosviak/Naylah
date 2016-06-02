@@ -15,7 +15,7 @@ namespace Naylah.SampleApp.Views
     {
         public EntryDemoPage()
         {
-            Title = "Entry";
+            Title = "Numeric Entry Double";
             BindingContext = new EntryDemoViewModel(); //Replace with your mvvm logic,DI, Locator, etc...
 
             #region Numeric Double
@@ -90,7 +90,7 @@ namespace Naylah.SampleApp.Views
             var numericDoublePage = new ContentPage
             {
                 Content = numericDouble,
-                Title = "Numeric entry double"
+                Title = "Entry double"
             };
             #endregion
 
@@ -170,7 +170,7 @@ namespace Naylah.SampleApp.Views
             var numericIntegerPage = new ContentPage
             {
                 Content = numericInteger,
-                Title = "Numeric entry integer"
+                Title = "Entry integer"
             };
             #endregion
 
