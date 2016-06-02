@@ -41,6 +41,7 @@
     <Compile Include="Mvvm\AppViewModelBase.cs" />
     <Compile Include="Mvvm\ViewModelBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Styles\DefaultAppStyleKit.cs" />
     <Compile Include="ViewModels\AnotherViewModel.cs" />
     <Compile Include="ViewModels\DashboardViewModel.cs" />
     <Compile Include="ViewModels\EntryDemoViewModel.cs" />
@@ -49,6 +50,7 @@
     <Compile Include="Views\DashboardPage.cs" />
     <Compile Include="Views\EntryDemoPage.cs" />
     <Compile Include="Views\Menu\MenuListData.cs" />
+    <Compile Include="Views\Menu\MenuPage.cs" />
     <Compile Include="Views\Menu\NavMenuItem.cs" />
     <Compile Include="Views\ShellPage.cs" />
     <Compile Include="Views\SplashPage.cs" />

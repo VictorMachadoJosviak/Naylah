@@ -9,8 +9,8 @@ namespace Naylah.SampleApp.Views.Menu
     public class MenuListData
     {
 
-        //public static List<NavMenuItem> TopItems { get; set; }
-        //public static List<NavMenuItem> BottomItems { get; set; }
+        public static List<NavMenuItem> TopItems { get; set; }
+        public static List<NavMenuItem> BottomItems { get; set; }
 
         public static NavMenuItem Dashboard { get; }
         //public static NavMenuItem Settings { get; }
@@ -21,20 +21,20 @@ namespace Naylah.SampleApp.Views.Menu
             Dashboard =
                 new NavMenuItem()
                 {
-                    Title = "Menu Inicial",
+                    Title = "Dashboard",
                     //Icon = "ic_home",
                     TargetType = typeof(DashboardPage),
                 };
 
-            //TopItems = new List<NavMenuItem>()
-            //{
-            //    Dashboard,
-            //};
+            TopItems = new List<NavMenuItem>()
+            {
+                Dashboard,
+            };
 
-            //BottomItems = new List<NavMenuItem>()
-            //{
-            //    Settings
-            //};
+            BottomItems = new List<NavMenuItem>()
+            {
+                //Settings
+            };
 
         }
 

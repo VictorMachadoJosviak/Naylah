@@ -1,6 +1,25 @@
 ﻿<resources>
-  <color name="primary">#2196F3</color>
-  <color name="primaryDark">#1976D2</color>
-  <color name="accent">#FFC107</color>
-  <color name="window_background">#F5F5F5</color>
+
+  <!--
+   Create your own
+   http://www.materialpalette.com/purple/deep-purple
+   -->
+
+  <color name="primaryColor">#9C27B0</color>
+  <color name="primaryDarkColor">#7B1FA2</color>
+  <color name="primaryLightColor">#E1BEE7</color>
+
+  <color name="secondaryColor">#9C27B0</color>
+  <color name="secondaryDarkColor">#7B1FA2</color>
+
+  <color name="accentColor">#FF4081</color>
+
+  <color name="windowColor">#7B1FA2</color>
+
+  <color name="primaryText">#212121</color>
+  <color name="secondaryText">#727272</color>
+
+  <color name="dividerColor">#B6B6B6</color>
+
+
 </resources>

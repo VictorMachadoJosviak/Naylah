@@ -19,7 +19,7 @@ namespace Naylah.SampleApp.Views
             BindingContext = new ShellViewModel(); //Replace.....
 
 
-            ((NavigationPage)Detail).BarBackgroundColor = Color.Red;//StyleKit.Primary;
+            ((NavigationPage)Detail).BarBackgroundColor = App.CurrentApp.StyleKit.PrimaryColor;
             ((NavigationPage)Detail).BarTextColor = Color.White;
 
             var btGoTODash = new Button() { Text = "NavigateToDashboard"};

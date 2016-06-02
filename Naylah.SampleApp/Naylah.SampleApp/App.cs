@@ -1,4 +1,5 @@
-﻿using Naylah.SampleApp.Views;
+﻿using Naylah.SampleApp.Styles;
+using Naylah.SampleApp.Views;
 using Naylah.SampleApp.Views.Menu;
 using Naylah.Xamarin.Common;
 using System;
@@ -17,6 +18,8 @@ namespace Naylah.SampleApp
         public App()
         {
             CurrentApp = this;
+            StyleKit = new DefaultAppStyleKit();
+
             ConfigurePrelaunchPhase();
         }
 

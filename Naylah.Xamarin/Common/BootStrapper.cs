@@ -1,4 +1,5 @@
-﻿using Naylah.Xamarin.Services.NavigationService;
+﻿using Naylah.Xamarin.Controls.Style;
+using Naylah.Xamarin.Services.NavigationService;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,20 @@ namespace Naylah.Xamarin.Common
 {
     public class BootStrapper : Application
     {
+        private StyleKit _styleKit;
+
+        internal static BootStrapper CurrentApp;
+
+        public StyleKit StyleKit
+        {
+            get { return _styleKit; }
+            set { _styleKit = value; ApplyStyleKit(); }
+        }
+
+        private void ApplyStyleKit()
+        {
+            StyleKit.Customizations?.Invoke();
+        }
 
         public Action PlataformSpecifyInitializationExtension;
 
@@ -17,7 +32,8 @@ namespace Naylah.Xamarin.Common
         public bool Initialized { get; private set; }
 
         public BootStrapper()
-        {            
+        {
+            CurrentApp = this;
         }
 
         public new Page MainPage

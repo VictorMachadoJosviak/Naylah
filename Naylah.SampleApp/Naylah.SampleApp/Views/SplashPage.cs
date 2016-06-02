@@ -15,7 +15,7 @@ namespace Naylah.SampleApp.Views
 
             NavigationPage.SetHasNavigationBar(this, false);
 
-            BackgroundColor = Color.Blue;
+            BackgroundColor = App.CurrentApp.StyleKit.WindowColor;
 
             Content = new StackLayout()
             {
