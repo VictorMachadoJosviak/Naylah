@@ -380,7 +380,6 @@ namespace Naylah.SampleApp.Droid
 			global::Naylah.Xamarin.Android.Resource.Color.abc_search_url_text_selected = global::Naylah.SampleApp.Droid.Resource.Color.abc_search_url_text_selected;
 			global::Naylah.Xamarin.Android.Resource.Color.abc_secondary_text_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.abc_secondary_text_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.abc_secondary_text_material_light = global::Naylah.SampleApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Naylah.Xamarin.Android.Resource.Color.accent = global::Naylah.SampleApp.Droid.Resource.Color.accent;
 			global::Naylah.Xamarin.Android.Resource.Color.accent_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.accent_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.accent_material_light = global::Naylah.SampleApp.Droid.Resource.Color.accent_material_light;
 			global::Naylah.Xamarin.Android.Resource.Color.background_floating_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.background_floating_material_dark;
@@ -431,8 +430,6 @@ namespace Naylah.SampleApp.Droid
 			global::Naylah.Xamarin.Android.Resource.Color.material_grey_800 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_800;
 			global::Naylah.Xamarin.Android.Resource.Color.material_grey_850 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_850;
 			global::Naylah.Xamarin.Android.Resource.Color.material_grey_900 = global::Naylah.SampleApp.Droid.Resource.Color.material_grey_900;
-			global::Naylah.Xamarin.Android.Resource.Color.primary = global::Naylah.SampleApp.Droid.Resource.Color.primary;
-			global::Naylah.Xamarin.Android.Resource.Color.primaryDark = global::Naylah.SampleApp.Droid.Resource.Color.primaryDark;
 			global::Naylah.Xamarin.Android.Resource.Color.primary_dark_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.primary_dark_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.primary_dark_material_light = global::Naylah.SampleApp.Droid.Resource.Color.primary_dark_material_light;
 			global::Naylah.Xamarin.Android.Resource.Color.primary_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.primary_material_dark;
@@ -447,14 +444,12 @@ namespace Naylah.SampleApp.Droid
 			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_default_material_light = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_default_material_light;
 			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.secondary_text_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Naylah.Xamarin.Android.Resource.Color.selected_item = global::Naylah.SampleApp.Droid.Resource.Color.selected_item;
 			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_disabled_material_light = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
 			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_material_light = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_material_light;
 			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_normal_material_dark = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Naylah.Xamarin.Android.Resource.Color.switch_thumb_normal_material_light = global::Naylah.SampleApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Naylah.Xamarin.Android.Resource.Color.window_background = global::Naylah.SampleApp.Droid.Resource.Color.window_background;
 			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_content_inset_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
 			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_default_height_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
 			global::Naylah.Xamarin.Android.Resource.Dimension.abc_action_bar_default_padding_end_material = global::Naylah.SampleApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
@@ -961,8 +956,6 @@ namespace Naylah.SampleApp.Droid
 			global::Naylah.Xamarin.Android.Resource.Layout.support_simple_spinner_dropdown_item = global::Naylah.SampleApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Naylah.Xamarin.Android.Resource.Layout.TextInputLayout = global::Naylah.SampleApp.Droid.Resource.Layout.TextInputLayout;
 			global::Naylah.Xamarin.Android.Resource.Layout.TextInputLayoutLight = global::Naylah.SampleApp.Droid.Resource.Layout.TextInputLayoutLight;
-			global::Naylah.Xamarin.Android.Resource.String.ApplicationName = global::Naylah.SampleApp.Droid.Resource.String.ApplicationName;
-			global::Naylah.Xamarin.Android.Resource.String.Hello = global::Naylah.SampleApp.Droid.Resource.String.Hello;
 			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_home_description = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_home_description_format = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_home_description_format;
 			global::Naylah.Xamarin.Android.Resource.String.abc_action_bar_home_subtitle_description_format = global::Naylah.SampleApp.Droid.Resource.String.abc_action_bar_home_subtitle_description_format;
@@ -2896,32 +2889,32 @@ namespace Naylah.SampleApp.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0b004d
-			public const int abc_background_cache_hint_selector_material_dark = 2131427405;
+			// aapt resource value: 0x7f0b0057
+			public const int abc_background_cache_hint_selector_material_dark = 2131427415;
 			
-			// aapt resource value: 0x7f0b004e
-			public const int abc_background_cache_hint_selector_material_light = 2131427406;
+			// aapt resource value: 0x7f0b0058
+			public const int abc_background_cache_hint_selector_material_light = 2131427416;
 			
-			// aapt resource value: 0x7f0b004f
-			public const int abc_color_highlight_material = 2131427407;
+			// aapt resource value: 0x7f0b0059
+			public const int abc_color_highlight_material = 2131427417;
 			
 			// aapt resource value: 0x7f0b0004
 			public const int abc_input_method_navigation_guard = 2131427332;
 			
-			// aapt resource value: 0x7f0b0050
-			public const int abc_primary_text_disable_only_material_dark = 2131427408;
+			// aapt resource value: 0x7f0b005a
+			public const int abc_primary_text_disable_only_material_dark = 2131427418;
 			
-			// aapt resource value: 0x7f0b0051
-			public const int abc_primary_text_disable_only_material_light = 2131427409;
+			// aapt resource value: 0x7f0b005b
+			public const int abc_primary_text_disable_only_material_light = 2131427419;
 			
-			// aapt resource value: 0x7f0b0052
-			public const int abc_primary_text_material_dark = 2131427410;
+			// aapt resource value: 0x7f0b005c
+			public const int abc_primary_text_material_dark = 2131427420;
 			
-			// aapt resource value: 0x7f0b0053
-			public const int abc_primary_text_material_light = 2131427411;
+			// aapt resource value: 0x7f0b005d
+			public const int abc_primary_text_material_light = 2131427421;
 			
-			// aapt resource value: 0x7f0b0054
-			public const int abc_search_url_text = 2131427412;
+			// aapt resource value: 0x7f0b005e
+			public const int abc_search_url_text = 2131427422;
 			
 			// aapt resource value: 0x7f0b0005
 			public const int abc_search_url_text_normal = 2131427333;
@@ -2932,14 +2925,17 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0007
 			public const int abc_search_url_text_selected = 2131427335;
 			
-			// aapt resource value: 0x7f0b0055
-			public const int abc_secondary_text_material_dark = 2131427413;
+			// aapt resource value: 0x7f0b005f
+			public const int abc_secondary_text_material_dark = 2131427423;
 			
-			// aapt resource value: 0x7f0b0056
-			public const int abc_secondary_text_material_light = 2131427414;
+			// aapt resource value: 0x7f0b0060
+			public const int abc_secondary_text_material_light = 2131427424;
 			
 			// aapt resource value: 0x7f0b004a
 			public const int accent = 2131427402;
+			
+			// aapt resource value: 0x7f0b0052
+			public const int accentColor = 2131427410;
 			
 			// aapt resource value: 0x7f0b0008
 			public const int accent_material_dark = 2131427336;
@@ -3037,6 +3033,9 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0019
 			public const int dim_foreground_material_light = 2131427353;
 			
+			// aapt resource value: 0x7f0b0056
+			public const int dividerColor = 2131427414;
+			
 			// aapt resource value: 0x7f0b001a
 			public const int foreground_material_dark = 2131427354;
 			
@@ -3094,8 +3093,20 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0048
 			public const int primary = 2131427400;
 			
+			// aapt resource value: 0x7f0b004d
+			public const int primaryColor = 2131427405;
+			
 			// aapt resource value: 0x7f0b0049
 			public const int primaryDark = 2131427401;
+			
+			// aapt resource value: 0x7f0b004e
+			public const int primaryDarkColor = 2131427406;
+			
+			// aapt resource value: 0x7f0b004f
+			public const int primaryLightColor = 2131427407;
+			
+			// aapt resource value: 0x7f0b0054
+			public const int primaryText = 2131427412;
 			
 			// aapt resource value: 0x7f0b002c
 			public const int primary_dark_material_dark = 2131427372;
@@ -3127,6 +3138,15 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b0035
 			public const int ripple_material_light = 2131427381;
 			
+			// aapt resource value: 0x7f0b0050
+			public const int secondaryColor = 2131427408;
+			
+			// aapt resource value: 0x7f0b0051
+			public const int secondaryDarkColor = 2131427409;
+			
+			// aapt resource value: 0x7f0b0055
+			public const int secondaryText = 2131427413;
+			
 			// aapt resource value: 0x7f0b0036
 			public const int secondary_text_default_material_dark = 2131427382;
 			
@@ -3148,17 +3168,20 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0b003b
 			public const int switch_thumb_disabled_material_light = 2131427387;
 			
-			// aapt resource value: 0x7f0b0057
-			public const int switch_thumb_material_dark = 2131427415;
+			// aapt resource value: 0x7f0b0061
+			public const int switch_thumb_material_dark = 2131427425;
 			
-			// aapt resource value: 0x7f0b0058
-			public const int switch_thumb_material_light = 2131427416;
+			// aapt resource value: 0x7f0b0062
+			public const int switch_thumb_material_light = 2131427426;
 			
 			// aapt resource value: 0x7f0b003c
 			public const int switch_thumb_normal_material_dark = 2131427388;
 			
 			// aapt resource value: 0x7f0b003d
 			public const int switch_thumb_normal_material_light = 2131427389;
+			
+			// aapt resource value: 0x7f0b0053
+			public const int windowColor = 2131427411;
 			
 			// aapt resource value: 0x7f0b004b
 			public const int window_background = 2131427403;
@@ -5392,7 +5415,7 @@ namespace Naylah.SampleApp.Droid
 			public const int MyTheme = 2131362166;
 			
 			// aapt resource value: 0x7f0a0177
-			public const int MyTheme_Base = 2131362167;
+			public const int Naylah_Base = 2131362167;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int Platform_AppCompat = 2131361842;

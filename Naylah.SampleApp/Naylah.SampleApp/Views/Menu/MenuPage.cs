@@ -1,4 +1,7 @@
-﻿using System;
+﻿using FFImageLoading.Forms;
+using FFImageLoading.Transformations;
+using Naylah.Xamarin.Controls.Style;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,7 +23,7 @@ namespace Naylah.SampleApp.Views.Menu
         public ListView _menuListViewTop;
         public ListView _menuListViewBottom;
 
-        public ImageButton _configButton;
+        //public ImageButton _configButton;
 
         Image _menuImage;
         StackLayout _rootLayout;
@@ -56,28 +59,28 @@ namespace Naylah.SampleApp.Views.Menu
                 CacheDuration = TimeSpan.FromDays(30),
                 RetryCount = 3,
                 RetryDelay = 500,
-                LoadingPlaceholder = StyleKit.UserPlaceholderLight,
-                ErrorPlaceholder = StyleKit.UserPlaceholderLight,
+                LoadingPlaceholder = "icon",
+                ErrorPlaceholder = "icon",
                 Transformations = new List<FFImageLoading.Work.ITransformation> {
                     new CircleTransformation(0, "#e5e5e5")
                 }
             };
-            userImage.SetBinding(CachedImage.SourceProperty,
-                Binding.Create<MenuViewModel>(vm => vm.CurrentUser.ImageUri, BindingMode.Default, new ImageToPlaceholderConverter()));
+            //userImage.SetBinding(CachedImage.SourceProperty,
+            //    Binding.Create<MenuViewModel>(vm => vm.CurrentUser.ImageUri, BindingMode.Default, new ImageToPlaceholderConverter()));
 
             var userFullName = new Label
             {
-                TextColor = StyleKit.TextColorPrimaryLight,
+                TextColor = Color.White,
                 FontSize = 16
             };
-            userFullName.SetBinding(Label.TextProperty, Binding.Create<MenuViewModel>(vm => vm.CurrentUser.FullName));
+            //userFullName.SetBinding(Label.TextProperty, Binding.Create<MenuViewModel>(vm => vm.CurrentUser.FullName));
 
             var userEmail = new Label
             {
-                TextColor = StyleKit.TextColorPrimaryLight,
+                TextColor = Color.White,
                 FontSize = 14,
             };
-            userEmail.SetBinding(Label.TextProperty, Binding.Create<MenuViewModel>(vm => vm.CurrentUser.UserName));
+            //userEmail.SetBinding(Label.TextProperty, Binding.Create<MenuViewModel>(vm => vm.CurrentUser.UserName));
 
             #endregion
 
@@ -86,7 +89,7 @@ namespace Naylah.SampleApp.Views.Menu
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 Aspect = Aspect.Fill,
-                Source = StyleKit.MenuPageImageHeader
+                Source = "icon"
             };
 
             var accountDetails = new StackLayout
