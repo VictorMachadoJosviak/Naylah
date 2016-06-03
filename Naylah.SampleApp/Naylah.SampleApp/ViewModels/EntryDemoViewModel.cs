@@ -35,7 +35,7 @@ namespace Naylah.SampleApp.ViewModels
         public int SomeInteger
         {
             get { return _someInteger; }
-            set { _someInteger = value; }
+            set { Set(ref _someInteger, value); }
         }
 
     }

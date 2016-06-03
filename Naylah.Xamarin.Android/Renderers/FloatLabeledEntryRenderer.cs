@@ -100,11 +100,11 @@ namespace Naylah.Xamarin.Android.Renderers
 
             if (Element.Theme == BasicTheme.Dark)
             {
-                NativeView.EditText.SetHintTextColor(Color.Black.ToAndroid());
+                NativeView.EditText.SetHintTextColor(StyleKit.Current.PrimaryTextColor.ToAndroid());
             }
             else
             {
-                NativeView.EditText.SetHintTextColor(Color.White.ToAndroid());
+                NativeView.EditText.SetHintTextColor(StyleKit.Current.SecondaryTextColor.ToAndroid());
             }
 
         }
@@ -113,11 +113,11 @@ namespace Naylah.Xamarin.Android.Renderers
         {
             if (Element.Theme == BasicTheme.Dark)
             {
-                NativeView.EditText.SetTextColor(Color.Black.ToAndroid());
+                NativeView.EditText.SetTextColor(StyleKit.Current.PrimaryTextColor.ToAndroid());
             }
             else
             {
-                NativeView.EditText.SetTextColor(Color.White.ToAndroid());
+                NativeView.EditText.SetTextColor(StyleKit.Current.SecondaryTextColor.ToAndroid());
             }
         }
 

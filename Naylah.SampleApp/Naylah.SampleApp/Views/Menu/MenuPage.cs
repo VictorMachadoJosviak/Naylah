@@ -23,17 +23,8 @@ namespace Naylah.SampleApp.Views.Menu
         public ListView _menuListViewTop;
         public ListView _menuListViewBottom;
 
-        //public ImageButton _configButton;
-
-        Image _menuImage;
-        StackLayout _rootLayout;
-        StackLayout _mainLayout;
-        StackLayout _bottomLayout;
-        AbsoluteLayout _imageLayout;
-
         void CreateLayout()
         {
-
             var cell = new DataTemplate(typeof(ImageCell));
             cell.SetBinding(TextCell.TextProperty, "Title");
             cell.SetBinding(ImageCell.ImageSourceProperty, "Icon");
@@ -71,7 +62,8 @@ namespace Naylah.SampleApp.Views.Menu
             var userFullName = new Label
             {
                 TextColor = Color.White,
-                FontSize = 16
+                FontSize = 16,
+                Text = "Full name"
             };
             //userFullName.SetBinding(Label.TextProperty, Binding.Create<MenuViewModel>(vm => vm.CurrentUser.FullName));
 
@@ -79,22 +71,21 @@ namespace Naylah.SampleApp.Views.Menu
             {
                 TextColor = Color.White,
                 FontSize = 14,
+                Text = "Email"
             };
             //userEmail.SetBinding(Label.TextProperty, Binding.Create<MenuViewModel>(vm => vm.CurrentUser.UserName));
 
             #endregion
 
-            _menuImage = new Image
+            var _menuImage = new StackLayout
             {
-                HorizontalOptions = LayoutOptions.Fill,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.Fill,
-                Aspect = Aspect.Fill,
-                Source = "icon"
             };
 
             var accountDetails = new StackLayout
             {
-                Padding = new Thickness(6, 0, 0, 0),
+                Padding = 0,
                 Children =
                 {
                     userImage,
@@ -113,9 +104,10 @@ namespace Naylah.SampleApp.Views.Menu
             AbsoluteLayout.SetLayoutBounds(accountDetails, new Rectangle(.07, .75, AbsoluteLayout.AutoSize, AbsoluteLayout.AutoSize));
             AbsoluteLayout.SetLayoutFlags(accountDetails, AbsoluteLayoutFlags.PositionProportional);
 
-            _imageLayout = new AbsoluteLayout
+            var _imageLayout = new AbsoluteLayout
             {
-                HorizontalOptions = LayoutOptions.Start,
+                BackgroundColor = StyleKit.Current.WindowColor,
+                HorizontalOptions = LayoutOptions.FillAndExpand,
                 HeightRequest = 185,
                 Children =
                 {
@@ -138,7 +130,7 @@ namespace Naylah.SampleApp.Views.Menu
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 HeightRequest = TopMenuItemsHeightRequest,
-                RowHeight = MenuItemsHeight,
+                RowHeight = MenuItemsHeight
             };
             _menuListViewTop.ItemTapped += (s, i) => { MenusItemTapped?.Invoke(s, i); };
 
@@ -151,13 +143,12 @@ namespace Naylah.SampleApp.Views.Menu
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.Fill,
                 HeightRequest = BottomMenuItemsHeightRequest,
-                RowHeight = MenuItemsHeight,
-
+                RowHeight = MenuItemsHeight
             };
             _menuListViewBottom.ItemTapped += (s, i) => { MenusItemTapped?.Invoke(s, i); };
 
 
-            _mainLayout = new StackLayout
+            var _mainLayout = new StackLayout
             {
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.StartAndExpand,
@@ -167,7 +158,7 @@ namespace Naylah.SampleApp.Views.Menu
                 }
             };
 
-            _bottomLayout = new StackLayout
+            var _bottomLayout = new StackLayout
             {
                 HorizontalOptions = LayoutOptions.Fill,
                 VerticalOptions = LayoutOptions.EndAndExpand,
@@ -177,7 +168,7 @@ namespace Naylah.SampleApp.Views.Menu
                 }
             };
 
-            _rootLayout = new StackLayout
+            var _rootLayout = new StackLayout
             {
                 HorizontalOptions = LayoutOptions.FillAndExpand,
                 VerticalOptions = LayoutOptions.FillAndExpand,
@@ -214,11 +205,7 @@ namespace Naylah.SampleApp.Views.Menu
             {
                 _menuListViewBottom.SelectedItem = null;
             }
-
         }
-
-
-
         #endregion
     }
 }

@@ -103,7 +103,8 @@ namespace Naylah.SampleApp.Views
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
-                    NumericFormat = "C"
+                    NumericFormat = "000",
+                    NumericValidation = (numberWanted) => { return numberWanted <= 500; }
                 }
             );
             numericIntegerEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
@@ -117,7 +118,8 @@ namespace Naylah.SampleApp.Views
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
-                    NumericFormat = "C"
+                    NumericFormat = "000",
+                    NumericValidation = (numberWanted) => { return numberWanted <= 500; }
                 }
             );
             numericIntegerEntryFloat.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
@@ -132,7 +134,8 @@ namespace Naylah.SampleApp.Views
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
-                    NumericFormat = "C"
+                    NumericFormat = "000",
+                    NumericValidation = (numberWanted) => { return numberWanted <= 500; }
                 }
             );
             numericIntegerEntryLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
@@ -147,7 +150,8 @@ namespace Naylah.SampleApp.Views
                 new NumericEntryBehavior()
                 {
                     NumericType = NumericEntryBehavior.NumericEntryBehaviorType.Integer,
-                    NumericFormat = "C"
+                    NumericFormat = "000",
+                    NumericValidation = (numberWanted) => { return numberWanted <= 500; }
                 }
             );
             numericIntegerEntryFloatLight.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty,
