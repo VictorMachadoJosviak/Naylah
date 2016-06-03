@@ -1,4 +1,5 @@
 ﻿using Naylah.Xamarin.Controls.Pages;
+using Naylah.Xamarin.Controls.Style;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace Naylah.SampleApp.Views
 
             NavigationPage.SetHasNavigationBar(this, false);
 
-            BackgroundColor = App.CurrentApp.StyleKit.WindowColor;
+            BackgroundColor = StyleKit.Current.WindowColor;
 
             Content = new StackLayout()
             {

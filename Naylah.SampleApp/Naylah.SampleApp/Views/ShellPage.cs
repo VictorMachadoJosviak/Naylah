@@ -13,6 +13,7 @@ namespace Naylah.SampleApp.Views
 {
     public class ShellPage : MasterDetailNavigationPage
     {
+        MenuPage MasterAsMenuPage { get { return Master as MenuPage; } }
         public ShellViewModel Vm => this.BindingContext as ShellViewModel;
         public ShellPage()
         {
@@ -22,13 +23,14 @@ namespace Naylah.SampleApp.Views
             ((NavigationPage)Detail).BarBackgroundColor = App.CurrentApp.StyleKit.PrimaryColor;
             ((NavigationPage)Detail).BarTextColor = Color.White;
 
-            var btGoTODash = new Button() { Text = "NavigateToDashboard"};
-            btGoTODash.Clicked += (s, e) => { Vm.NavigateToSelectedMenuItem(MenuListData.Dashboard); };
-
-            Master = new ContentPage() { Title = "This is the menu", BackgroundColor = Color.Gray, Content = new StackLayout() { Children = { btGoTODash }, HorizontalOptions = LayoutOptions.Center, VerticalOptions = LayoutOptions.Center } };
+            Master = new MenuPage();
 
             IsGestureEnabled = true;
 
+            MasterAsMenuPage.MenusItemTapped += async (s, i) =>
+            {
+                await Vm.NavigateToSelectedMenuItem(i.Item as NavMenuItem);
+            };
         }
 
         public void NavigationService_Navigating(object sender, EventArgs e)
@@ -47,7 +49,7 @@ namespace Naylah.SampleApp.Views
         {
             try
             {
-                //MasterAsMenuPage.SelectByPage(Vm.NavigationService.CurrentPage);
+                MasterAsMenuPage.SelectByPage(Vm.NavigationService.CurrentPage);
             }
             catch (Exception)
             {

@@ -10,7 +10,6 @@ namespace Naylah.SampleApp.ViewModels
     public class EntryDemoViewModel : AppViewModelBase
     {
         private double _someDouble;
-
         public double SomeDouble
         {
             get { return _someDouble; }
@@ -18,7 +17,6 @@ namespace Naylah.SampleApp.ViewModels
         }
 
         private string _darkEntry;
-
         public string DarkEntry
         {
             get { return _darkEntry; }
@@ -26,11 +24,18 @@ namespace Naylah.SampleApp.ViewModels
         }
 
         private string _lightEntry;
-
         public string LightEntry
         {
             get { return _lightEntry; }
             set { Set(ref _lightEntry, value); }
+        }
+
+
+        private int _someInteger;
+        public int SomeInteger
+        {
+            get { return _someInteger; }
+            set { Set(ref _someInteger, value); }
         }
 
     }

@@ -17,8 +17,8 @@ namespace Naylah.Xamarin.Common
 
         public StyleKit StyleKit
         {
-            get { return _styleKit; }
-            set { _styleKit = value; ApplyStyleKit(); }
+            get { return StyleKit.Current; }
+            set { StyleKit.Current = value; ApplyStyleKit(); }
         }
 
         private void ApplyStyleKit()

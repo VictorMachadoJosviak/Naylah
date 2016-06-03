@@ -10,7 +10,7 @@ namespace Naylah.Xamarin.Controls.Style
 {
     public class StyleKit
     {
-        public static StyleKit Current = BootStrapper.CurrentApp.StyleKit;
+        public static StyleKit Current { get; set; }
 
         public string Name { get; set; }
 
