@@ -14,7 +14,7 @@ using Xamarin.Forms;
 namespace Naylah.SampleApp.Droid
 {
     [Activity(
-        Label = "Naylah.SampleApp", 
+        Label = "Naylah Sample App", 
         Icon = "@drawable/ic_launcher", 
         MainLauncher = true, 
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)
