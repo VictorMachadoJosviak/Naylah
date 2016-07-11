@@ -41,6 +41,7 @@ namespace Naylah.Xamarin.Android.Extras
 
         public override IInputConnection OnCreateInputConnection(EditorInfo outAttrs)
         {
+            this.SetSingleLine(true);
             //var inputConnection = base.OnCreateInputConnection(outAttrs);
 
             //var inputConnectionWrapper = new CustomInputConnectionWrapper(inputConnection, false);
@@ -50,6 +51,15 @@ namespace Naylah.Xamarin.Android.Extras
             var inputConnection = new CustomInputConnection(this, false);
 
             outAttrs.InputType = this.InputType;
+            outAttrs.ImeOptions = outAttrs.ImeOptions | (ImeFlags)ImeAction.Done;
+
+            try
+            {
+                outAttrs.InitialSelStart = this.Text.Length;
+            }
+            catch (Exception)
+            {
+            }
 
             return inputConnection;
 
@@ -79,7 +89,6 @@ namespace Naylah.Xamarin.Android.Extras
         {
             bool v = base.SendKeyEvent(e);
             return v;
-
 
         }
 
