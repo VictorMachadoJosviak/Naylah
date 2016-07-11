@@ -3530,17 +3530,23 @@ namespace Naylah.Xamarin.Android
 			// aapt resource value: 0x7f0a001a
 			public static int CardView_Light = 2131361818;
 			
+			// aapt resource value: 0x7f0a0172
+			public static int EditTextBaseDark = 2131362162;
+			
 			// aapt resource value: 0x7f0a0173
-			public static int EditTextDark = 2131362163;
+			public static int EditTextBaseLight = 2131362163;
 			
 			// aapt resource value: 0x7f0a0175
-			public static int EditTextHintDark = 2131362165;
+			public static int EditTextDark = 2131362165;
 			
 			// aapt resource value: 0x7f0a0174
-			public static int EditTextHintLight = 2131362164;
+			public static int EditTextLight = 2131362164;
 			
-			// aapt resource value: 0x7f0a0172
-			public static int EditTextLight = 2131362162;
+			// aapt resource value: 0x7f0a0177
+			public static int LabeledEditTextDark = 2131362167;
+			
+			// aapt resource value: 0x7f0a0176
+			public static int LabeledEditTextLight = 2131362166;
 			
 			// aapt resource value: 0x7f0a0032
 			public static int Platform_AppCompat = 2131361842;

@@ -153,10 +153,32 @@ namespace Naylah.SampleApp.Views
                 VerticalOptions = LayoutOptions.Fill,
                 Children =
                 {
-                    darkEntry,
-                    darkEntryFloat,
-                    lightEntry,
-                    lightEntryFloat
+                     new StackLayout()
+                        {
+                        Padding = 8,
+                        HorizontalOptions = LayoutOptions.Fill,
+                        VerticalOptions = LayoutOptions.Fill,
+                        BackgroundColor = Color.White,
+                        Children =
+                            {
+                            darkEntry,
+                            darkEntryFloat,
+                            }
+                        },
+
+                    new StackLayout()
+                        {
+                        Padding = 8,
+                        HorizontalOptions = LayoutOptions.Fill,
+                        VerticalOptions = LayoutOptions.Fill,
+                        BackgroundColor = Color.Black,
+                        Children =
+                            {
+                            lightEntry,
+                            lightEntryFloat
+                            }
+                        }
+
                 }
             };
 

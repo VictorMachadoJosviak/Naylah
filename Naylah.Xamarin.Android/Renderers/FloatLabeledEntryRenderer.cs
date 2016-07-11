@@ -98,27 +98,27 @@ namespace Naylah.Xamarin.Android.Renderers
         {
             NativeView.Hint = Element.Placeholder;
 
-            if (Element.Theme == BasicTheme.Dark)
-            {
-                NativeView.EditText.SetHintTextColor(StyleKit.Current.PrimaryTextColor.ToAndroid());
-            }
-            else
-            {
-                NativeView.EditText.SetHintTextColor(StyleKit.Current.SecondaryTextColor.ToAndroid());
-            }
+            //if (Element.Theme == BasicTheme.Dark)
+            //{
+            //    NativeView.EditText.SetHintTextColor(StyleKit.Current.PrimaryTextColor.ToAndroid());
+            //}
+            //else
+            //{
+            //    NativeView.EditText.SetHintTextColor(StyleKit.Current.SecondaryTextColor.ToAndroid());
+            //}
 
         }
 
         private void SetTextColor()
         {
-            if (Element.Theme == BasicTheme.Dark)
-            {
-                NativeView.EditText.SetTextColor(StyleKit.Current.PrimaryTextColor.ToAndroid());
-            }
-            else
-            {
-                NativeView.EditText.SetTextColor(StyleKit.Current.SecondaryTextColor.ToAndroid());
-            }
+            //if (Element.Theme == BasicTheme.Dark)
+            //{
+            //    NativeView.EditText.SetTextColor(StyleKit.Current.PrimaryTextColor.ToAndroid());
+            //}
+            //else
+            //{
+            //    NativeView.EditText.SetTextColor(StyleKit.Current.SecondaryTextColor.ToAndroid());
+            //}
         }
 
         private void SetIsEnabled()

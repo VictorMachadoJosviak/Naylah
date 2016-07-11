@@ -1146,10 +1146,12 @@ namespace Naylah.SampleApp.Droid
 			global::Naylah.Xamarin.Android.Resource.Style.CardView = global::Naylah.SampleApp.Droid.Resource.Style.CardView;
 			global::Naylah.Xamarin.Android.Resource.Style.CardView_Dark = global::Naylah.SampleApp.Droid.Resource.Style.CardView_Dark;
 			global::Naylah.Xamarin.Android.Resource.Style.CardView_Light = global::Naylah.SampleApp.Droid.Resource.Style.CardView_Light;
+			global::Naylah.Xamarin.Android.Resource.Style.EditTextBaseDark = global::Naylah.SampleApp.Droid.Resource.Style.EditTextBaseDark;
+			global::Naylah.Xamarin.Android.Resource.Style.EditTextBaseLight = global::Naylah.SampleApp.Droid.Resource.Style.EditTextBaseLight;
 			global::Naylah.Xamarin.Android.Resource.Style.EditTextDark = global::Naylah.SampleApp.Droid.Resource.Style.EditTextDark;
-			global::Naylah.Xamarin.Android.Resource.Style.EditTextHintDark = global::Naylah.SampleApp.Droid.Resource.Style.EditTextHintDark;
-			global::Naylah.Xamarin.Android.Resource.Style.EditTextHintLight = global::Naylah.SampleApp.Droid.Resource.Style.EditTextHintLight;
 			global::Naylah.Xamarin.Android.Resource.Style.EditTextLight = global::Naylah.SampleApp.Droid.Resource.Style.EditTextLight;
+			global::Naylah.Xamarin.Android.Resource.Style.LabeledEditTextDark = global::Naylah.SampleApp.Droid.Resource.Style.LabeledEditTextDark;
+			global::Naylah.Xamarin.Android.Resource.Style.LabeledEditTextLight = global::Naylah.SampleApp.Droid.Resource.Style.LabeledEditTextLight;
 			global::Naylah.Xamarin.Android.Resource.Style.Platform_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Platform_AppCompat;
 			global::Naylah.Xamarin.Android.Resource.Style.Platform_AppCompat_Light = global::Naylah.SampleApp.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Naylah.Xamarin.Android.Resource.Style.Platform_ThemeOverlay_AppCompat = global::Naylah.SampleApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
@@ -5378,23 +5380,29 @@ namespace Naylah.SampleApp.Droid
 			// aapt resource value: 0x7f0a001a
 			public const int CardView_Light = 2131361818;
 			
+			// aapt resource value: 0x7f0a0172
+			public const int EditTextBaseDark = 2131362162;
+			
 			// aapt resource value: 0x7f0a0173
-			public const int EditTextDark = 2131362163;
+			public const int EditTextBaseLight = 2131362163;
 			
 			// aapt resource value: 0x7f0a0175
-			public const int EditTextHintDark = 2131362165;
+			public const int EditTextDark = 2131362165;
 			
 			// aapt resource value: 0x7f0a0174
-			public const int EditTextHintLight = 2131362164;
-			
-			// aapt resource value: 0x7f0a0172
-			public const int EditTextLight = 2131362162;
-			
-			// aapt resource value: 0x7f0a0176
-			public const int MyTheme = 2131362166;
+			public const int EditTextLight = 2131362164;
 			
 			// aapt resource value: 0x7f0a0177
-			public const int Naylah_Base = 2131362167;
+			public const int LabeledEditTextDark = 2131362167;
+			
+			// aapt resource value: 0x7f0a0176
+			public const int LabeledEditTextLight = 2131362166;
+			
+			// aapt resource value: 0x7f0a0178
+			public const int MyTheme = 2131362168;
+			
+			// aapt resource value: 0x7f0a0179
+			public const int Naylah_Base = 2131362169;
 			
 			// aapt resource value: 0x7f0a0032
 			public const int Platform_AppCompat = 2131361842;
