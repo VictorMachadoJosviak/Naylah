@@ -41,17 +41,17 @@ namespace Naylah.Xamarin.Android.Extras
 
         public override IInputConnection OnCreateInputConnection(EditorInfo outAttrs)
         {
-            var inputConnection = base.OnCreateInputConnection(outAttrs);
+            //var inputConnection = base.OnCreateInputConnection(outAttrs);
 
-            var inputConnectionWrapper = new CustomInputConnectionWrapper(inputConnection, false);
+            //var inputConnectionWrapper = new CustomInputConnectionWrapper(inputConnection, false);
 
-            return inputConnectionWrapper;
+            //return inputConnectionWrapper;
 
-            //var inputConnection = new CustomInputConnection(this, false);
+            var inputConnection = new CustomInputConnection(this, false);
 
-            //outAttrs.InputType = this.InputType;
+            outAttrs.InputType = this.InputType;
 
-            //return inputConnection;
+            return inputConnection;
 
         }
 
@@ -65,33 +65,33 @@ namespace Naylah.Xamarin.Android.Extras
     }
 
 
-    //public class CustomInputConnection : BaseInputConnection
-    //{
-    //    public CustomInputConnection(View targetView, bool fullEditor) : base(targetView, fullEditor)
-    //    {
-    //    }
+    public class CustomInputConnection : BaseInputConnection
+    {
+        public CustomInputConnection(View targetView, bool fullEditor) : base(targetView, fullEditor)
+        {
+        }
 
-    //    protected CustomInputConnection(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
-    //    {
-    //    }
+        protected CustomInputConnection(IntPtr javaReference, JniHandleOwnership transfer) : base(javaReference, transfer)
+        {
+        }
 
-    //    public override bool SendKeyEvent(KeyEvent e)
-    //    {
-    //        bool v = base.SendKeyEvent(e);
-    //        return v;
-
-
-    //    }
-
-    //    public override bool DeleteSurroundingText(int beforeLength, int afterLength)
-    //    {
-    //        base.SendKeyEvent(new KeyEvent(KeyEventActions.Down, Keycode.Back));
-    //        return false;
-    //        //return base.DeleteSurroundingText(beforeLength, afterLength);
-    //    }
+        public override bool SendKeyEvent(KeyEvent e)
+        {
+            bool v = base.SendKeyEvent(e);
+            return v;
 
 
-    //};
+        }
+
+        public override bool DeleteSurroundingText(int beforeLength, int afterLength)
+        {
+            base.SendKeyEvent(new KeyEvent(KeyEventActions.Down, Keycode.Back));
+            return false;
+            //return base.DeleteSurroundingText(beforeLength, afterLength);
+        }
+
+
+    };
 
     public class CustomInputConnectionWrapper : InputConnectionWrapper
     {
@@ -124,5 +124,7 @@ namespace Naylah.Xamarin.Android.Extras
             return false;
             //return base.DeleteSurroundingText(beforeLength, afterLength);
         }
+
+        
     }
 }
