@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Naylah.Xamarin.Services.NavigationService;
 using Naylah.SampleApp.Views;
+using Naylah.Xamarin.Controls.Choosers;
 
 namespace Naylah.SampleApp.ViewModels
 {
@@ -23,7 +24,7 @@ namespace Naylah.SampleApp.ViewModels
             {
                 IsBusy = true;
 
-                await Task.Delay(3000);
+                await Task.Delay(1000);
             }
             catch (Exception)
             {
@@ -44,5 +45,23 @@ namespace Naylah.SampleApp.ViewModels
         {
             await NavigationService.NavigateAsync(new AnotherPage(), v, true);
         }
+
+        public async Task NavigateToImagePickerControl()
+        {
+            var imgChooser =
+
+                ImageChooser.CreateImageChooser(
+                    new ImageChooser.ImageChooserOptions()
+                    {
+                        Title = "Image Chooser T",
+                        ActualImageUri = new Uri("https://raw.githubusercontent.com/NaylahProject/Naylah.Toolkit.UWP/master/NaylahLogo.png"),
+                        SelectionButtonText = "Select T"
+                    });
+
+            await NavigationService.NavigateAsync(
+                imgChooser, null, true);
+        }
+
+    
     }
 }

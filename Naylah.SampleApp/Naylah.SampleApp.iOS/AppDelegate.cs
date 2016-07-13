@@ -4,6 +4,9 @@ using System.Linq;
 
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
+using FFImageLoading.Forms.Touch;
+using FFImageLoading;
 
 namespace Naylah.SampleApp.iOS
 {
@@ -13,6 +16,10 @@ namespace Naylah.SampleApp.iOS
     [Register("AppDelegate")]
     public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
+
+        public App CurrentApp { get; private set; }
+
+
         //
         // This method is invoked when the application has loaded and is ready to run. In this 
         // method you should instantiate the window, load the UI into it and then make the window
@@ -22,10 +29,51 @@ namespace Naylah.SampleApp.iOS
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
-            global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
+
+            UIApplication.SharedApplication.SetStatusBarStyle(UIStatusBarStyle.LightContent, false);
+            UIApplication.SharedApplication.SetStatusBarHidden(false, false);
+
+
+            //Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
+            //Thread.CurrentThread.CurrentUICulture = Thread.CurrentThread.CurrentCulture;
+
+            Forms.Init();
+            //CurrentPlatform.Init();
+            CachedImageRenderer.Init();
+            
+
+            var config = new FFImageLoading.Config.Configuration()
+            {
+                VerboseLogging = false,
+                VerbosePerformanceLogging = false,
+                VerboseMemoryCacheLogging = false,
+                VerboseLoadingCancelledLogging = false
+            };
+            ImageService.Instance.Initialize(config);
+
+
+            //ImageService.Instance.Initialize();
+            //Insights.Initialize("");
+
+            CurrentApp = new App();
+
+            LoadApplication(CurrentApp);
 
             return base.FinishedLaunching(app, options);
         }
+
+        public override void OnActivated(UIApplication uiApplication)
+        {
+            base.OnActivated(uiApplication);
+
+            UIApplication.SharedApplication.ApplicationIconBadgeNumber = 0;
+
+            if (!CurrentApp.Initialized)
+            {
+                CurrentApp.InitializeApp();
+            }
+
+        }
     }
+
 }

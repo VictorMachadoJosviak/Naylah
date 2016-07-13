@@ -19,7 +19,7 @@ namespace Naylah.SampleApp.Styles
             SecondaryDarkColor = Color.FromHex("#7B1FA2");
             AccentColor = Color.FromHex("#FF4081");
             PrimaryTextColor = Color.FromHex("#212121");
-            SecondaryTextColor = Color.FromHex("#727272");
+            SecondaryTextColor = Color.FromHex("#ffffff");
             DividerColor = Color.FromHex("#B6B6B6");
             WindowColor = PrimaryDarkColor;
         }
