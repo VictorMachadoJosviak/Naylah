@@ -162,7 +162,7 @@ namespace Naylah.Xamarin.Controls.Choosers
             activityIndicator.SetBinding(ActivityIndicator.IsVisibleProperty, Binding.Create<ImageChooser>(vm => vm.IsLoading));
 
             var entry = new Label();
-            entry.Text = "Loading...";
+            entry.Text = ImageChooserOptionsData?.LoadingText;
             entry.HorizontalTextAlignment = TextAlignment.Center;
 
 
