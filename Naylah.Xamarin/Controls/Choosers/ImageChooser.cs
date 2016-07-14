@@ -360,17 +360,34 @@ namespace Naylah.Xamarin.Controls.Choosers
         {
             try
             {
+
                 image = new CachedImage();
+                image.DownsampleToViewSize = true;
 
                 centerContentView.Content = image;
 
-                var imagebuffer = await DownloadHelper.DownloadAsByteArray(actualImageUri);
-                var file = await GetTempNewFile();
-                await file.SaveByteArrayToThisFile(imagebuffer);
-
-                CurrentMediaFile = file;
+                if (actualImageUri.IsFile || actualImageUri.IsUnc)
+                {
+                    CurrentMediaFile = await FileSystem.Current.GetFileFromPathAsync(actualImageUri.AbsolutePath.ToString());
+                    //image.Source = ImageSource.FromUri(actualImageUri);
+                }
+                else
+                {
+                    var imagebuffer = await DownloadHelper.DownloadAsByteArray(actualImageUri);
+                    var file = await GetTempNewFile();
+                    await file.SaveByteArrayToThisFile(imagebuffer);
+                    CurrentMediaFile = file;
+                    
+                }
 
                 TouchAndChangeImageSource(CurrentMediaFile.Path);
+
+                image.Error += (s, e) =>
+                {
+                    ImageChooserOptionsData?.ExceptionOccurredAction?.Invoke(e.Exception);
+                };
+
+                
 
             }
             catch (Exception ex)
@@ -429,6 +446,8 @@ namespace Naylah.Xamarin.Controls.Choosers
             public string Title { get; set; } = "Image chooser";
 
             public string SelectionButtonText { get; set; } = "Select";
+
+            public string LoadingText { get; set; } = "Loading...";
 
 
             public Uri ActualImageUri { get; set; }

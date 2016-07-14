@@ -49,33 +49,9 @@ namespace Naylah.SampleApp.ViewModels
 
         public async Task NavigateToImagePickerControl()
         {
-            var imgChooser =
-
-                ImageChooser.CreateImageChooser(
-                    new ImageChooser.ImageChooserOptions()
-                    {
-                        Title = "Image Chooser T",
-                        ActualImageUri = new Uri("https://raw.githubusercontent.com/NaylahProject/Naylah.Toolkit.UWP/master/NaylahLogo.png"),
-                        SelectionButtonText = "Select T",
-                        SizeRequested = new global::Xamarin.Forms.Size(200, 200),
-                        DoneSelectionAction = GetDoneeee,
-                        ExceptionOccurredAction = Sadddd
-                    });
-
-            await NavigationService.NavigateAsync(
-                imgChooser, null, true);
+            await NavigationService.NavigateAsync(new ImageChooserSamplePage(), null, true);
         }
 
-        private async Task GetDoneeee(IFile arg)
-        {
-            await Task.Delay(5000);
-
-            await NavigationService.GoBack();
-        }
-
-        private void Sadddd(Exception obj)
-        {
-            
-        }
+        
     }
 }

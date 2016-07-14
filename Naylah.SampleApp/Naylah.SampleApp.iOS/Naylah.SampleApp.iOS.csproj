@@ -90,6 +90,7 @@
   <ItemGroup>
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
+    <Compile Include="Renderers\ExternalDeclarations.cs" />
     <None Include="app.config" />
     <None Include="Entitlements.plist" />
     <None Include="Info.plist" />
@@ -99,6 +100,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Naylah.Xamarin.iOS\Naylah.Xamarin.iOS.csproj">
+      <Project>{262485D5-C552-4CAF-B737-667E69EDFB82}</Project>
+      <Name>Naylah.Xamarin.iOS</Name>
+      <IsAppExtension>false</IsAppExtension>
+      <IsWatchApp>false</IsWatchApp>
+    </ProjectReference>
     <ProjectReference Include="..\..\Naylah.Xamarin\Naylah.Xamarin.csproj">
       <Project>{de433a04-78fd-4227-b270-b70d887c36f6}</Project>
       <Name>Naylah.Xamarin</Name>
@@ -144,6 +151,10 @@
     </Reference>
     <Reference Include="FFImageLoading.Transformations, Version=1.0.6005.28259, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\packages\Xamarin.FFImageLoading.Transformations.2.1.5\lib\Xamarin.iOS10\FFImageLoading.Transformations.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="FloatLabeledEntry.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\..\packages\FloatLabeledEntry.iOS.1.0.1\lib\Xamarin.iOS10\FloatLabeledEntry.iOS.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="GalaSoft.MvvmLight, Version=5.3.0.19026, Culture=neutral, PublicKeyToken=e7570ab207bcb616, processorArchitecture=MSIL">

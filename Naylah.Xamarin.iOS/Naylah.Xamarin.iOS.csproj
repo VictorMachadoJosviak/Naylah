@@ -41,6 +41,10 @@
       <HintPath>..\packages\Xamarin.FFImageLoading.2.1.5\lib\Xamarin.iOS10\FFImageLoading.Platform.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="FloatLabeledEntry.iOS, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\FloatLabeledEntry.iOS.1.0.1\lib\Xamarin.iOS10\FloatLabeledEntry.iOS.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -79,10 +83,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Renderers\CustomPageRenderer.cs" />
+    <Compile Include="Renderers\JVFloatLabeledEntryRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Naylah.Xamarin\Naylah.Xamarin.csproj">
+      <Project>{DE433A04-78FD-4227-B270-B70D887C36F6}</Project>
+      <Name>Naylah.Xamarin</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.3.0.107\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.3.0.107\build\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Xamarin.Forms.targets')" />
