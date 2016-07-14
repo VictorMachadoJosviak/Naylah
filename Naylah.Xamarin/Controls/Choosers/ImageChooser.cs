@@ -363,8 +363,14 @@ namespace Naylah.Xamarin.Controls.Choosers
 
                 image = new CachedImage();
                 image.DownsampleToViewSize = true;
+                image.Error += (s, e) =>
+                {
+                    ImageChooserOptionsData?.ExceptionOccurredAction?.Invoke(e.Exception);
+                };
 
                 centerContentView.Content = image;
+
+                if (actualImageUri == null) { return; }
 
                 if (actualImageUri.IsFile || actualImageUri.IsUnc)
                 {
@@ -382,10 +388,7 @@ namespace Naylah.Xamarin.Controls.Choosers
 
                 TouchAndChangeImageSource(CurrentMediaFile.Path);
 
-                image.Error += (s, e) =>
-                {
-                    ImageChooserOptionsData?.ExceptionOccurredAction?.Invoke(e.Exception);
-                };
+               
 
                 
 
