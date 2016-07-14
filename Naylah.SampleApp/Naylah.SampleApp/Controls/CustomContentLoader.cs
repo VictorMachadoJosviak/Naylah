@@ -17,6 +17,8 @@ namespace Naylah.SampleApp.Controls
 
         public CustomContentLoader()
         {
+            HideNavigationBar = true;
+            HandlePageBack = true;
 
             SetBinding(IsLoadingProperty, Binding.Create<AppViewModelBase>(vm => vm.IsBusy));
 
@@ -39,6 +41,8 @@ namespace Naylah.SampleApp.Controls
             stackLayout.Children.Add(entry);
 
             LoadingContent = stackLayout;
+
+
 
         }
 

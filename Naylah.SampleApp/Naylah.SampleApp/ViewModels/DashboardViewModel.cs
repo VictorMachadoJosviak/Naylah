@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using Naylah.Xamarin.Services.NavigationService;
 using Naylah.SampleApp.Views;
 using Naylah.Xamarin.Controls.Choosers;
+using PCLStorage;
 
 namespace Naylah.SampleApp.ViewModels
 {
@@ -55,13 +56,26 @@ namespace Naylah.SampleApp.ViewModels
                     {
                         Title = "Image Chooser T",
                         ActualImageUri = new Uri("https://raw.githubusercontent.com/NaylahProject/Naylah.Toolkit.UWP/master/NaylahLogo.png"),
-                        SelectionButtonText = "Select T"
+                        SelectionButtonText = "Select T",
+                        SizeRequested = new global::Xamarin.Forms.Size(200, 200),
+                        DoneSelectionAction = GetDoneeee,
+                        ExceptionOccurredAction = Sadddd
                     });
 
             await NavigationService.NavigateAsync(
                 imgChooser, null, true);
         }
 
-    
+        private async Task GetDoneeee(IFile arg)
+        {
+            await Task.Delay(5000);
+
+            await NavigationService.GoBack();
+        }
+
+        private void Sadddd(Exception obj)
+        {
+            
+        }
     }
 }

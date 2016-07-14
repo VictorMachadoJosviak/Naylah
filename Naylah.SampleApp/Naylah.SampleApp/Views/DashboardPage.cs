@@ -65,6 +65,7 @@ namespace Naylah.SampleApp.Views
             var content2 = new CustomContentLoader()
             {
                 Content = root
+                
             };
 
             Content = content2;

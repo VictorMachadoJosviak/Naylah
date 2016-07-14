@@ -7,7 +7,7 @@ using Xamarin.Forms;
 
 namespace Naylah.Xamarin.Controls.Pages
 {
-    public class PageBase : Page, IPageLoading
+    public class PageBase : Page, IPageBase
     {
 
         public static BindableProperty IsLoadingProperty =
@@ -30,7 +30,7 @@ namespace Naylah.Xamarin.Controls.Pages
 
     }
 
-    public class ContentPageBase : ContentPage, IPageLoading
+    public class ContentPageBase : ContentPage, IPageBase
     {
 
         public static BindableProperty IsLoadingProperty =
@@ -52,7 +52,7 @@ namespace Naylah.Xamarin.Controls.Pages
 
     }
 
-    public class TabbedPageBase : TabbedPage, IPageLoading
+    public class TabbedPageBase : TabbedPage, IPageBase
     {
 
         public static BindableProperty IsLoadingProperty =
@@ -73,8 +73,12 @@ namespace Naylah.Xamarin.Controls.Pages
 
     }
 
-    public interface IPageLoading
+    public interface IPageBase
     {
+        bool? HandleBack { get; set; }
+
         bool IsLoading { get; set; }
     }
+
+   
 }
