@@ -10,7 +10,7 @@ using PCLStorage;
 
 namespace Naylah.SampleApp.ViewModels
 {
-    public class ImageChooserSampleViewModel : AppViewModelBase
+    public class ImageChooserDemoViewModel : AppViewModelBase
     {
 
         private string _imageSourceAsString;

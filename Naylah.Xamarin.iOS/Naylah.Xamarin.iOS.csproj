@@ -84,7 +84,9 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Renderers\CustomPageRenderer.cs" />
+    <Compile Include="Renderers\EntryRenderer.cs" />
     <Compile Include="Renderers\JVFloatLabeledEntryRenderer.cs" />
+    <Compile Include="Renderers\PickerRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

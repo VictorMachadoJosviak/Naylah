@@ -6,7 +6,10 @@ using System.Text;
 using Xamarin.Forms;
 
 [assembly: ExportRenderer(typeof(Page), typeof(CustomPageRenderer))]
-[assembly: ExportRenderer(typeof(EntryBase), typeof(JVFloatLabeledEntryRenderer))]
+[assembly: ExportRenderer(typeof(Naylah.Xamarin.Controls.Entrys.FloatLabeledEntry), typeof(JVFloatLabeledEntryRenderer))]
+[assembly: ExportRenderer(typeof(EntryBase), typeof(CustomEntryRenderer))]
+
+[assembly: ExportRenderer(typeof(Picker), typeof(PickerRenderer))]
 
 namespace Naylah.SampleApp.iOS.Renderers
 {

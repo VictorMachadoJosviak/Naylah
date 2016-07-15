@@ -40,13 +40,17 @@ namespace Naylah.SampleApp.Views
             var button3 = new Button() { Text = "Image Chooser" };
             button3.Clicked += async (s, e) => { await Vm.NavigateToImagePickerControl(); };
 
+            var button4 = new Button() { Text = "Pickers" };
+            button4.Clicked += async (s, e) => { await Vm.NavigateToPickersDemo(); };
+
             var content = new StackLayout()
             {
                 Children =
                 {
                     button,
                     button2,
-                    button3
+                    button3,
+                    button4
                 }
             };
 

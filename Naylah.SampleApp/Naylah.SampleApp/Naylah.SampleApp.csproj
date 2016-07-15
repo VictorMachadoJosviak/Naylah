@@ -45,15 +45,17 @@
     <Compile Include="ViewModels\AnotherViewModel.cs" />
     <Compile Include="ViewModels\DashboardViewModel.cs" />
     <Compile Include="ViewModels\EntryDemoViewModel.cs" />
-    <Compile Include="ViewModels\ImageChooserSampleViewModel.cs" />
+    <Compile Include="ViewModels\ImageChooserDemoViewModel.cs" />
+    <Compile Include="ViewModels\PickersDemoViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <Compile Include="Views\AnotherPage.cs" />
     <Compile Include="Views\DashboardPage.cs" />
     <Compile Include="Views\EntryDemoPage.cs" />
-    <Compile Include="Views\ImageChooserSamplePage.cs" />
+    <Compile Include="Views\ImageChooserDemoPage.cs" />
     <Compile Include="Views\Menu\MenuListData.cs" />
     <Compile Include="Views\Menu\MenuPage.cs" />
     <Compile Include="Views\Menu\NavMenuItem.cs" />
+    <Compile Include="Views\PickersDemoPage.cs" />
     <Compile Include="Views\ShellPage.cs" />
     <Compile Include="Views\SplashPage.cs" />
   </ItemGroup>

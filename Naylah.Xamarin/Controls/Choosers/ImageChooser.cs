@@ -33,6 +33,7 @@ namespace Naylah.Xamarin.Controls.Choosers
         ContentView centerContentView;
         ContentView bottomContentView;
         ContentLoader contentLoader;
+        Label loadingLabel;
 
         public ImageChooser()
         {
@@ -161,9 +162,9 @@ namespace Naylah.Xamarin.Controls.Choosers
             activityIndicator.SetBinding(ActivityIndicator.IsRunningProperty, Binding.Create<ImageChooser>(vm => vm.IsLoading));
             activityIndicator.SetBinding(ActivityIndicator.IsVisibleProperty, Binding.Create<ImageChooser>(vm => vm.IsLoading));
 
-            var entry = new Label();
-            entry.Text = ImageChooserOptionsData?.LoadingText;
-            entry.HorizontalTextAlignment = TextAlignment.Center;
+            loadingLabel = new Label();
+            loadingLabel.Text = ImageChooserOptionsData?.LoadingText;
+            loadingLabel.HorizontalTextAlignment = TextAlignment.Center;
 
 
             var stackLayout = new StackLayout()
@@ -174,13 +175,13 @@ namespace Naylah.Xamarin.Controls.Choosers
                 VerticalOptions = LayoutOptions.Center
             };
             stackLayout.Children.Add(activityIndicator);
-            stackLayout.Children.Add(entry);
+            stackLayout.Children.Add(loadingLabel);
 
             stackLayout.BindingContext = this;
 
             if (BootStrapper.CurrentApp.StyleKit != null)
             {
-                entry.TextColor = BootStrapper.CurrentApp.StyleKit.SecondaryTextColor;
+                loadingLabel.TextColor = BootStrapper.CurrentApp.StyleKit.SecondaryTextColor;
                 activityIndicator.Color = BootStrapper.CurrentApp.StyleKit.SecondaryTextColor;
                 contentLoadingV.BackgroundColor = BootStrapper.CurrentApp.StyleKit.PrimaryColor;
             }
@@ -351,6 +352,7 @@ namespace Naylah.Xamarin.Controls.Choosers
 
             Title = ImageChooserOptionsData.Title;
             doneSelectionButton.Text = ImageChooserOptionsData.SelectionButtonText;
+            loadingLabel.Text = ImageChooserOptionsData?.LoadingText;
 
             LoadImageFromUri(ImageChooserOptionsData.ActualImageUri);
 

@@ -49,9 +49,14 @@ namespace Naylah.SampleApp.ViewModels
 
         public async Task NavigateToImagePickerControl()
         {
-            await NavigationService.NavigateAsync(new ImageChooserSamplePage(), null, true);
+            await NavigationService.NavigateAsync(new ImageChooserDemoPage(), null, true);
         }
 
-        
+        public async Task NavigateToPickersDemo()
+        {
+            await NavigationService.NavigateAsync(new PickersDemoPage(), null, true);
+        }
+
+
     }
 }

@@ -10,6 +10,13 @@ namespace Naylah.Xamarin.Controls.Pickers
 {
     public class BindablePicker : Picker
     {
+
+        public bool FloatLabeledStyle { get; set; }
+
+
+        public PickerSyncronizationType SyncronizationType { get; set; } = PickerSyncronizationType.SelectedOrDone;
+
+
         public static BindableProperty ItemsSourceProperty =
             BindableProperty.Create(nameof(ItemsSource), typeof(IList), typeof(BindablePicker), default(IList), propertyChanged: OnItemsSourceChanged);
 
@@ -82,6 +89,12 @@ namespace Naylah.Xamarin.Controls.Pickers
             {
                 picker.SelectedIndex = -1;
             }
+        }
+
+        public enum PickerSyncronizationType
+        {
+            Scrolling,
+            SelectedOrDone
         }
     }
 }

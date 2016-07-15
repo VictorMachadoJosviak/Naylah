@@ -12,13 +12,13 @@ using Xamarin.Forms;
 
 namespace Naylah.SampleApp.Views
 {
-    public class ImageChooserSamplePage : ContentPageBase
+    public class ImageChooserDemoPage : ContentPageBase
     {
-        public ImageChooserSampleViewModel Vm => (ImageChooserSampleViewModel)this.BindingContext;
+        public ImageChooserDemoViewModel Vm => (ImageChooserDemoViewModel)this.BindingContext;
 
-        public ImageChooserSamplePage()
+        public ImageChooserDemoPage()
         {
-            BindingContext = new ImageChooserSampleViewModel();
+            BindingContext = new ImageChooserDemoViewModel();
             CreateUI();
         }
 
@@ -40,7 +40,7 @@ namespace Naylah.SampleApp.Views
                     //NumericValidation = (numberWanted) => { return numberWanted <= 500; }
                 }
             );
-            imageWidthEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty, Binding.Create<ImageChooserSampleViewModel>(vm => vm.ImageWidthRequested, BindingMode.TwoWay));
+            imageWidthEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty, Binding.Create<ImageChooserDemoViewModel>(vm => vm.ImageWidthRequested, BindingMode.TwoWay));
 
             var imageHeightEntry = new FloatLabeledEntry()
             {
@@ -54,13 +54,13 @@ namespace Naylah.SampleApp.Views
                     //NumericValidation = (numberWanted) => { return numberWanted <= 500; }
                 }
             );
-            imageHeightEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty, Binding.Create<ImageChooserSampleViewModel>(vm => vm.ImageHeightRequested, BindingMode.TwoWay));
+            imageHeightEntry.GetNumericEntryBehavior().SetBinding(NumericEntryBehavior.NumericValueProperty, Binding.Create<ImageChooserDemoViewModel>(vm => vm.ImageHeightRequested, BindingMode.TwoWay));
 
             var image = new CachedImage()
             {
 
             };
-            image.SetBinding(CachedImage.SourceProperty, Binding.Create<ImageChooserSampleViewModel>(vm => vm.ImageSourceAsString));
+            image.SetBinding(CachedImage.SourceProperty, Binding.Create<ImageChooserDemoViewModel>(vm => vm.ImageSourceAsString));
 
             stackLayout.Spacing = 12;
             stackLayout.Padding = 12;
