@@ -16,5 +16,6 @@ namespace Naylah.SampleApp.iOS.Renderers
 
     public class ExternalDeclarations
     {
+
     }
 }
