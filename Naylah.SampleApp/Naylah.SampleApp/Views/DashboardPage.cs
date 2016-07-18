@@ -66,7 +66,7 @@ namespace Naylah.SampleApp.Views
                 }
             };
 
-            var content2 = new CustomContentLoader()
+            var content2 = new CustomContentLoader(this)
             {
                 Content = root
                 

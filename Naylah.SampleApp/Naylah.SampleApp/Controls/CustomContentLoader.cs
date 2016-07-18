@@ -1,6 +1,7 @@
 ﻿using Naylah.SampleApp.Mvvm;
 using Naylah.Xamarin.Controls.Customizations;
 using Naylah.Xamarin.Controls.Entrys;
+using Naylah.Xamarin.Controls.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +16,7 @@ namespace Naylah.SampleApp.Controls
 
         public AppViewModelBase Vm => (AppViewModelBase)BindingContext;
 
-        public CustomContentLoader()
+        public CustomContentLoader(IPageBase pageBase) : base(pageBase)
         {
             HideNavigationBar = true;
             HandlePageBack = true;

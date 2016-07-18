@@ -168,11 +168,6 @@ namespace Naylah.Xamarin.Controls.Customizations
                     Content.IsVisible = !IsLoading;
                 }
 
-                if ((HideNavigationBar) && ((Parent as Page) != null))
-                {
-                    NavigationPage.SetHasNavigationBar(Parent, !IsLoading);
-                }
-
                 if (ParentPage == null)
                 {
                     TryGetParentAsPage();
@@ -181,7 +176,11 @@ namespace Naylah.Xamarin.Controls.Customizations
                 if ((HandlePageBack) && (ParentPage != null))
                 {
                     ParentPage.HandleBack = (IsLoading) ? true : holdingHandleBackPage;
-                    NavigationPage.SetHasNavigationBar(ParentPage as BindableObject, !IsLoading);
+                }
+
+                if ((HideNavigationBar) && (ParentPage != null))
+                {
+                    NavigationPage.SetHasNavigationBar((BindableObject)ParentPage, !IsLoading);
                 }
 
 
