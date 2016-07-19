@@ -1,4 +1,5 @@
-﻿using System;
+﻿using FFImageLoading.Forms.WinUWP;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -60,6 +61,7 @@ namespace Naylah.SampleApp.UWP
                 rootFrame.NavigationFailed += OnNavigationFailed;
 
                 Forms.Init(e);
+                
 
                 if (e.PreviousExecutionState == ApplicationExecutionState.Terminated)
                 {

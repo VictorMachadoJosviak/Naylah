@@ -2,25 +2,33 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Naylah.Xamarin</id>
-        <version>1.0.2.6</version>
+        <version>1.0.0.0</version>
         <title>Naylah Toolkit for Xamarin</title>
         <authors>Breno, Infinitus Solutions, Naylah Team</authors>
-        <projectUrl>https://github.com/NaylahProject/Naylah.Toolkit.UWP</projectUrl>
+        <projectUrl>https://github.com/NaylahProject/Naylah</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/NaylahProject/Naylah.Toolkit.UWP/master/NaylahLogo.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <developmentDependency>true</developmentDependency>
-        <description>Naylah is a Universal App Toolkit, Lib, Module, etc.</description>
+        <description>Naylah.Xamarin is a Xamarin App Toolkit, Lib, Module, etc.</description>
         <language>en-US</language>
         <tags>Naylah, Toolkit, Xamarin, C#, Xaml,</tags>
         <dependencies>
-          <dependency id="Naylah.Core" />
-          <dependency id="Xamarin.Forms" version="2.1.0.6529" />
+          <dependency id="Naylah.Core"/>
+          <dependency id="Xamarin.Forms" version="[2.3.0.107]" />
           <dependency id="PCLStorage" version="1.0.2" />
+          <dependency id="Plugin.Permissions" version="1.0.2" />
+          <dependency id="Xam.Plugin.Media" version="2.3.0" />
+          <dependency id="Xamarin.FFImageLoading.Forms" version="2.1.6" />
+        
+          <group targetFramework="Xamarin iOS1.0">
+            <dependency id="WebP.Touch" version="1.0.2" />
+            <dependency id="FloatLabeledEntry.iOS" version="1.0.1" />
+          </group>
+                  
         </dependencies>
     </metadata>
     <files>
       
-      <!--<file src="bin\Release\Controls\Naylah.Core.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Naylah.Core.dll"/>-->
       <file src="bin\Release\Naylah.Xamarin.dll" target="lib\portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10\Naylah.Xamarin.dll"/>
       <file src="bin\Release\Naylah.Xamarin.dll" target="lib\Xamarin.iOS10\Naylah.Xamarin.dll"/>
       <file src="bin\Release\Naylah.Xamarin.dll" target="lib\MonoAndroid10\Naylah.Xamarin.dll"/>

@@ -26,6 +26,8 @@ namespace Naylah.SampleApp.ViewModels
                 IsBusy = true;
 
                 await Task.Delay(1000);
+
+                await NavigationService.NavigateAsync(new ImageChooserDemoPage(), null, true);
             }
             catch (Exception)
             {
