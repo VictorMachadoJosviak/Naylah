@@ -13,7 +13,7 @@ Naylah.Xamarin [![NuGet](https://img.shields.io/nuget/v/Naylah.Xamarin.svg?style
 [![forthebadge](http://forthebadge.com/images/badges/designed-in-ms-paint.svg)](http://forthebadge.com)
 [![forthebadge](http://forthebadge.com/images/badges/fuck-it-ship-it.svg)](http://forthebadge.com)
 
-Contain useful libraries, controls, helpers, architecture, etc. the intention is to create a community of developers who contribute to standardization of user interfaces, model and data flow.
+Contains a set of useful libraries, controls, helpers, architecture, etc. The intention is to create a community of developers who contribute to standardization of user interfaces, model and data flow.
 
 **You** are welcome to join the Naylah Community or make PRs. (Please do :smile:)
 
@@ -22,13 +22,13 @@ It's just to simple to use.
 Installation
 -------------
 
-Naylah.Xamarin is available as a NuGet package. You can install it using the NuGet Package Console window:
+Naylah.Xamarin is available as a NuGet package. You can install it via NuGetPackage Manager or using the NuGet Package Console window:
 
 ```
 PM> Install-Package Naylah.Xamarin
 ```
 
-After installation, just replace Xamarin default Application class by bootstrapper and start a NavigationServiceFacotry with a MasterDetail page or a NavigationPage.
+After installation, just replace Xamarin default Application class by bootstrapper and start a NavigationServiceFactory with a MasterDetail page or a NavigationPage.
 
 ```csharp
 public class App : BootStrapper
@@ -42,10 +42,29 @@ public class App : BootStrapper
 }
 ```
 
-Usage
-------
+# What's in Naylah?
 
-NavigationService
+Controls
+------
+###ImageChooser
+A custom page which allows taking images from camera or gallery.
+
+![Android ImageChooser](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20ImageChooser.png)
+![iOS ImageChooser](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20ImageChooser.png)
+
+###BindablePicker
+Allows binding to ItemsSource and SelectedItem properties, features a SourceItemLabelConverter property which allows custom item display.
+
+![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20BindablePicker.png)
+
+
+Behaviors
+------
+###NumericEntryBehavior
+
+Services
+------
+###NavigationService
 
 ```csharp
 NavigationService.NavigateAsync(var new Page, stringparam, true); //
