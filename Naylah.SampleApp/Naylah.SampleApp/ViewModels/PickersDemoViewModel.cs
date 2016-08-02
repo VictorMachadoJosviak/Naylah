@@ -46,10 +46,12 @@ namespace Naylah.SampleApp.ViewModels
         {
             SelectedPerson = null;
 
-            PersonsList = new ObservableCollection<Person>();
-            PersonsList.Add(new Person() { Name = "Peter" });
-            PersonsList.Add(new Person() { Name = "Joana" });
-            PersonsList.Add(new Person() { Name = "Naylah" });
+            var personsList = new ObservableCollection<Person>();
+            personsList.Add(new Person() { Name = "Peter" });
+            personsList.Add(new Person() { Name = "Joana" });
+            personsList.Add(new Person() { Name = "Naylah" });
+
+            PersonsList = personsList;
 
             SelectedPerson = PersonsList[1];
 
