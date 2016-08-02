@@ -56,7 +56,7 @@ A custom page which allows taking images from camera or gallery.
 Allows binding to ItemsSource and SelectedItem properties, features a SourceItemLabelConverter property which allows custom item display.
 
 ![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20BindablePicker.png)
-
+![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20BindablePicker.png)
 
 Behaviors
 ------
