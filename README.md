@@ -60,6 +60,7 @@ Allows binding to ItemsSource and SelectedItem properties, features a SourceItem
 
 ###ContentLoader
 A simple way to present a custom loading screen on any page.
+
 ![Android ContentLoader](https://media.giphy.com/media/YrKKF11x3SVck/giphy.gif)
 ![iOS ContentLoader](https://media.giphy.com/media/UGyfafcWtdRLy/giphy.gif)
 
