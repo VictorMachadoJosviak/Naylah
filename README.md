@@ -47,9 +47,16 @@ public class App : BootStrapper
 Controls
 ------
 ###ImageChooser
+A custom page which allows taking images from camera or gallery.
 
-![alt text](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20ImageChooser.png)
-![alt text](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20ImageChooser.png)
+![Android ImageChooser](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20ImageChooser.png)
+![iOS ImageChooser](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20ImageChooser.png)
+
+###BindablePicker
+Allows binding to ItemsSource and SelectedItem properties, features a SourceItemLabelConverter property which allows custom item display.
+
+![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20BindablePicker.png)
+
 
 Behaviors
 ------
