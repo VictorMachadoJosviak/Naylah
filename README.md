@@ -56,7 +56,12 @@ A custom page which allows taking images from camera or gallery.
 Allows binding to ItemsSource and SelectedItem properties, features a SourceItemLabelConverter property which allows custom item display.
 
 ![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20BindablePicker.png)
-![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20BindablePicker.png)
+![Android BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20BindablePicker.png)
+
+###ContentLoader
+A simple way to present a custom loading screen on any page.
+![Android ContentLoader](https://media.giphy.com/media/YrKKF11x3SVck/giphy.gif)
+![iOS ContentLoader](https://media.giphy.com/media/UGyfafcWtdRLy/giphy.gif)
 
 Behaviors
 ------
