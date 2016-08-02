@@ -67,6 +67,9 @@ A simple way to present a custom loading screen on any page.
 Behaviors
 ------
 ###NumericEntryBehavior
+Allows Two-way binding with double and integer values, you can set custom formats and custom validation. Handles user/keyboard input.
+
+![Android NumericEntry](https://media.giphy.com/media/DsBmGxSwROGaI/giphy.gif)
 
 Services
 ------
