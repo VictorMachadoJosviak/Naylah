@@ -47,8 +47,9 @@ public class App : BootStrapper
 Controls
 ------
 ###ImageChooser
-![Android ImageChooser](https://github.com/NaylahProject/Naylah/blob/master/Screenshots/Android%20ImageChooser.png)
-![iOS ImageChooser](https://github.com/NaylahProject/Naylah/blob/master/Screenshots/iOS%20ImageChooser.png)
+
+![alt text](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20ImageChooser.png)
+![alt text](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20ImageChooser.png)
 
 Behaviors
 ------
