@@ -21,6 +21,7 @@ It's just to simple to use.
 
 Installation
 -------------
+Check our [Wiki](https://github.com/NaylahProject/Naylah/wiki)  wiki for a get started guide and more.
 
 Naylah.Xamarin is available as a NuGet package. You can install it via NuGetPackage Manager or using the NuGet Package Console window:
 
