@@ -54,6 +54,13 @@ NavigationService.NavigateSetRootAsync(var new Page, stringparams, true); //
 NavigationService.GoBack(true); //
 ...
 ```
+Behaviors
+------
+###NumericEntryBehavior
+Allows Two-way binding with double and integer values, you can set custom formats and custom validation. Handles user/keyboard input.
+
+![Android NumericEntry](https://media.giphy.com/media/DsBmGxSwROGaI/giphy.gif)
+![iOS NumericEntry](http://media.giphy.com/media/N0hvpgYOqftHW/giphy.gif)
 
 Controls
 ------
@@ -75,11 +82,4 @@ A simple way to present a custom loading screen on any page.
 ![Android ContentLoader](https://media.giphy.com/media/YrKKF11x3SVck/giphy.gif)
 ![iOS ContentLoader](https://media.giphy.com/media/UGyfafcWtdRLy/giphy.gif)
 
-Behaviors
-------
-###NumericEntryBehavior
-Allows Two-way binding with double and integer values, you can set custom formats and custom validation. Handles user/keyboard input.
-
-![Android NumericEntry](https://media.giphy.com/media/DsBmGxSwROGaI/giphy.gif)
-![iOS NumericEntry](http://media.giphy.com/media/N0hvpgYOqftHW/giphy.gif)
 
