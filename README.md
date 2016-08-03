@@ -43,6 +43,17 @@ public class App : BootStrapper
 ```
 
 # What's in Naylah?
+Services
+------
+###NavigationService
+
+```csharp
+NavigationService.NavigateAsync(var new Page, stringparam, true); //
+NavigationService.NavigateModalAsync(var new Page, stringparam, true); //
+NavigationService.NavigateSetRootAsync(var new Page, stringparams, true); //
+NavigationService.GoBack(true); //
+...
+```
 
 Controls
 ------
@@ -55,8 +66,8 @@ A custom page which allows taking images from camera or gallery.
 ###BindablePicker
 Allows binding to ItemsSource and SelectedItem properties, features a SourceItemLabelConverter property which allows custom item display.
 
-![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20BindablePicker.png)
 ![Android BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/Android%20BindablePicker.png)
+![iOS BindablePicker](https://raw.githubusercontent.com/NaylahProject/Naylah/master/Screenshots/iOS%20BindablePicker.png)
 
 ###ContentLoader
 A simple way to present a custom loading screen on any page.
@@ -70,13 +81,5 @@ Behaviors
 Allows Two-way binding with double and integer values, you can set custom formats and custom validation. Handles user/keyboard input.
 
 ![Android NumericEntry](https://media.giphy.com/media/DsBmGxSwROGaI/giphy.gif)
+![iOS NumericEntry](http://media.giphy.com/media/N0hvpgYOqftHW/giphy.gif)
 
-Services
-------
-###NavigationService
-
-```csharp
-NavigationService.NavigateAsync(var new Page, stringparam, true); //
-NavigationService.NavigateModalAsync(var new Page, stringparam, true); //
-...
-```
